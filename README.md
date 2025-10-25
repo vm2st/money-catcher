@@ -5,12 +5,22 @@
 [![Money Catcher](https://img.shields.io/badge/Money_Catcher-7289DA?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MoneyCatcherGame)
 
 </div>
+<div align="center">
+  
+  [![Play on Newgrounds](https://img.shields.io/badge/🎮_Play_on_Newgrounds-F15A22?style=for-the-badge&logoColor=white&labelColor=F15A22&color=orange)](https://www.newgrounds.com/portal/view/996995)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/v1ks1n/money-catcher/releases/download/minor/Money-Catcher-1.8.1-Windows.zip)
+
+</div>
 <p>The game is an endless gameplay where you play as a character whose task is to run around the screen and collect gold coins. After collecting the right amount of coins, the player can buy something in the game store, for example, change the background in the game or buy a skin.
 This game was developed on the Stencyl engine.<br>
 Have you found a bug? Report it <a href="https://t.me/vm2_bugs_bot">here</a>.</p>
 
 <h4>To change my game in Stencyl, you need to:</h4>
 <p>1. Download the repository in a zip file.<br>
+  <div>
+
+  [![Download](https://img.shields.io/badge/Download-8E44AD?style=for-the-badge&logo=git&logoColor=white)](https://github.com/v1ks1n/money-catcher/archive/refs/heads/main.zip)
+  </div>
 2. Replace .zip to .stencyl in the name of the downloaded file!<br>
 3. Now you have the .stencyl file of my game!</p>
 
