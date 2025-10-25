@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene
+    depth="4"
+    desc=""
+    eventsnippetid="48"
+    extheight="784"
+    extwidth="1344"
+    extx="-32"
+    exty="-32"
+    format="4.0.1"
+    gravx="-0.0"
+    gravy="0.0"
+    height="720"
+    id="5"
+    name="backgroundsscene"
+    revision=""
+    savecount="0"
+    tiled="1"
+    tileh="32"
+    tilew="32"
+    type="standard"
+    width="1280">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <background
+            blendMode="normal"
+            customScrollFactor="false"
+            id="1"
+            locked="true"
+            name="background"
+            opacity="100"
+            order="4"
+            rid="3"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <layer
+            blendMode="normal"
+            color="64,64,64"
+            id="3"
+            locked="false"
+            name="Слой 3"
+            opacity="100"
+            order="3"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="false"/>
+        <layer
+            blendMode="normal"
+            color="100,168,234"
+            id="0"
+            locked="false"
+            name="Слой 0"
+            opacity="100"
+            order="2"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <layer
+            blendMode="normal"
+            color="255,0,255"
+            id="4"
+            locked="false"
+            name="Слой 4"
+            opacity="100"
+            order="1"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <layer
+            blendMode="normal"
+            color="0,255,0"
+            id="2"
+            locked="false"
+            name="Слой 2"
+            opacity="100"
+            order="0"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor
+            a="0.0"
+            aid="16"
+            c="false"
+            group="3"
+            id="87"
+            name="coinstext 16"
+            order="5"
+            sx="1.5"
+            sy="1.5"
+            x="1133"
+            y="15"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="1"
+            c="false"
+            group="3"
+            id="66"
+            name="backgrounds 1"
+            order="0"
+            sx="1.0"
+            sy="1.0"
+            x="363"
+            y="4"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="17"
+            c="false"
+            group="3"
+            id="95"
+            name="setwinterbckgrnd 17"
+            order="6"
+            sx="1.0"
+            sy="1.0"
+            x="453"
+            y="585"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="18"
+            c="false"
+            group="3"
+            id="97"
+            name="setspacebckgrnd 18"
+            order="7"
+            sx="1.0"
+            sy="1.0"
+            x="453"
+            y="585"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="3"
+            c="false"
+            group="3"
+            id="78"
+            name="previous 3"
+            order="1"
+            sx="1.0"
+            sy="1.0"
+            x="13"
+            y="360"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="19"
+            c="false"
+            group="3"
+            id="74"
+            name="setgreenbckgrnd 19"
+            order="8"
+            sx="1.0"
+            sy="1.0"
+            x="453"
+            y="585"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="4"
+            c="false"
+            group="3"
+            id="76"
+            name="next 4"
+            order="2"
+            sx="1.0"
+            sy="1.0"
+            x="1218"
+            y="360"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="5"
+            c="false"
+            group="3"
+            id="83"
+            name="winter background 5"
+            order="0"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="0"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="8"
+            c="false"
+            group="3"
+            id="89"
+            name="backbackground 8"
+            order="3"
+            sx="1.0"
+            sy="1.0"
+            x="1"
+            y="645"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="10"
+            c="false"
+            group="3"
+            id="104"
+            name="spacebackground 10"
+            order="1"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="0"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="15"
+            c="false"
+            group="3"
+            id="106"
+            name="BELIY_PRYAMOUGOLNIK_NAHUI_S_CHERNOY_OBVODKOY_NAHUY 15"
+            order="4"
+            sx="1.28125"
+            sy="1.0"
+            x="1134"
+            y="1"
+            z="2"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="136">
+            <prop id="2" list="0" val="Нет управления (контрола?)"/>
+            <prop id="6" list="0" val="true"/>
+            <prop id="7" list="0" val="50.0"/>
+            <prop id="8" list="0" val="0,0,0,255"/>
+            <prop id="9" list="0" val="false"/>
+            <prop id="10" list="0" val="Paused"/>
+            <prop id="11" list="0" val=""/>
+        </s>
+    </snippets>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

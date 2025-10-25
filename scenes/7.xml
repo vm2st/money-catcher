@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene
+    depth="4"
+    desc=""
+    eventsnippetid="50"
+    extheight="784"
+    extwidth="1344"
+    extx="-32"
+    exty="-32"
+    format="4.0.1"
+    gravx="-0.0"
+    gravy="0.0"
+    height="720"
+    id="7"
+    name="boostersscene"
+    revision=""
+    savecount="0"
+    tiled="1"
+    tileh="32"
+    tilew="32"
+    type="standard"
+    width="1280">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer
+            blendMode="normal"
+            color="100,168,234"
+            id="0"
+            locked="false"
+            name="Слой 0"
+            opacity="100"
+            order="4"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <background
+            blendMode="normal"
+            customScrollFactor="false"
+            id="1"
+            locked="true"
+            name="background"
+            opacity="100"
+            order="3"
+            rid="3"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <layer
+            blendMode="normal"
+            color="64,64,64"
+            id="3"
+            locked="false"
+            name="Слой 3"
+            opacity="100"
+            order="2"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="false"/>
+        <layer
+            blendMode="normal"
+            color="255,0,255"
+            id="4"
+            locked="false"
+            name="Слой 4"
+            opacity="100"
+            order="1"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <layer
+            blendMode="normal"
+            color="0,255,0"
+            id="2"
+            locked="false"
+            name="Слой 2"
+            opacity="100"
+            order="0"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor
+            a="0.0"
+            aid="1"
+            c="false"
+            group="3"
+            id="91"
+            name="backboosters 1"
+            order="0"
+            sx="1.0"
+            sy="1.0"
+            x="1"
+            y="645"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="3"
+            c="false"
+            group="3"
+            id="101"
+            name="winterbackground 3"
+            order="0"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="0"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="4"
+            c="false"
+            group="3"
+            id="114"
+            name="spacebackground 4"
+            order="1"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="-1"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="5"
+            c="false"
+            group="3"
+            id="142"
+            name="test 5"
+            order="1"
+            sx="1.0"
+            sy="1.0"
+            x="109"
+            y="140"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="8"
+            c="false"
+            group="3"
+            id="150"
+            name="bbig 8"
+            order="2"
+            sx="1.0"
+            sy="1.0"
+            x="981"
+            y="140"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="9"
+            c="false"
+            group="3"
+            id="152"
+            name="bdoublecoins 9"
+            order="3"
+            sx="1.0"
+            sy="1.0"
+            x="545"
+            y="140"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="10"
+            c="false"
+            group="3"
+            id="70"
+            name="boosters 10"
+            order="4"
+            sx="1.0"
+            sy="1.0"
+            x="402"
+            y="12"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="11"
+            c="false"
+            group="3"
+            id="170"
+            name="text1 11"
+            order="5"
+            sx="1.0"
+            sy="1.0"
+            x="110"
+            y="660"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="12"
+            c="false"
+            group="1"
+            id="16"
+            name="coin 12"
+            order="6"
+            sx="0.15"
+            sy="0.15"
+            x="1019"
+            y="482"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="13"
+            c="false"
+            group="3"
+            id="172"
+            name="textspeed 13"
+            order="7"
+            sx="1.0"
+            sy="1.0"
+            x="51"
+            y="389"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="14"
+            c="false"
+            group="3"
+            id="174"
+            name="textx2coins 14"
+            order="8"
+            sx="1.0"
+            sy="1.0"
+            x="435"
+            y="387"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="15"
+            c="false"
+            group="3"
+            id="176"
+            name="textbig 15"
+            order="9"
+            sx="1.0"
+            sy="1.0"
+            x="955"
+            y="385"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="18"
+            c="false"
+            group="3"
+            id="87"
+            name="coinstext 18"
+            order="10"
+            sx="1.8"
+            sy="1.8"
+            x="1133"
+            y="12"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="19"
+            c="false"
+            group="3"
+            id="99"
+            name="BELIY_PRYAMOUGOLNIK_NAHUI 19"
+            order="2"
+            sx="10.0"
+            sy="1.65"
+            x="575"
+            y="405"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="20"
+            c="false"
+            group="3"
+            id="99"
+            name="BELIY_PRYAMOUGOLNIK_NAHUI 20"
+            order="3"
+            sx="8.9"
+            sy="1.0"
+            x="610"
+            y="655"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="21"
+            c="false"
+            group="3"
+            id="224"
+            name="BELIY 21"
+            order="0"
+            sx="1.28125"
+            sy="1.0"
+            x="1134"
+            y="-2"
+            z="4"/>
+        <actor
+            a="0.0"
+            aid="22"
+            c="false"
+            group="3"
+            id="231"
+            name="text2 22"
+            order="11"
+            sx="1.0"
+            sy="1.0"
+            x="163"
+            y="574"
+            z="2"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="136">
+            <prop id="2" list="0" val="Нет управления (контрола?)"/>
+            <prop id="6" list="0" val="true"/>
+            <prop id="7" list="0" val="50.0"/>
+            <prop id="8" list="0" val="0,0,0,255"/>
+            <prop id="9" list="0" val="false"/>
+            <prop id="10" list="0" val="Paused"/>
+            <prop id="11" list="0" val=""/>
+        </s>
+    </snippets>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

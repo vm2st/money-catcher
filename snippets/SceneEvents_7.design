@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="5" id="0">
+        <draw comment="false" x="20" y="37">
+            <group eventID="5" id="-1">
+                <draw-text comment="false" x="0" y="0">
+                    <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="1230"/>
+                    <int id="2" val="15"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="6" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="6" id="-1">
+                <if comment="true" x="0" y="0">
+                    <group eventID="6" id="-1">
+                        <create-actor-on-layer comment="false" x="0" y="0">
+                            <actortype eid="114" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                            <int id="3" val="0"/>
+                            <int id="4" val="3"/>
+                        </create-actor-on-layer>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-15 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="-1"/>
+                    </eq>
+                </if>
+                <if comment="true" x="0" y="0">
+                    <group eventID="6" id="-1">
+                        <create-actor3 comment="false" x="0" y="0">
+                            <actortype eid="101" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                            <int id="3" val="2"/>
+                        </create-actor3>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-15 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+</groups>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<game
+    accelFramerate="0"
+    androidMinVersion="9"
+    androidTargetVersion="24"
+    antialias="true"
+    appType="0"
+    atlasBindingDefault="false"
+    author=""
+    authorURL=""
+    autoRotate="false"
+    backgroundColor="-16744448"
+    barBackgroundColor="-12303292"
+    barColor="-7829368"
+    barHeight="8"
+    barLocation="0"
+    barOffsetX="0"
+    barOffsetXPhone="0"
+    barOffsetXTablet="0"
+    barOffsetY="0"
+    barOffsetYPhone="0"
+    barOffsetYTablet="0"
+    barScalePhone="1.0"
+    barScaleTablet="2.0"
+    barWidth="137"
+    bindAllAtlasesDefault="false"
+    borderColor="-12303292"
+    borderThickness="2"
+    checksum="none"
+    cws-desc="Description"
+    cws-icon128=""
+    cws-icon16=""
+    cws-name="Name"
+    cws-version="1.0"
+    defaultFramerate="60"
+    defaultProjectScale="1x"
+    defaultSceneID="0"
+    desc="бегай и собирай монеты!"
+    desktopScale="1x"
+    disableBackButton="false"
+    disposeImages="false"
+    forceHiResAssets="false"
+    format="4.1.0"
+    gameid="-1"
+    haxeExtras=""
+    height="704"
+    hxcppDebugLink="false"
+    hxcppDebugger="false"
+    iosLaunchBackground="-16744448"
+    iosLaunchScaleMode="0"
+    kit="false"
+    lockURL=""
+    maxScaleAndroid="4x"
+    maxScaleDesktop="4x"
+    maxScaleIOS="4x"
+    maxScaleWeb="4x"
+    multitouch="true"
+    name="Money Catcher"
+    openflExtras=""
+    orientation="1"
+    physicsMode="1"
+    pixelsnap="false"
+    preloaderClass="com.stencyl.loader.StencylPreloader"
+    preloaderstyle="0"
+    scaleModeAndroid="0"
+    scaleModeDesktop="1"
+    scaleModeIOS="0"
+    scaleModeWeb="2"
+    simulatorOS="0.0"
+    simulatorTargetOS="0.0"
+    splashStyle="1"
+    startInFullScreenDesktop="false"
+    startInFullScreenWeb="false"
+    swfHeight="0"
+    swfWidth="0"
+    swfX="0"
+    swfY="0"
+    swfloc=""
+    telemetry="false"
+    webScale="1x"
+    width="1280">
+    <keys
+        androidAlias=""
+        androidCert=""
+        androidPassword=""
+        iosTeamID=""
+        p12=""
+        p12pwd=""
+        prov-adhoc=""
+        prov-store=""/>
+    <exts>
+        <e enabled="true" id="com.stencyl.label" version="1.0.0"/>
+    </exts>
+    <bundles>
+        <bundle id="com.vm2.moneycatcher" internalVersion="1" name="Money Catcher" store="App Store" version="1.7"/>
+        <bundle id="com.vm2.moneycatcher" internalVersion="1" name="Money Catcher" store="Google Play" version="1.7"/>
+        <bundle id="com.vm2.moneycatcher" internalVersion="1" name="Money Catcher" store="Mac App Store" version="1.0.0"/>
+        <bundle
+            author="vm2 studios"
+            id="com.vm2.moneycatcher"
+            internalVersion="1"
+            metroColor="-12566464"
+            name="Money Catcher"
+            store="Windows Store"
+            version="1.0.0"/>
+    </bundles>
+    <scales>
+        <scale detailed="1x" id="0" name="1x" size="1.0"/>
+        <scale detailed="1.5x" id="1" name="1.5x" size="1.5"/>
+        <scale detailed="2x" id="2" name="2x" size="2.0"/>
+        <scale detailed="3x" id="3" name="3x" size="3.0"/>
+        <scale detailed="4x" id="4" name="4x" size="4.0"/>
+    </scales>
+    <projectScales>
+        <scale enabled="true" name="1x"/>
+        <scale enabled="true" name="1.5x"/>
+        <scale enabled="true" name="2x"/>
+        <scale enabled="true" name="3x"/>
+        <scale enabled="true" name="4x"/>
+    </projectScales>
+    <webScales>
+        <scale enabled="true" name="1x"/>
+        <scale enabled="true" name="1.5x"/>
+        <scale enabled="true" name="2x"/>
+        <scale enabled="true" name="3x"/>
+        <scale enabled="true" name="4x"/>
+    </webScales>
+    <desktopScales>
+        <scale enabled="true" name="1x"/>
+        <scale enabled="true" name="1.5x"/>
+        <scale enabled="true" name="2x"/>
+        <scale enabled="true" name="3x"/>
+        <scale enabled="true" name="4x"/>
+    </desktopScales>
+    <iOSScales>
+        <scale enabled="true" name="1x"/>
+        <scale enabled="true" name="1.5x"/>
+        <scale enabled="true" name="2x"/>
+        <scale enabled="true" name="3x"/>
+        <scale enabled="true" name="4x"/>
+    </iOSScales>
+    <androidScales>
+        <scale enabled="true" name="1x"/>
+        <scale enabled="true" name="1.5x"/>
+        <scale enabled="true" name="2x"/>
+        <scale enabled="true" name="3x"/>
+        <scale enabled="true" name="4x"/>
+    </androidScales>
+    <folders>
+        <group desc="" id="0" name="shop" type="scene">
+            <r id="5"/>
+            <r id="6"/>
+            <r id="7"/>
+        </group>
+        <group desc="" id="1" name="player" type="actortype">
+            <r id="14"/>
+            <r id="43"/>
+            <r id="45"/>
+            <r id="47"/>
+            <r id="49"/>
+            <r id="160"/>
+            <r id="166"/>
+            <r id="168"/>
+            <r id="195"/>
+            <r id="199"/>
+        </group>
+        <group desc="" id="2" name="shops" type="actortype">
+            <r id="62"/>
+            <r id="64"/>
+            <r id="66"/>
+            <r id="68"/>
+            <r id="70"/>
+            <r id="72"/>
+            <r id="74"/>
+            <r id="76"/>
+            <r id="78"/>
+            <r id="80"/>
+            <r id="83"/>
+            <r id="87"/>
+            <r id="89"/>
+            <r id="91"/>
+            <r id="93"/>
+            <r id="95"/>
+            <r id="97"/>
+            <r id="99"/>
+            <r id="104"/>
+            <r id="106"/>
+            <r id="142"/>
+            <r id="150"/>
+            <r id="152"/>
+            <r id="170"/>
+            <r id="172"/>
+            <r id="174"/>
+            <r id="176"/>
+            <r id="183"/>
+            <r id="185"/>
+            <r id="187"/>
+            <r id="189"/>
+            <r id="191"/>
+            <r id="203"/>
+            <r id="205"/>
+            <r id="207"/>
+            <r id="209"/>
+            <r id="211"/>
+            <r id="213"/>
+            <r id="231"/>
+        </group>
+        <group desc="" id="3" name="load n save" type="actortype">
+            <r id="124"/>
+            <r id="126"/>
+            <r id="128"/>
+            <r id="130"/>
+            <r id="132"/>
+            <r id="134"/>
+        </group>
+    </folders>
+    <packs/>
+    <groups>
+        <group desc="" id="4" name="NPC"/>
+    </groups>
+    <cgroups>
+        <cgroup g1="0" g2="0"/>
+        <cgroup g1="0" g2="1"/>
+        <cgroup g1="0" g2="4"/>
+        <cgroup g1="1" g2="1"/>
+        <cgroup g1="1" g2="3"/>
+        <cgroup g1="3" g2="3"/>
+    </cgroups>
+    <input>
+        <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
+        <key id="1" keyname="DOWN" name="down" vk="40" vks="40"/>
+        <key id="2" keyname="LEFT" name="left" vk="37" vks="37"/>
+        <key id="3" keyname="RIGHT" name="right" vk="39" vks="39"/>
+        <key id="4" keyname="Z" name="action1" vk="90" vks="90"/>
+        <key id="5" keyname="X" name="action2" vk="88" vks="88"/>
+        <key id="6" keyname="ENTER" name="enter" vk="10" vks="10"/>
+        <key id="7" keyname="W" name="WUP" vk="87" vks="87"/>
+        <key id="8" keyname="S" name="SDOWN" vk="83" vks="83"/>
+        <key id="9" keyname="A" name="ALEFT" vk="65" vks="65"/>
+        <key id="10" keyname="D" name="DRIGHT" vk="68" vks="68"/>
+        <key id="11" keyname="ESCAPE" name="ESC" vk="27" vks="27"/>
+        <key id="12" keyname="P" name="P" vk="80" vks="80"/>
+    </input>
+    <attcats>
+        <cat id="-1" name="Default"/>
+    </attcats>
+    <props/>
+    <attributes>
+        <number cid="-1" id="0" name="coins" save="true" value="0.0"/>
+        <number cid="-1" id="1" name="music" save="true" value="1.0"/>
+        <number cid="-1" id="2" name="up" save="true" value="0.0"/>
+        <number cid="-1" id="3" name="down" save="true" value="0.0"/>
+        <number cid="-1" id="4" name="left" save="true" value="0.0"/>
+        <number cid="-1" id="5" name="right" save="true" value="0.0"/>
+        <number cid="-1" id="6" name="pause" save="true" value="0.0"/>
+        <number cid="-1" id="7" name="background" save="true" value="0.0"/>
+        <boolean cid="-1" id="10" name="backgroundisexited" save="true" value="false"/>
+        <number cid="-1" id="15" name="backgroundglobal" save="true" value="0.0"/>
+        <boolean cid="-1" id="16" name="gameissaved" save="true" value="false"/>
+        <boolean cid="-1" id="17" name="gameisloaded" save="true" value="false"/>
+        <boolean cid="-1" id="18" name="mouseisinmusic" save="true" value="false"/>
+        <number cid="-1" id="19" name="volume" save="true" value="100.0"/>
+        <boolean cid="-1" id="20" name="istouch" save="true" value="true"/>
+        <boolean cid="-1" id="22" name="nosound" save="true" value="false"/>
+        <boolean cid="-1" id="23" name="speedisactive" save="true" value="false"/>
+        <boolean cid="-1" id="24" name="x2coinsisactive" save="true" value="false"/>
+        <boolean cid="-1" id="25" name="bigisactive" save="true" value="false"/>
+        <number cid="-1" id="26" name="speedtime" save="true" value="0.0"/>
+        <number cid="-1" id="27" name="x2coinstime" save="true" value="0.0"/>
+        <number cid="-1" id="28" name="bigtime" save="true" value="0.0"/>
+        <boolean cid="-1" id="29" name="BuDBuGASHKE" save="true" value="false"/>
+        <number cid="-1" id="31" name="activeboostersXAXIS" save="true" value="0.0"/>
+        <boolean cid="-1" id="32" name="gameisexited" save="true" value="false"/>
+        <number cid="-1" id="33" name="x" save="true" value="617.0"/>
+        <number cid="-1" id="34" name="y" save="true" value="310.0"/>
+        <boolean cid="-1" id="35" name="bigisbuy" save="true" value="false"/>
+        <boolean cid="-1" id="36" name="bigisdisabled01S" save="true" value="false"/>
+        <boolean cid="-1" id="37" name="menu music is playing" save="true" value="false"/>
+        <number cid="-1" id="38" name="skinsh" save="true" value="0.0"/>
+        <number cid="-1" id="39" name="skin" save="true" value="0.0"/>
+        <boolean cid="-1" id="40" name="notenoughtcoins" save="true" value="false"/>
+        <number cid="-1" id="41" name="c" save="true" value="0.0"/>
+        <text cid="-1" id="42" name="language" save="true" value="en"/>
+        <boolean cid="-1" id="43" name="cooldown" save="true" value="false"/>
+        <boolean cid="-1" id="44" name="closedlanguageselect" save="true" value="false"/>
+        <number cid="-1" id="45" name="scale" save="true" value="0.0"/>
+        <number cid="-1" id="46" name="playerX" save="true" value="0.0"/>
+        <number cid="-1" id="47" name="playerY" save="true" value="0.0"/>
+        <boolean cid="-1" id="48" name="devmode" save="true" value="false"/>
+        <boolean cid="-1" id="50" name="disablezombie" save="true" value="false"/>
+        <number cid="-1" id="51" name="anglezombie" save="true" value="0.0"/>
+        <boolean cid="-1" id="52" name="hit" save="true" value="false"/>
+    </attributes>
+    <collisions>
+        <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="1" name="Rect Up" pts="0.0,0.0#0.0,0.5#1.0,0.5#1.0,0.0"/>
+        <poly id="2" name="Rect Down" pts="0.0,0.5#0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="3" name="Rect Left" pts="0.0,0.0#0.0,1.0#0.5,1.0#0.5,0.0"/>
+        <poly id="4" name="Rect Right" pts="0.5,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="5" name="Tri 45R" pts="0.0,0.0#0.0,1.0#1.0,1.0"/>
+        <poly id="6" name="Tri 45L" pts="1.0,0.0#0.0,1.0#1.0,1.0"/>
+        <poly id="7" name="Tri 45R Inv" pts="0.0,0.0#0.0,1.0#1.0,0.0"/>
+        <poly id="8" name="Tri 45L Inv" pts="0.0,0.0#1.0,1.0#1.0,0.0"/>
+        <poly id="9" name="Tri 30R" pts="0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="10" name="Tri 30L" pts="0.0,0.5#0.0,1.0#1.0,1.0"/>
+        <poly id="11" name="Tri 30-2R" pts="0.0,0.5#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="12" name="Tri 30-2L" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="13" name="Tri 30R Inv" pts="0.0,0.0#1.0,0.5#1.0,0.0"/>
+        <poly id="14" name="Tri 30L Inv" pts="0.0,0.0#0.0,0.5#1.0,0.0"/>
+        <poly id="15" name="Tri 30-2R Inv" pts="0.0,0.0#0.0,0.5#1.0,1.0#1.0,0.0"/>
+        <poly id="16" name="Tri 30-2L Inv" pts="0.0,0.0#0.0,1.0#1.0,0.5#1.0,0.0"/>
+        <poly id="17" name="Tri 60R" pts="0.5,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="18" name="Tri 60L" pts="0.0,0.0#0.0,1.0#0.5,1.0"/>
+        <poly id="19" name="Tri 60-2R" pts="0.5,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="20" name="Tri 60-2L" pts="0.0,0.0#0.0,1.0#1.0,1.0#0.5,0.0"/>
+        <poly id="21" name="Tri 60R Inv" pts="0.5,0.0#1.0,1.0#1.0,0.0"/>
+        <poly id="22" name="Tri 60L Inv" pts="0.0,0.0#0.0,1.0#0.5,0.0"/>
+        <poly id="23" name="Tri 60-2R Inv" pts="0.0,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="24" name="Tri 60-2L Inv" pts="0.0,0.0#0.0,1.0#0.5,1.0#1.0,0.0"/>
+    </collisions>
+    <autotileFormats/>
+    <atlases>
+        <atlas
+            allScenes="true"
+            desc=""
+            dirty="true"
+            id="0"
+            members="1,3,5,7,9,11,13,14,16,18,20,24,26,28,30,31,35,37,39,41,43,45,47,49,57,61,62,64,66,68,70,72,74,76,78,80,82,83,87,89,91,93,95,97,99,101,103,104,106,110,114,116,118,120,122,124,126,128,130,132,134,136,140,142,144,146,150,152,154,155,158,160,166,168,170,172,174,176,178,183,185,187,189,191,195,199,203,205,207,209,211,213,215,217,219,221,223,224,226,229,231,233,235,237,238,240,242,244,246"
+            name="Main Atlas"
+            pvr="false"
+            resize="0"
+            target="0"/>
+        <atlas
+            allScenes="true"
+            desc=""
+            dirty="true"
+            id="1"
+            members=""
+            name="Atlas 2"
+            pvr="false"
+            resize="0"
+            target="0"/>
+        <atlas
+            allScenes="true"
+            desc=""
+            dirty="true"
+            id="2"
+            members=""
+            name="Atlas 3"
+            pvr="false"
+            resize="0"
+            target="0"/>
+        <atlas
+            allScenes="true"
+            desc=""
+            dirty="true"
+            id="3"
+            members=""
+            name="Atlas 4"
+            pvr="false"
+            resize="0"
+            target="0"/>
+    </atlases>
+    <libraries/>
+</game>

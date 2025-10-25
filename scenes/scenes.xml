@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scenes>
+    <scene desc="" id="0" name="load"/>
+    <scene desc="" id="1" name="menu"/>
+    <scene desc="" id="2" name="game"/>
+    <scene desc="" id="3" name="options"/>
+    <scene desc="" id="4" name="shop"/>
+    <scene desc="" id="5" name="backgroundsscene"/>
+    <scene desc="" id="6" name="skinsscene"/>
+    <scene desc="" id="7" name="boostersscene"/>
+</scenes>

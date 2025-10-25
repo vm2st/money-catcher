@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <show-browser comment="false" x="0" y="0">
+                            <int id="0" val="https://gist.github.com/v1ks1n/070ab3a9484ed521a7220be009fb4f66"/>
+                        </show-browser>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-120-1 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="4"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-120-1 comment="false" x="0" y="0">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-120-1>
+                <dolater comment="false" x="0" y="0">
+                    <group eventID="2" id="-1">
+                        <set-val-120-1 comment="false" x="0" y="0">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-120-1>
+                    </group>
+                    <int id="0" val="0.3"/>
+                </dolater>
+            </group>
+        </init>
+    </group>
+    <group eventID="3" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="3" id="-1">
+                        <setanim comment="false" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="ru"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-42 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="ru"/>
+                    </eq>
+                </if>
+                <if comment="false" x="0" y="0">
+                    <group eventID="3" id="-1">
+                        <setanim comment="false" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="en"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-42 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="en"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+</groups>

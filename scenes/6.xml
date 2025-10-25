@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene
+    depth="4"
+    desc=""
+    eventsnippetid="49"
+    extheight="784"
+    extwidth="1344"
+    extx="-32"
+    exty="-32"
+    format="4.0.1"
+    gravx="-0.0"
+    gravy="0.0"
+    height="720"
+    id="6"
+    name="skinsscene"
+    revision=""
+    savecount="0"
+    tiled="1"
+    tileh="32"
+    tilew="32"
+    type="standard"
+    width="1280">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer
+            blendMode="normal"
+            color="100,168,234"
+            id="0"
+            locked="false"
+            name="Слой 0"
+            opacity="100"
+            order="4"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <background
+            blendMode="normal"
+            customScrollFactor="false"
+            id="1"
+            locked="true"
+            name="background"
+            opacity="100"
+            order="3"
+            rid="3"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <layer
+            blendMode="normal"
+            color="64,64,64"
+            id="3"
+            locked="false"
+            name="Слой 3"
+            opacity="100"
+            order="2"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="false"/>
+        <layer
+            blendMode="normal"
+            color="255,0,255"
+            id="4"
+            locked="false"
+            name="Слой 4"
+            opacity="100"
+            order="1"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <layer
+            blendMode="normal"
+            color="0,255,0"
+            id="2"
+            locked="false"
+            name="Слой 2"
+            opacity="100"
+            order="0"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor
+            a="0.0"
+            aid="1"
+            c="false"
+            group="3"
+            id="93"
+            name="backskins 1"
+            order="0"
+            sx="1.0"
+            sy="1.0"
+            x="1"
+            y="645"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="3"
+            c="false"
+            group="3"
+            id="114"
+            name="spacebackground 3"
+            order="0"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="0"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="4"
+            c="false"
+            group="3"
+            id="101"
+            name="winterbackground 4"
+            order="1"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="0"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="5"
+            c="false"
+            group="3"
+            id="68"
+            name="skins 5"
+            order="1"
+            sx="1.0"
+            sy="1.0"
+            x="501"
+            y="-11"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="7"
+            c="false"
+            group="3"
+            id="189"
+            name="previousskin 7"
+            order="2"
+            sx="1.0"
+            sy="1.0"
+            x="13"
+            y="360"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="8"
+            c="false"
+            group="3"
+            id="187"
+            name="nextskin 8"
+            order="3"
+            sx="1.0"
+            sy="1.0"
+            x="1218"
+            y="360"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="9"
+            c="false"
+            group="3"
+            id="191"
+            name="defaultskin 9"
+            order="4"
+            sx="1.0"
+            sy="1.0"
+            x="518"
+            y="90"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="10"
+            c="false"
+            group="3"
+            id="183"
+            name="endermanskin 10"
+            order="5"
+            sx="1.0"
+            sy="1.0"
+            x="518"
+            y="90"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="11"
+            c="false"
+            group="3"
+            id="203"
+            name="tvmanskin 11"
+            order="6"
+            sx="1.0"
+            sy="1.0"
+            x="518"
+            y="90"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="12"
+            c="false"
+            group="3"
+            id="207"
+            name="buydefault 12"
+            order="7"
+            sx="1.0"
+            sy="1.0"
+            x="453"
+            y="585"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="13"
+            c="false"
+            group="3"
+            id="185"
+            name="buyenderman 13"
+            order="8"
+            sx="1.0"
+            sy="1.0"
+            x="453"
+            y="585"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="14"
+            c="false"
+            group="3"
+            id="205"
+            name="buytvman 14"
+            order="9"
+            sx="1.0"
+            sy="1.0"
+            x="453"
+            y="585"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="16"
+            c="false"
+            group="3"
+            id="87"
+            name="coinstext 16"
+            order="10"
+            sx="1.8"
+            sy="1.8"
+            x="1133"
+            y="12"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="17"
+            c="false"
+            group="3"
+            id="224"
+            name="BELIY 17"
+            order="0"
+            sx="1.2815"
+            sy="1.0"
+            x="1134"
+            y="-2"
+            z="4"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="136">
+            <prop id="2" list="0" val="Нет управления (контрола?)"/>
+            <prop id="6" list="0" val="true"/>
+            <prop id="7" list="0" val="50.0"/>
+            <prop id="8" list="0" val="0,0,0,255"/>
+            <prop id="9" list="0" val="false"/>
+            <prop id="10" list="0" val="Paused"/>
+            <prop id="11" list="0" val=""/>
+        </s>
+    </snippets>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

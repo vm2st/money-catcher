@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene
+    depth="3"
+    desc=""
+    eventsnippetid="7"
+    extheight="768"
+    extwidth="1344"
+    extx="-32"
+    exty="-32"
+    format="4.0.1"
+    gravx="-0.0"
+    gravy="1.0"
+    height="704"
+    id="2"
+    name="game"
+    revision=""
+    savecount="0"
+    tiled="1"
+    tileh="32"
+    tilew="32"
+    type="standard"
+    width="1280">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <background
+            blendMode="normal"
+            customScrollFactor="false"
+            id="1"
+            locked="true"
+            name="background"
+            opacity="100"
+            order="3"
+            rid="3"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <layer
+            blendMode="normal"
+            color="64,64,64"
+            id="3"
+            locked="false"
+            name="Слой 3"
+            opacity="100"
+            order="2"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="false"/>
+        <layer
+            blendMode="normal"
+            color="255,0,255"
+            id="4"
+            locked="false"
+            name="Слой 4"
+            opacity="100"
+            order="1"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <layer
+            blendMode="normal"
+            color="0,255,0"
+            id="2"
+            locked="false"
+            name="Layer 2"
+            opacity="100"
+            order="0"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+    </layers>
+    <joints/>
+    <regions>
+        <region
+            b="64"
+            g="64"
+            id="0"
+            name="Район 0"
+            r="64"
+            rad="110.0"
+            type="circle"
+            x="47"
+            y="435"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor
+            a="0.0"
+            aid="1"
+            c="false"
+            group="0"
+            id="14"
+            name="char 1"
+            order="0"
+            sx="1.0"
+            sy="1.0"
+            x="617"
+            y="310"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="2"
+            c="false"
+            group="1"
+            id="16"
+            name="coin 2"
+            order="1"
+            sx="0.1"
+            sy="0.1"
+            x="444"
+            y="-89"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="3"
+            c="false"
+            group="3"
+            id="18"
+            name="counter 3"
+            order="2"
+            sx="1.0"
+            sy="1.0"
+            x="4"
+            y="4"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="5"
+            c="false"
+            group="3"
+            id="28"
+            name="exitgame 5"
+            order="3"
+            sx="0.24210526"
+            sy="0.23529412"
+            x="1051"
+            y="603"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="11"
+            c="false"
+            group="3"
+            id="101"
+            name="winterbackground 11"
+            order="0"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="0"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="14"
+            c="false"
+            group="3"
+            id="24"
+            name="countertext 4"
+            order="5"
+            sx="1.0"
+            sy="1.0"
+            x="4"
+            y="21"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="15"
+            c="false"
+            group="3"
+            id="114"
+            name="spacebackground Copy 15"
+            order="1"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="0"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="16"
+            c="false"
+            group="3"
+            id="116"
+            name="BELIY_KRUG_PROZRACHNIY 16"
+            order="2"
+            sx="0.4"
+            sy="0.4"
+            x="-143"
+            y="295"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="17"
+            c="false"
+            group="2"
+            id="155"
+            name="activebosters 17"
+            order="4"
+            sx="1.0"
+            sy="1.0"
+            x="1240"
+            y="216"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="18"
+            c="false"
+            group="3"
+            id="144"
+            name="timelefts 18"
+            order="6"
+            sx="0.7"
+            sy="0.7"
+            x="1352"
+            y="262"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="19"
+            c="false"
+            group="3"
+            id="146"
+            name="timeleftd 19"
+            order="7"
+            sx="1.0"
+            sy="1.0"
+            x="1452"
+            y="270"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="20"
+            c="false"
+            group="3"
+            id="158"
+            name="timeleftb 20"
+            order="8"
+            sx="1.0"
+            sy="1.0"
+            x="1552"
+            y="270"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="21"
+            c="false"
+            group="0"
+            id="160"
+            name="charBIG 21"
+            order="0"
+            sx="1.0"
+            sy="1.0"
+            x="602"
+            y="285"
+            z="4"/>
+        <actor
+            a="0.0"
+            aid="22"
+            c="false"
+            group="3"
+            id="57"
+            name="pausing 22"
+            order="9"
+            sx="1.0"
+            sy="1.0"
+            x="358"
+            y="287"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="23"
+            c="false"
+            group="0"
+            id="195"
+            name="tvman 23"
+            order="1"
+            sx="1.0"
+            sy="1.0"
+            x="617"
+            y="310"
+            z="4"/>
+        <actor
+            a="0.0"
+            aid="24"
+            c="false"
+            group="0"
+            id="166"
+            name="enderman 24"
+            order="2"
+            sx="1.0"
+            sy="1.0"
+            x="617"
+            y="310"
+            z="4"/>
+        <actor
+            a="0.0"
+            aid="25"
+            c="false"
+            group="0"
+            id="168"
+            name="endermanBIG 25"
+            order="3"
+            sx="1.0"
+            sy="1.0"
+            x="602"
+            y="285"
+            z="4"/>
+        <actor
+            a="0.0"
+            aid="26"
+            c="false"
+            group="0"
+            id="199"
+            name="tvmanBIG 26"
+            order="4"
+            sx="1.0"
+            sy="1.0"
+            x="602"
+            y="285"
+            z="4"/>
+        <actor
+            a="0.0"
+            aid="27"
+            c="false"
+            group="3"
+            id="224"
+            name="BELIY 27"
+            order="5"
+            sx="0.78125"
+            sy="0.75"
+            x="-15"
+            y="8"
+            z="4"/>
+        <actor
+            a="0.0"
+            aid="28"
+            c="false"
+            group="4"
+            id="233"
+            name="zombie 28"
+            order="3"
+            sx="1.0"
+            sy="1.0"
+            x="105"
+            y="320"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="29"
+            c="false"
+            group="3"
+            id="39"
+            name="joystick 29"
+            order="10"
+            sx="1.0"
+            sy="1.0"
+            x="30"
+            y="418"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="30"
+            c="false"
+            group="3"
+            id="41"
+            name="jstck 30"
+            order="11"
+            sx="1.0"
+            sy="1.0"
+            x="132"
+            y="519"
+            z="2"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="9">
+            <prop id="1" list="0" val="10.0"/>
+            <prop id="2" list="0" val="true"/>
+            <prop id="3" list="0" val="13"/>
+        </s>
+        <s enabled="true" id="136">
+            <prop id="2" list="0" val="Нет управления (контрола?)"/>
+            <prop id="6" list="0" val="true"/>
+            <prop id="7" list="0" val="50.0"/>
+            <prop id="8" list="0" val="0,0,0,255"/>
+            <prop id="9" list="0" val="false"/>
+            <prop id="10" list="0" val="Paused"/>
+            <prop id="11" list="0" val="223"/>
+        </s>
+    </snippets>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

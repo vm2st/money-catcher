@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-game-val-44 comment="false" x="0" y="0">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-44>
+                <scene-change-through comment="false" x="0" y="0">
+                    <scene eid="1" id="0"/>
+                    <int id="1" val="3"/>
+                    <int id="2" val="0.3"/>
+                </scene-change-through>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="2" id="-1">
+                        <if comment="false" x="0" y="0">
+                            <group eventID="2" id="-1">
+                                <set-game-val-44 comment="false" x="0" y="0">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-44>
+                                <scene-change-through comment="false" x="0" y="0">
+                                    <scene eid="1" id="0"/>
+                                    <int id="1" val="3"/>
+                                    <int id="2" val="0.3"/>
+                                </scene-change-through>
+                            </group>
+                            <keystate comment="false" id="0" x="0" y="0">
+                                <int id="0" val="2"/>
+                                <control eid="11" id="1"/>
+                            </keystate>
+                        </if>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-27-1 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-val-27-1 comment="false" x="0" y="0">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-27-1>
+                <dolater comment="false" x="0" y="0">
+                    <group eventID="3" id="-1">
+                        <set-val-27-1 comment="false" x="0" y="0">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-27-1>
+                    </group>
+                    <int id="0" val="0.3"/>
+                </dolater>
+            </group>
+        </init>
+    </group>
+</groups>

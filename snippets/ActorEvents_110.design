@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="39" y="26">
+            <group eventID="1" id="-1">
+                <set-game-val-6 comment="false" x="0" y="0">
+                    <int id="0" val="1"/>
+                </set-game-val-6>
+                <set-game-val-3 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-3>
+                <set-game-val-4 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-4>
+                <set-game-val-5 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-5>
+                <set-game-val-2 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-2>
+                <simulate-key comment="false" x="0" y="0">
+                    <int id="0" val="1"/>
+                    <control eid="0" id="1"/>
+                </simulate-key>
+                <simulate-key comment="false" x="0" y="0">
+                    <int id="0" val="1"/>
+                    <control eid="1" id="1"/>
+                </simulate-key>
+                <simulate-key comment="false" x="0" y="0">
+                    <int id="0" val="1"/>
+                    <control eid="2" id="1"/>
+                </simulate-key>
+                <simulate-key comment="false" x="0" y="0">
+                    <int id="0" val="1"/>
+                    <control eid="3" id="1"/>
+                </simulate-key>
+                <die comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+                <control-sound-channel comment="false" x="0" y="0">
+                    <int id="0" val="1"/>
+                    <int id="1" val="10"/>
+                </control-sound-channel>
+                <pause-unpause comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </pause-unpause>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+</groups>

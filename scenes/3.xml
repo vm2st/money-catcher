@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene
+    depth="3"
+    desc=""
+    eventsnippetid="18"
+    extheight="768"
+    extwidth="1344"
+    extx="-32"
+    exty="-32"
+    format="4.0.1"
+    gravx="-0.0"
+    gravy="0.0"
+    height="704"
+    id="3"
+    name="options"
+    revision=""
+    savecount="0"
+    tiled="1"
+    tileh="32"
+    tilew="32"
+    type="standard"
+    width="1280">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer
+            blendMode="normal"
+            color="100,168,234"
+            id="0"
+            locked="false"
+            name="Слой 0"
+            opacity="100"
+            order="3"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <background
+            blendMode="normal"
+            customScrollFactor="false"
+            id="1"
+            locked="true"
+            name="background"
+            opacity="100"
+            order="2"
+            rid="3"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <layer
+            blendMode="normal"
+            color="64,64,64"
+            id="3"
+            locked="false"
+            name="Слой 3"
+            opacity="100"
+            order="1"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="false"/>
+        <layer
+            blendMode="normal"
+            color="0,255,0"
+            id="2"
+            locked="false"
+            name="Слой 2"
+            opacity="100"
+            order="0"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor
+            a="0.0"
+            aid="1"
+            c="false"
+            group="3"
+            id="31"
+            name="settingstext 1"
+            order="0"
+            sx="0.8515625"
+            sy="0.734375"
+            x="465"
+            y="-14"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="3"
+            c="false"
+            group="3"
+            id="35"
+            name="back 3"
+            order="1"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="639"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="4"
+            c="false"
+            group="3"
+            id="37"
+            name="musictext 4"
+            order="2"
+            sx="0.53"
+            sy="0.53"
+            x="-63"
+            y="68"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="5"
+            c="false"
+            group="3"
+            id="136"
+            name="CHERNAYA_LINIYA 5"
+            order="3"
+            sx="1.65625"
+            sy="0.38"
+            x="213"
+            y="95"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="6"
+            c="true"
+            group="1"
+            id="140"
+            name="musichanger 6"
+            order="4"
+            sx="1.0"
+            sy="1.0"
+            x="305"
+            y="65"
+            z="2">
+            <snippets>
+                <s enabled="true" id="84"/>
+            </snippets>
+        </actor>
+        <actor
+            a="0.0"
+            aid="7"
+            c="false"
+            group="3"
+            id="101"
+            name="winterbackground 7"
+            order="0"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="0"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="8"
+            c="false"
+            group="3"
+            id="114"
+            name="spacebackground 8"
+            order="1"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="0"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="9"
+            c="false"
+            group="3"
+            id="99"
+            name="BELIY_PRYAMOUGOLNIK_NAHUI 9"
+            order="2"
+            sx="2.734375"
+            sy="1.15625"
+            x="590"
+            y="4"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="10"
+            c="false"
+            group="3"
+            id="99"
+            name="BELIY_PRYAMOUGOLNIK_NAHUI 10"
+            order="3"
+            sx="3.03125"
+            sy="1.15625"
+            x="130"
+            y="70"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="11"
+            c="false"
+            group="3"
+            id="215"
+            name="privacypolicy 11"
+            order="5"
+            sx="0.5"
+            sy="0.5"
+            x="622"
+            y="615"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="12"
+            c="false"
+            group="3"
+            id="217"
+            name="languagetext 12"
+            order="6"
+            sx="0.8"
+            sy="0.8"
+            x="-21"
+            y="169"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="13"
+            c="false"
+            group="3"
+            id="219"
+            name="russian 13"
+            order="7"
+            sx="1.0"
+            sy="1.0"
+            x="18"
+            y="270"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="14"
+            c="false"
+            group="3"
+            id="221"
+            name="english 14"
+            order="8"
+            sx="1.0"
+            sy="1.0"
+            x="191"
+            y="270"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="15"
+            c="false"
+            group="3"
+            id="122"
+            name="in development 15"
+            order="9"
+            sx="0.9"
+            sy="0.9"
+            x="439"
+            y="86"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="16"
+            c="false"
+            group="3"
+            id="235"
+            name="devmode 16"
+            order="10"
+            sx="1.0"
+            sy="1.0"
+            x="916"
+            y="80"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="17"
+            c="false"
+            group="3"
+            id="238"
+            name="disablezombietxt 17"
+            order="11"
+            sx="1.0"
+            sy="1.0"
+            x="464"
+            y="167"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="18"
+            c="false"
+            group="3"
+            id="240"
+            name="disablezombie 18"
+            order="12"
+            sx="1.0"
+            sy="1.0"
+            x="1111"
+            y="152"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="19"
+            c="false"
+            group="3"
+            id="242"
+            name="text 19"
+            order="13"
+            sx="1.0"
+            sy="1.0"
+            x="906"
+            y="613"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="20"
+            c="false"
+            group="3"
+            id="246"
+            name="telegram 20"
+            order="14"
+            sx="1.0"
+            sy="1.0"
+            x="15"
+            y="387"
+            z="2"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="136">
+            <prop id="2" list="0" val="Нет управления (контрола?)"/>
+            <prop id="6" list="0" val="true"/>
+            <prop id="7" list="0" val="50.0"/>
+            <prop id="8" list="0" val="0,0,0,255"/>
+            <prop id="9" list="0" val="false"/>
+            <prop id="10" list="0" val="Paused"/>
+            <prop id="11" list="0" val=""/>
+        </s>
+    </snippets>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

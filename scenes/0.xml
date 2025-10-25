@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene
+    depth="2"
+    desc=""
+    eventsnippetid="0"
+    extheight="768"
+    extwidth="1344"
+    extx="-32"
+    exty="-32"
+    format="4.0.1"
+    gravx="-0.0"
+    gravy="0.0"
+    height="704"
+    id="0"
+    name="load"
+    revision=""
+    savecount="0"
+    tiled="1"
+    tileh="32"
+    tilew="32"
+    type="standard"
+    width="1280">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <background
+            blendMode="normal"
+            customScrollFactor="false"
+            id="4"
+            locked="true"
+            name="background"
+            opacity="100"
+            order="2"
+            rid="3"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <layer
+            blendMode="normal"
+            color="0,255,0"
+            id="6"
+            locked="false"
+            name="Слой 6"
+            opacity="100"
+            order="1"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="false"/>
+        <layer
+            blendMode="normal"
+            color="64,64,64"
+            id="5"
+            locked="false"
+            name="Layer 5"
+            opacity="100"
+            order="0"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor
+            a="0.0"
+            aid="1"
+            c="false"
+            group="3"
+            id="1"
+            name="vm2studios 1"
+            order="0"
+            sx="3.0"
+            sy="3.0"
+            x="542"
+            y="276"
+            z="5"/>
+        <actor
+            a="0.0"
+            aid="3"
+            c="false"
+            group="3"
+            id="7"
+            name="textload Copy 3"
+            order="1"
+            sx="1.3498818"
+            sy="1.3333334"
+            x="216"
+            y="69"
+            z="5"/>
+        <actor
+            a="0.0"
+            aid="4"
+            c="false"
+            group="3"
+            id="5"
+            name="textload 4"
+            order="2"
+            sx="0.78039217"
+            sy="0.7697368"
+            x="374"
+            y="514"
+            z="5"/>
+        <actor
+            a="0.0"
+            aid="5"
+            c="false"
+            group="3"
+            id="101"
+            name="winterbackground 5"
+            order="0"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="0"
+            z="6"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

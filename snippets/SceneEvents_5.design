@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-volume-channel comment="false" x="0" y="0">
+                    <int id="0" val="3"/>
+                    <int id="1" val="2"/>
+                </set-volume-channel>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="2" id="-1">
+                        <draw-text comment="false" x="0" y="0">
+                            <get-game-val-15 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1200"/>
+                            <int id="2" val="100"/>
+                        </draw-text>
+                        <draw-text comment="false" x="0" y="0">
+                            <get-game-val-7 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1200"/>
+                            <int id="2" val="115"/>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-48 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+        </draw>
+    </group>
+</groups>

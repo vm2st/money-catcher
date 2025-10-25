@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="3" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <load-game comment="false" x="0" y="0">
+                    <group eventID="3" id="-1">
+                        <if comment="false" x="0" y="0">
+                            <group eventID="3" id="-1">
+                                <create-actor3 comment="false" x="0" y="0">
+                                    <actortype eid="130" id="0"/>
+                                    <int id="1" val="510"/>
+                                    <int id="2" val="300"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                                <dolater comment="false" x="0" y="0">
+                                    <group eventID="3" id="-1">
+                                        <die comment="false" x="0" y="0">
+                                            <ACTOR eid="lastcreated" id="0"/>
+                                        </die>
+                                    </group>
+                                    <int id="0" val="3"/>
+                                </dolater>
+                            </group>
+                            <load-success comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="0" y="0">
+                            <group eventID="3" id="-1">
+                                <create-actor3 comment="false" x="0" y="0">
+                                    <actortype eid="128" id="0"/>
+                                    <int id="1" val="510"/>
+                                    <int id="2" val="300"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                                <dolater comment="false" x="0" y="0">
+                                    <group eventID="3" id="-1">
+                                        <die comment="false" x="0" y="0">
+                                            <ACTOR eid="lastcreated" id="0"/>
+                                        </die>
+                                    </group>
+                                    <int id="0" val="3"/>
+                                </dolater>
+                            </group>
+                        </else>
+                    </group>
+                </load-game>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="4" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="4" id="-1">
+                        <setanim comment="false" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="ru"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-42 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="ru"/>
+                    </eq>
+                </if>
+                <if comment="false" x="0" y="0">
+                    <group eventID="4" id="-1">
+                        <setanim comment="false" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="en"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-42 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="en"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+</groups>
