@@ -304,6 +304,19 @@
             x="163"
             y="574"
             z="2"/>
+        <actor
+            a="0.0"
+            aid="23"
+            c="false"
+            group="3"
+            id="254"
+            name="gohome 23"
+            order="12"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="11"
+            z="2"/>
     </actors>
     <snippets>
         <s enabled="true" id="136">

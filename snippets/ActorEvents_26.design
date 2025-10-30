@@ -30,11 +30,28 @@
                     <int id="2" val="169"/>
                     <int id="3" val="0"/>
                 </create-actor3-next>
-                <scene-change-through comment="false" x="0" y="0">
-                    <scene eid="3" id="0"/>
-                    <int id="1" val="4"/>
-                    <int id="2" val="0.3"/>
-                </scene-change-through>
+                <if comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <scene-change-through comment="false" x="0" y="0">
+                            <scene eid="3" id="0"/>
+                            <int id="1" val="4"/>
+                            <int id="2" val="0.3"/>
+                        </scene-change-through>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-54 comment="false" id="0" x="0" y="0"/>
+                        <false comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <scene-change-through comment="false" x="0" y="0">
+                            <scene eid="3" id="0"/>
+                            <int id="1" val="4"/>
+                            <int id="2" val="0"/>
+                        </scene-change-through>
+                    </group>
+                </else>
             </group>
             <ACTOR eid="this" id="0"/>
             <int id="1" val="2"/>

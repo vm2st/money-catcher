@@ -69,6 +69,8 @@ class ActorEvents_110 extends ActorScript
 	{
 		if(wrapper.enabled && 3 == mouseState)
 		{
+			removeRegion(getLastCreatedRegion().getID());
+			Engine.engine.setGameAttribute("izdrgng", false);
 			Engine.engine.setGameAttribute("pause", 1);
 			Engine.engine.setGameAttribute("down", 0);
 			Engine.engine.setGameAttribute("left", 0);
@@ -78,9 +80,12 @@ class ActorEvents_110 extends ActorScript
 			simulateKeyRelease("down");
 			simulateKeyRelease("left");
 			simulateKeyRelease("right");
-			recycleActor(actor);
-			pauseSoundOnChannel(10);
-			engine.pause();
+			runLater(1000 * 0.1, function(timeTask:TimedTask):Void
+			{
+				
+				pauseSoundOnChannel(10);
+				engine.pause();
+			}, actor);
 		}
 	}
 	

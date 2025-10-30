@@ -74,7 +74,14 @@ class ActorEvents_26 extends ActorScript
 			
 			
 			
-			switchScene(GameModel.get().scenes.get(3).getID(), null, createSlideRightTransition(0.3));
+			if(((Engine.engine.getGameAttribute("disabletransitions") : Bool) == false))
+			{
+				switchScene(GameModel.get().scenes.get(3).getID(), null, createSlideRightTransition(0.3));
+			}
+			else
+			{
+				switchScene(GameModel.get().scenes.get(3).getID(), null, createSlideRightTransition(0));
+			}
 		}
 	}
 	

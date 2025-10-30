@@ -389,6 +389,56 @@
         bodytype="2"
         continuous="true"
         desc=""
+        eventsnippetid="143"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="258"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="backsettings"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="259"
+        static="false">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="259"
+        name="backsettings"
+        readable="false"
+        shared="false">
+        <anim
+            across="2"
+            down="1"
+            durations="200,300"
+            height="64"
+            id="0"
+            loop="true"
+            name="Анимация 0"
+            numframes="2"
+            originx="32"
+            originy="32"
+            sync="false"
+            version="2"
+            width="128"/>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="2"
+        continuous="true"
+        desc=""
         eventsnippetid="55"
         fixedrot="false"
         fric="0.2"
@@ -2095,6 +2145,174 @@
         bodytype="2"
         continuous="true"
         desc=""
+        eventsnippetid="146"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="264"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="disabletransitions"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="265"
+        static="false">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="265"
+        name="disabletransitions"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="66"
+            id="0"
+            loop="true"
+            name="off"
+            numframes="1"
+            originx="86"
+            originy="33"
+            sync="false"
+            version="2"
+            width="172">
+            <poly
+                data="4,0,133,345,133,345,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="69"
+            id="1"
+            loop="true"
+            name="on"
+            numframes="1"
+            originx="87"
+            originy="34"
+            sync="false"
+            version="2"
+            width="174">
+            <poly
+                data="4,0,69,174,69,174,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 1"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="2"
+        continuous="true"
+        desc=""
+        eventsnippetid="144"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="260"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="disabletransitionstext"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="261"
+        static="false">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="261"
+        name="disabletransitionstext"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="37"
+            id="0"
+            loop="true"
+            name="en"
+            numframes="1"
+            originx="224"
+            originy="18"
+            sync="false"
+            version="2"
+            width="448">
+            <poly
+                data="4,0,57,665,57,665,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="79"
+            id="1"
+            loop="true"
+            name="ru"
+            numframes="1"
+            originx="249"
+            originy="39"
+            sync="false"
+            version="2"
+            width="498">
+            <poly
+                data="4,0,164,1024,164,1024,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="ru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="2"
+        continuous="true"
+        desc=""
         eventsnippetid="132"
         fixedrot="false"
         fric="0.2"
@@ -2930,6 +3148,66 @@
         stream="true"
         type="mp3"
         volume="1"/>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="2"
+        continuous="true"
+        desc=""
+        eventsnippetid="141"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="254"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="gohome"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="255"
+        static="false">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="255"
+        name="gohome"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="69"
+            id="0"
+            loop="true"
+            name="Анимация 0"
+            numframes="1"
+            originx="36"
+            originy="34"
+            sync="false"
+            version="2"
+            width="72">
+            <poly
+                data="4,0,350,362,350,362,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
     <music
         atlasID="0"
         desc=""
@@ -5571,6 +5849,90 @@
                 sensor="false"/>
         </anim>
     </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="2"
+        continuous="true"
+        desc=""
+        eventsnippetid="138"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="248"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="spcltnks"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="249"
+        static="false">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="249"
+        name="spcltnks"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="218"
+            id="0"
+            loop="true"
+            name="en"
+            numframes="1"
+            originx="664"
+            originy="109"
+            sync="false"
+            version="2"
+            width="1328">
+            <poly
+                data="4,0,437,2656,437,2656,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="190"
+            id="1"
+            loop="true"
+            name="ru"
+            numframes="1"
+            originx="512"
+            originy="95"
+            sync="false"
+            version="2"
+            width="1024">
+            <poly
+                data="4,0,190,1024,190,1024,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="ru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
     <music
         atlasID="0"
         desc=""
@@ -5891,6 +6253,150 @@
                 gid="-1000"
                 id="0"
                 name="ru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="2"
+        continuous="true"
+        desc=""
+        eventsnippetid="139"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="250"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="text3"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="251"
+        static="false">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="251"
+        name="text3"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="436"
+            id="0"
+            loop="true"
+            name="en"
+            numframes="1"
+            originx="706"
+            originy="218"
+            sync="false"
+            version="2"
+            width="1412">
+            <poly
+                data="4,0,873,2824,873,2824,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="318"
+            id="1"
+            loop="true"
+            name="ru"
+            numframes="1"
+            originx="512"
+            originy="159"
+            sync="false"
+            version="2"
+            width="1024">
+            <poly
+                data="4,0,318,1024,318,1024,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="ru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="2"
+        continuous="true"
+        desc=""
+        eventsnippetid="140"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="252"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="text4"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="253"
+        static="false">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="253"
+        name="text4"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="61"
+            id="0"
+            loop="true"
+            name="Анимация 0"
+            numframes="1"
+            originx="206"
+            originy="30"
+            sync="false"
+            version="2"
+            width="413">
+            <poly
+                data="4,0,61,413,61,413,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -6968,18 +7474,18 @@
             across="1"
             down="1"
             durations="100"
-            height="52"
+            height="45"
             id="0"
             loop="true"
             name="Animation 0"
             numframes="1"
-            originx="61"
-            originy="26"
+            originx="56"
+            originy="22"
             sync="false"
             version="2"
-            width="122">
+            width="113">
             <poly
-                data="4,0,0,122,0,122,52,0,52"
+                data="4,0,45,113,45,113,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"

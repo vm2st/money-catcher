@@ -64,6 +64,17 @@ import com.stencyl.graphics.shaders.BloomShader;
 class ActorEvents_39 extends ActorScript
 {
 	
+	/* ======================== When Updating ========================= */
+	public function _event_Updating(elapsedTime:Float):Void
+	{
+		if(wrapper.enabled && true)
+		{
+			if(((Engine.engine.getGameAttribute("izdrgng") : Bool) == false))
+			{
+				recycleActor(actor);
+			}
+		}
+	}
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
@@ -75,6 +86,7 @@ class ActorEvents_39 extends ActorScript
 	{
 		
 		
+		addListener(actor.whenUpdated, _event_Updating);
 		
 	}
 	

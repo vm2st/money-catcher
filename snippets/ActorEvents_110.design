@@ -3,6 +3,12 @@
     <group eventID="1" id="0">
         <event-mouse-enter-exit-actor comment="false" x="39" y="26">
             <group eventID="1" id="-1">
+                <delete-region comment="false" x="0" y="0">
+                    <REGION eid="lastcreated" id="0"/>
+                </delete-region>
+                <set-game-val-53 comment="false" x="0" y="0">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-53>
                 <set-game-val-6 comment="false" x="0" y="0">
                     <int id="0" val="1"/>
                 </set-game-val-6>
@@ -34,16 +40,21 @@
                     <int id="0" val="1"/>
                     <control eid="3" id="1"/>
                 </simulate-key>
-                <die comment="false" x="0" y="0">
-                    <ACTOR eid="this" id="0"/>
-                </die>
-                <control-sound-channel comment="false" x="0" y="0">
-                    <int id="0" val="1"/>
-                    <int id="1" val="10"/>
-                </control-sound-channel>
-                <pause-unpause comment="false" x="0" y="0">
-                    <int id="0" val="0"/>
-                </pause-unpause>
+                <dolater comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <die comment="true" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                        <control-sound-channel comment="false" x="0" y="0">
+                            <int id="0" val="1"/>
+                            <int id="1" val="10"/>
+                        </control-sound-channel>
+                        <pause-unpause comment="false" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </pause-unpause>
+                    </group>
+                    <int id="0" val="0.1"/>
+                </dolater>
             </group>
             <ACTOR eid="this" id="0"/>
             <int id="1" val="2"/>

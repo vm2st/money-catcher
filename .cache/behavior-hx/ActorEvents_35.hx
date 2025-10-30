@@ -70,8 +70,15 @@ class ActorEvents_35 extends ActorScript
 	{
 		if(wrapper.enabled && 3 == mouseState)
 		{
-			Engine.engine.setGameAttribute("closedlanguageselect", true);
-			switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideLeftTransition(0.3));
+			
+			if(((Engine.engine.getGameAttribute("disabletransitions") : Bool) == false))
+			{
+				switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideLeftTransition(0.3));
+			}
+			else
+			{
+				switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideLeftTransition(0));
+			}
 		}
 	}
 	/* ======================== When Updating ========================= */
@@ -83,8 +90,15 @@ class ActorEvents_35 extends ActorScript
 			{
 				if(isKeyReleased("ESC"))
 				{
-					Engine.engine.setGameAttribute("closedlanguageselect", true);
-					switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideLeftTransition(0.3));
+					
+					if(((Engine.engine.getGameAttribute("disabletransitions") : Bool) == false))
+					{
+						switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideLeftTransition(0.3));
+					}
+					else
+					{
+						switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideLeftTransition(0));
+					}
 				}
 			}
 		}

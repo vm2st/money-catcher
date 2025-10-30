@@ -43,7 +43,7 @@
                 </if>
             </group>
             <ACTOR eid="this" id="0"/>
-            <int id="1" val="4"/>
+            <int id="1" val="2"/>
         </event-mouse-enter-exit-actor>
     </group>
     <group eventID="2" id="0">

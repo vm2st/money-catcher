@@ -192,6 +192,76 @@
         sceneid="2"
         shared="false"
         type="scene">
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="joy_center_X"
+            hidden="false"
+            id="1"
+            name="_joycenterX"
+            order="0"/>
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="joy_center_Y"
+            hidden="false"
+            id="2"
+            name="_joycenterY"
+            order="1"/>
+        <boolean
+            default="false"
+            defaultValue="false"
+            desc=""
+            dropdown=""
+            fullname="is_dragging"
+            hidden="false"
+            id="4"
+            name="_isdragging"
+            order="2"/>
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="minUp"
+            hidden="false"
+            id="5"
+            name="_minUp"
+            order="3"/>
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="minDown"
+            hidden="false"
+            id="6"
+            name="_minDown"
+            order="4"/>
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="minLeft"
+            hidden="false"
+            id="7"
+            name="_minLeft"
+            order="5"/>
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="minRght"
+            hidden="false"
+            id="8"
+            name="_minRght"
+            order="6"/>
         <blocks/>
         <events>
             <event
@@ -222,6 +292,13 @@
                 name="init"
                 order="2"
                 repeats="true"/>
+            <event
+                displayName="joystick"
+                enabled="true"
+                id="5"
+                name="step"
+                order="7"
+                repeats="true"/>
         </events>
     </snippet>
     <snippet
@@ -247,6 +324,13 @@
                 id="1"
                 name="event-delay"
                 order="1"
+                repeats="true"/>
+            <event
+                displayName="On Actor"
+                enabled="true"
+                id="2"
+                name="event-mouse-enter-exit-actor"
+                order="2"
                 repeats="true"/>
         </events>
     </snippet>
@@ -1310,7 +1394,15 @@
         shared="false"
         type="actor">
         <blocks/>
-        <events/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="true"/>
+        </events>
     </snippet>
     <snippet
         actorid="41"
@@ -1327,15 +1419,48 @@
         package="scripts."
         shared="false"
         type="actor">
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="minDown"
+            hidden="false"
+            id="1"
+            name="_minDown"
+            order="0"/>
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="minLeft"
+            hidden="false"
+            id="2"
+            name="_minLeft"
+            order="1"/>
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="minRght"
+            hidden="false"
+            id="3"
+            name="_minRght"
+            order="2"/>
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="minUp"
+            hidden="false"
+            id="4"
+            name="_minUp"
+            order="3"/>
         <blocks/>
         <events>
-            <event
-                displayName="On Region"
-                enabled="true"
-                id="2"
-                name="event-mouse-enter-exit-region"
-                order="2"
-                repeats="true"/>
             <event
                 displayName="Updating"
                 enabled="true"
@@ -1348,14 +1473,28 @@
                 enabled="true"
                 id="4"
                 name="event-mouse-press-release"
-                order="4"
+                order="6"
                 repeats="true"/>
             <event
                 displayName="Created"
                 enabled="true"
                 id="5"
                 name="init"
-                order="5"
+                order="8"
+                repeats="true"/>
+            <event
+                displayName="On Region"
+                enabled="true"
+                id="6"
+                name="event-mouse-enter-exit-region"
+                order="7"
+                repeats="true"/>
+            <event
+                displayName="Drawing"
+                enabled="true"
+                id="7"
+                name="draw"
+                order="9"
                 repeats="true"/>
         </events>
     </snippet>
@@ -4457,6 +4596,236 @@
                 id="7"
                 name="draw"
                 order="13"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        attachedevent="true"
+        class="scripts.SceneEvents_8"
+        classname="scripts.SceneEvents_8"
+        desc="Scene Specific Events"
+        description="Scene Specific Events"
+        design="true"
+        drawOrder="0"
+        id="137"
+        name="SceneEvents_8"
+        oid="-1"
+        package="scripts."
+        sceneid="8"
+        shared="false"
+        type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet
+        actorid="248"
+        attachedevent="true"
+        class="scripts.ActorEvents_248"
+        classname="scripts.ActorEvents_248"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="138"
+        name="ActorEvents_248"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="250"
+        attachedevent="true"
+        class="scripts.ActorEvents_250"
+        classname="scripts.ActorEvents_250"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="139"
+        name="ActorEvents_250"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="252"
+        attachedevent="true"
+        class="scripts.ActorEvents_252"
+        classname="scripts.ActorEvents_252"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="140"
+        name="ActorEvents_252"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet
+        actorid="254"
+        attachedevent="true"
+        class="scripts.ActorEvents_254"
+        classname="scripts.ActorEvents_254"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="141"
+        name="ActorEvents_254"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="On Actor"
+                enabled="true"
+                id="1"
+                name="event-mouse-enter-exit-actor"
+                order="1"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="258"
+        attachedevent="true"
+        class="scripts.ActorEvents_258"
+        classname="scripts.ActorEvents_258"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="143"
+        name="ActorEvents_258"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <boolean
+            default="false"
+            defaultValue="false"
+            desc=""
+            dropdown=""
+            fullname="time"
+            hidden="false"
+            id="1"
+            name="_time"
+            order="0"/>
+        <blocks/>
+        <events>
+            <event
+                displayName="On Actor"
+                enabled="true"
+                id="1"
+                name="event-mouse-enter-exit-actor"
+                order="1"
+                repeats="false"/>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="2"
+                name="step"
+                order="2"
+                repeats="true"/>
+            <event
+                displayName="Created"
+                enabled="true"
+                id="3"
+                name="init"
+                order="3"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="260"
+        attachedevent="true"
+        class="scripts.ActorEvents_260"
+        classname="scripts.ActorEvents_260"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="144"
+        name="ActorEvents_260"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="264"
+        attachedevent="true"
+        class="scripts.ActorEvents_264"
+        classname="scripts.ActorEvents_264"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="146"
+        name="ActorEvents_264"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="On Actor"
+                enabled="true"
+                id="1"
+                name="event-mouse-enter-exit-actor"
+                order="1"
+                repeats="true"/>
+            <event
+                displayName="Drawing"
+                enabled="true"
+                id="2"
+                name="draw"
+                order="4"
+                repeats="true"/>
+            <event
+                displayName="Created"
+                enabled="true"
+                id="3"
+                name="init"
+                order="2"
                 repeats="true"/>
         </events>
     </snippet>

@@ -69,7 +69,14 @@ class ActorEvents_80 extends ActorScript
 	{
 		if(wrapper.enabled && 3 == mouseState)
 		{
-			switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideRightTransition(0.3));
+			if(((Engine.engine.getGameAttribute("disabletransitions") : Bool) == false))
+			{
+				switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideRightTransition(0.3));
+			}
+			else
+			{
+				switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideRightTransition(0));
+			}
 		}
 	}
 	/* ======================== When Updating ========================= */
@@ -79,7 +86,14 @@ class ActorEvents_80 extends ActorScript
 		{
 			if(isKeyReleased("ESC"))
 			{
-				switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideRightTransition(0.3));
+				if(((Engine.engine.getGameAttribute("disabletransitions") : Bool) == false))
+				{
+					switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideRightTransition(0.3));
+				}
+				else
+				{
+					switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideRightTransition(0.3));
+				}
 			}
 		}
 	}

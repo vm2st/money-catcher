@@ -64,6 +64,13 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 class SceneEvents_2 extends SceneScript
 {
+	public var _joycenterX:Float;
+	public var _joycenterY:Float;
+	public var _isdragging:Bool;
+	public var _minUp:Float;
+	public var _minDown:Float;
+	public var _minLeft:Float;
+	public var _minRght:Float;
 	
 	/* ======================= After N seconds ======================== */
 	public function _event_AfterNsecs(timeTask:TimedTask):Void
@@ -157,10 +164,36 @@ class SceneEvents_2 extends SceneScript
 			}
 		}
 	}
+	/* ======================== When Updating ========================= */
+	public function _event_joystick(elapsedTime:Float):Void
+	{
+		if(wrapper.enabled && true)
+		{
+			if(isMousePressed())
+			{
+				createRecycledActor(getActorType(41), (getMouseX() - 23), (getMouseY() - 25), Script.FRONT);
+				Engine.engine.setGameAttribute("izdrgng", true);
+			}
+		}
+	}
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
+		nameMap.set("joy_center_X", "_joycenterX");
+		_joycenterX = 0.0;
+		nameMap.set("joy_center_Y", "_joycenterY");
+		_joycenterY = 0.0;
+		nameMap.set("is_dragging", "_isdragging");
+		_isdragging = false;
+		nameMap.set("minUp", "_minUp");
+		_minUp = 0.0;
+		nameMap.set("minDown", "_minDown");
+		_minDown = 0.0;
+		nameMap.set("minLeft", "_minLeft");
+		_minLeft = 0.0;
+		nameMap.set("minRght", "_minRght");
+		_minRght = 0.0;
 		
 	}
 	
@@ -175,6 +208,7 @@ class SceneEvents_2 extends SceneScript
 		runLater(1000 * 0.5, _event_AfterNsecs, null);
 		addListener(engine.whenUpdated, _event_Updating);
 		addListener(engine.whenDrawing, _event_Drawing);
+		addListener(engine.whenUpdated, _event_joystick);
 		
 	}
 	

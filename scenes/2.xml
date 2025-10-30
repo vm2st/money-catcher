@@ -76,10 +76,10 @@
             id="0"
             name="Район 0"
             r="64"
-            rad="110.0"
+            rad="200.0"
             type="circle"
-            x="47"
-            y="435"/>
+            x="-44"
+            y="343"/>
     </regions>
     <terrainRegions/>
     <actors>
@@ -173,19 +173,6 @@
             sy="1.0"
             x="0"
             y="0"
-            z="3"/>
-        <actor
-            a="0.0"
-            aid="16"
-            c="false"
-            group="3"
-            id="116"
-            name="BELIY_KRUG_PROZRACHNIY 16"
-            order="2"
-            sx="0.4"
-            sy="0.4"
-            x="-143"
-            y="295"
             z="3"/>
         <actor
             a="0.0"
@@ -325,9 +312,9 @@
             id="224"
             name="BELIY 27"
             order="5"
-            sx="0.78125"
+            sx="0.9"
             sy="0.75"
-            x="-15"
+            x="-6"
             y="8"
             z="4"/>
         <actor
@@ -337,38 +324,12 @@
             group="4"
             id="233"
             name="zombie 28"
-            order="3"
+            order="2"
             sx="1.0"
             sy="1.0"
             x="105"
             y="320"
             z="3"/>
-        <actor
-            a="0.0"
-            aid="29"
-            c="false"
-            group="3"
-            id="39"
-            name="joystick 29"
-            order="10"
-            sx="1.0"
-            sy="1.0"
-            x="30"
-            y="418"
-            z="2"/>
-        <actor
-            a="0.0"
-            aid="30"
-            c="false"
-            group="3"
-            id="41"
-            name="jstck 30"
-            order="11"
-            sx="1.0"
-            sy="1.0"
-            x="132"
-            y="519"
-            z="2"/>
     </actors>
     <snippets>
         <s enabled="true" id="9">

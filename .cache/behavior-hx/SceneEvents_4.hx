@@ -78,6 +78,7 @@ class SceneEvents_4 extends SceneScript
 		Engine.engine.setGameAttribute("nosound", false);
 		
 		
+		
 	}
 	
 	override public function forwardMessage(msg:String)

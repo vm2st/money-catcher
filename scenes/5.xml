@@ -176,6 +176,19 @@
             z="2"/>
         <actor
             a="0.0"
+            aid="20"
+            c="false"
+            group="3"
+            id="254"
+            name="gohome 20"
+            order="9"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="11"
+            z="2"/>
+        <actor
+            a="0.0"
             aid="5"
             c="false"
             group="3"

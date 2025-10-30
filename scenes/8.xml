@@ -2,17 +2,17 @@
 <scene
     depth="1"
     desc=""
-    eventsnippetid="85"
-    extheight="784"
+    eventsnippetid="137"
+    extheight="768"
     extwidth="1344"
     extx="-32"
     exty="-32"
     format="4.0.1"
     gravx="-0.0"
     gravy="0.0"
-    height="720"
+    height="704"
     id="8"
-    name="skinsscene Copy Copy"
+    name="specialthanks"
     revision=""
     savecount="0"
     tiled="1"
@@ -21,7 +21,13 @@
     type="standard"
     width="1280">
     <layers>
-        <color-bg blue="255" green="255" red="255"/>
+        <grad-bg
+            b1="0"
+            b2="0"
+            g1="34"
+            g2="76"
+            r1="4"
+            r2="57"/>
         <layer
             blendMode="normal"
             color="100,168,234"
@@ -29,19 +35,7 @@
             locked="false"
             name="Слой 0"
             opacity="100"
-            order="1"
-            scrollFactorX="1.0"
-            scrollFactorY="1.0"
-            visible="true"/>
-        <background
-            blendMode="normal"
-            customScrollFactor="false"
-            id="1"
-            locked="true"
-            name="background"
-            opacity="100"
             order="0"
-            rid="3"
             scrollFactorX="1.0"
             scrollFactorY="1.0"
             visible="true"/>
@@ -49,7 +43,60 @@
     <joints/>
     <regions/>
     <terrainRegions/>
-    <actors/>
+    <actors>
+        <actor
+            a="0.0"
+            aid="1"
+            c="false"
+            group="3"
+            id="248"
+            name="spcltnks 1"
+            order="0"
+            sx="0.95"
+            sy="1.0"
+            x="-21"
+            y="142"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="2"
+            c="false"
+            group="3"
+            id="250"
+            name="text3 2"
+            order="1"
+            sx="1.15"
+            sy="1.15"
+            x="107"
+            y="54"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="3"
+            c="false"
+            group="3"
+            id="252"
+            name="text4 3"
+            order="2"
+            sx="1.0"
+            sy="1.0"
+            x="432"
+            y="577"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="5"
+            c="false"
+            group="3"
+            id="254"
+            name="gohome 5"
+            order="3"
+            sx="1.0"
+            sy="1.0"
+            x="1207"
+            y="630"
+            z="0"/>
+    </actors>
     <snippets/>
     <terrain/>
     <atlases members="" retainAtlases="true"/>

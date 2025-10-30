@@ -72,6 +72,21 @@ class ActorEvents_11 extends ActorScript
 			
 		}
 	}
+	/* =========================== On Actor =========================== */
+	public function _event_OnActor(mouseState:Int):Void
+	{
+		if(wrapper.enabled && 3 == mouseState)
+		{
+			if(((Engine.engine.getGameAttribute("disabletransitions") : Bool) == false))
+			{
+				switchScene(GameModel.get().scenes.get(8).getID(), null, createSlideDownTransition(0.5));
+			}
+			else
+			{
+				switchScene(GameModel.get().scenes.get(8).getID(), null, createSlideDownTransition(0));
+			}
+		}
+	}
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
@@ -84,6 +99,7 @@ class ActorEvents_11 extends ActorScript
 		
 		
 		runLater(1000 * 0, _event_AfterNsecs, actor);
+		addListener(actor.whenMousedOver, _event_OnActor);
 		
 	}
 	

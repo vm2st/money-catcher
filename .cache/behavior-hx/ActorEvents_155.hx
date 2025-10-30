@@ -68,7 +68,7 @@ class ActorEvents_155 extends ActorScript
 	/* =========================== On Actor =========================== */
 	public function _event_OnActor(mouseState:Int):Void
 	{
-		if(wrapper.enabled && 5 == mouseState)
+		if(wrapper.enabled && 3 == mouseState)
 		{
 			if((_ == false))
 			{

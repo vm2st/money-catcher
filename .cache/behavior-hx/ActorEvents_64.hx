@@ -71,7 +71,14 @@ class ActorEvents_64 extends ActorScript
 		{
 			if(((Engine.engine.getGameAttribute("cooldown") : Bool) == false))
 			{
-				switchScene(GameModel.get().scenes.get(4).getID(), null, createSlideLeftTransition(0.3));
+				if(((Engine.engine.getGameAttribute("disabletransitions") : Bool) == false))
+				{
+					switchScene(GameModel.get().scenes.get(4).getID(), null, createSlideLeftTransition(0.3));
+				}
+				else
+				{
+					switchScene(GameModel.get().scenes.get(4).getID(), null, createSlideLeftTransition(0));
+				}
 			}
 		}
 	}

@@ -3,10 +3,13 @@
     <group eventID="1" id="0">
         <draw comment="false" x="15" y="15">
             <group eventID="1" id="-1">
+                <set-font-new comment="false" x="0" y="0">
+                    <font eid="223" id="0"/>
+                </set-font-new>
                 <draw-text comment="false" x="0" y="0">
                     <get-game-val-0 comment="false" id="0" x="0" y="0"/>
-                    <int id="1" val="52"/>
-                    <int id="2" val="21"/>
+                    <int id="1" val="49"/>
+                    <int id="2" val="29"/>
                 </draw-text>
             </group>
         </draw>

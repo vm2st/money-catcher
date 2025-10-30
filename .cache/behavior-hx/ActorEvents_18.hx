@@ -70,7 +70,8 @@ class ActorEvents_18 extends ActorScript
 	{
 		if(wrapper.enabled && true)
 		{
-			g.drawString("" + Engine.engine.getGameAttribute("coins"), 52, 21);
+			g.setFont(getFont(223));
+			g.drawString("" + Engine.engine.getGameAttribute("coins"), 49, 29);
 		}
 	}
 	/* ========================= Type & Type ========================== */

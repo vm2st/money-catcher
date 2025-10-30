@@ -69,12 +69,20 @@ class ActorEvents_28 extends ActorScript
 	{
 		if(wrapper.enabled && 3 == mouseState)
 		{
-			switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideDownTransition(0.3));
-			Engine.engine.setGameAttribute("gameisexited", true);
-			runLater(1000 * 0.3, function(timeTask:TimedTask):Void
+			if(((Engine.engine.getGameAttribute("disabletransitions") : Bool) == false))
 			{
-				Engine.engine.setGameAttribute("gameisexited", false);
-			}, actor);
+				switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideDownTransition(0.3));
+				Engine.engine.setGameAttribute("gameisexited", true);
+				runLater(1000 * 0.3, function(timeTask:TimedTask):Void
+				{
+					Engine.engine.setGameAttribute("gameisexited", false);
+				}, actor);
+			}
+			else
+			{
+				switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideDownTransition(0));
+				Engine.engine.setGameAttribute("gameisexited", true);
+			}
 		}
 	}
 	/* ======================== When Updating ========================= */
@@ -84,12 +92,20 @@ class ActorEvents_28 extends ActorScript
 		{
 			if(isKeyReleased("ESC"))
 			{
-				switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideDownTransition(0.3));
-				Engine.engine.setGameAttribute("gameisexited", true);
-				runLater(1000 * 0.3, function(timeTask:TimedTask):Void
+				if(((Engine.engine.getGameAttribute("disabletransitions") : Bool) == false))
 				{
-					Engine.engine.setGameAttribute("gameisexited", false);
-				}, actor);
+					switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideDownTransition(0.3));
+					Engine.engine.setGameAttribute("gameisexited", true);
+					runLater(1000 * 0.3, function(timeTask:TimedTask):Void
+					{
+						Engine.engine.setGameAttribute("gameisexited", false);
+					}, actor);
+				}
+				else
+				{
+					switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideDownTransition(0));
+					Engine.engine.setGameAttribute("gameisexited", true);
+				}
 			}
 			if(((Engine.engine.getGameAttribute("language") : String) == "ru"))
 			{

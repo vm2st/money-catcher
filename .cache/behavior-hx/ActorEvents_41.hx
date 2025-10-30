@@ -63,7 +63,71 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 class ActorEvents_41 extends ActorScript
 {
+	public var _minDown:Float;
+	public var _minLeft:Float;
+	public var _minRght:Float;
+	public var _minUp:Float;
 	
+	/* ======================== When Updating ========================= */
+	public function _event_Updating(elapsedTime:Float):Void
+	{
+		if(wrapper.enabled && true)
+		{
+			if(isMouseDown())
+			{
+				if((actor.getY() < _minUp))
+				{
+					Engine.engine.setGameAttribute("up", 1);
+				}
+				else
+				{
+					Engine.engine.setGameAttribute("up", 0);
+				}
+				if((actor.getY() > _minDown))
+				{
+					Engine.engine.setGameAttribute("down", 1);
+				}
+				else
+				{
+					Engine.engine.setGameAttribute("down", 0);
+				}
+				if((actor.getX() < _minLeft))
+				{
+					Engine.engine.setGameAttribute("left", 1);
+				}
+				else
+				{
+					Engine.engine.setGameAttribute("left", 0);
+				}
+				if((actor.getX() > _minRght))
+				{
+					Engine.engine.setGameAttribute("right", 1);
+				}
+				else
+				{
+					Engine.engine.setGameAttribute("right", 0);
+				}
+			}
+			if(((Engine.engine.getGameAttribute("pause") : Float) == 1))
+			{
+				recycleActor(actor);
+			}
+		}
+	}
+	/* ============================ Click ============================= */
+	public function _event_Click():Void
+	{
+		if(wrapper.enabled && true)
+		{
+			Engine.engine.setGameAttribute("up", 0);
+			Engine.engine.setGameAttribute("down", 0);
+			Engine.engine.setGameAttribute("left", 0);
+			Engine.engine.setGameAttribute("right", 0);
+			Engine.engine.setGameAttribute("izdrgng", false);
+			removeRegion(getLastCreatedRegion().getID());
+			recycleActor(actor);
+		}
+	}
 	/* ========================== On Region =========================== */
 	public function _event_OnRegion(mouseState:Int):Void
 	{
@@ -73,73 +137,50 @@ class ActorEvents_41 extends ActorScript
 			actor.setYCenter(getMouseY());
 		}
 	}
-	/* ======================== When Updating ========================= */
-	public function _event_Updating(elapsedTime:Float):Void
+	/* ========================= When Drawing ========================= */
+	public function _event_Drawing(g:G, x:Float, y:Float):Void
 	{
 		if(wrapper.enabled && true)
 		{
-			if((actor.getY() <= 500))
+			if(((Engine.engine.getGameAttribute("devmode") : Bool) == true))
 			{
-				Engine.engine.setGameAttribute("up", 1);
+				g.drawString("" + _minUp, 50, 50);
+				g.drawString("" + _minDown, 50, 60);
+				g.drawString("" + _minLeft, 50, 70);
+				g.drawString("" + _minRght, 50, 80);
+				g.drawString("" + Engine.engine.getGameAttribute("izdrgng"), 50, 90);
 			}
-			else
-			{
-				Engine.engine.setGameAttribute("up", 0);
-			}
-			if((actor.getY() >= 580))
-			{
-				Engine.engine.setGameAttribute("down", 1);
-			}
-			else
-			{
-				Engine.engine.setGameAttribute("down", 0);
-			}
-			if((actor.getX() <= 110))
-			{
-				Engine.engine.setGameAttribute("left", 1);
-			}
-			else
-			{
-				Engine.engine.setGameAttribute("left", 0);
-			}
-			if((actor.getX() >= 170))
-			{
-				Engine.engine.setGameAttribute("right", 1);
-			}
-			else
-			{
-				Engine.engine.setGameAttribute("right", 0);
-			}
-		}
-	}
-	/* ============================ Click ============================= */
-	public function _event_Click():Void
-	{
-		if(wrapper.enabled && true)
-		{
-			actor.setX(132);
-			actor.setY(519);
-			Engine.engine.setGameAttribute("up", 0);
-			Engine.engine.setGameAttribute("down", 0);
-			Engine.engine.setGameAttribute("left", 0);
-			Engine.engine.setGameAttribute("right", 0);
 		}
 	}
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("minDown", "_minDown");
+		_minDown = 0.0;
+		nameMap.set("minLeft", "_minLeft");
+		_minLeft = 0.0;
+		nameMap.set("minRght", "_minRght");
+		_minRght = 0.0;
+		nameMap.set("minUp", "_minUp");
+		_minUp = 0.0;
 		
 	}
 	
 	override public function init()
 	{
 		/* ======================== When Creating ========================= */
-		createCircularRegion(47, 435, 110);
+		createCircularRegion((actor.getX() - 176), (actor.getY() - 176), 200);
+		createRecycledActor(getActorType(39), (actor.getX() - 102), (actor.getY() - 101), Script.FRONT);
+		_minDown = (actor.getY() + 30);
+		_minLeft = (actor.getX() - 20);
+		_minRght = (actor.getX() + 30);
+		_minUp = (actor.getY() - 20);
 		
-		addListener(getLastCreatedRegion().whenMousedOver, _event_OnRegion);
 		addListener(actor.whenUpdated, _event_Updating);
 		addListener(engine.whenMouseReleased, _event_Click);
+		addListener(getLastCreatedRegion().whenMousedOver, _event_OnRegion);
+		addListener(actor.whenDrawing, _event_Drawing);
 		
 	}
 	

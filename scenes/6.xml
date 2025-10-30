@@ -265,6 +265,19 @@
             x="1134"
             y="-2"
             z="4"/>
+        <actor
+            a="0.0"
+            aid="18"
+            c="false"
+            group="3"
+            id="254"
+            name="gohome 18"
+            order="11"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="11"
+            z="2"/>
     </actors>
     <snippets>
         <s enabled="true" id="136">
