@@ -4,8 +4,8 @@
 [![vm2 Studios](https://img.shields.io/badge/VM2_Studios-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/vm2_studios)
 [![Money Catcher](https://img.shields.io/badge/Money_Catcher-7289DA?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MoneyCatcherGame)
   [![Play on Newgrounds](https://img.shields.io/badge/🎮_Play_on_Newgrounds-F15A22?style=for-the-badge&logoColor=white&labelColor=F15A22&color=orange)](https://www.newgrounds.com/portal/view/996995)
-[![Download for Windows](https://img.shields.io/badge/Download-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/v1ks1n/money-catcher/releases/download/minor/Money-Catcher-1.8.1-Windows.zip)
-[![DOWNLOAD ANDROID](https://img.shields.io/badge/DOWNLOAD-ANDROID-brightgreen?style=for-the-badge&logo=android&logoColor=white)](https://github.com/v1ks1n/money-catcher/releases/download/minor/Money+Catcher+1-8-1-1.apk)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/v1ks1n/money-catcher/releases/download/1.8.2/Money-Catcher-1-8-2-Windows.zip)
+[![DOWNLOAD ANDROID](https://img.shields.io/badge/DOWNLOAD-ANDROID-brightgreen?style=for-the-badge&logo=android&logoColor=white)](https://github.com/v1ks1n/money-catcher/releases/download/1.8.2/money+catcher+1-8-2.apk)
 </div>
 <p>The game is an endless gameplay where you play as a character whose task is to run around the screen and collect gold coins. After collecting the right amount of coins, the player can buy something in the game store, for example, change the background in the game or buy a skin.
 This game was developed on the Stencyl engine.<br>
