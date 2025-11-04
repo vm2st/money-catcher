@@ -11,7 +11,7 @@
 This game was developed on the Stencyl engine.<br>
 Have you found a bug? Report it <a href="https://t.me/vm2_bugs_bot">here</a>.</p>
 
-<h4>To change my game in Stencyl, you need to:</h4>
+<h4>To edit my game in Stencyl, you need to:</h4>
 <p>1. Download the repository in a zip file.<br>
   <div>
 
