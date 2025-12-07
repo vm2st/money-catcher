@@ -1,60 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups format="1">
-    <group eventID="1" id="0">
-        <event-delay comment="false" x="15" y="15">
-            <group eventID="1" id="-1">
-                <if comment="false" x="0" y="0">
-                    <group eventID="1" id="-1">
-                        <play-sound-channel comment="false" x="0" y="0">
-                            <int id="0" val="1"/>
-                            <sound eid="178" id="1"/>
-                            <int id="2" val="23"/>
-                        </play-sound-channel>
-                        <set-game-val-37 comment="false" x="0" y="0">
-                            <true comment="false" id="0" x="0" y="0"/>
-                        </set-game-val-37>
-                    </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-game-val-37 comment="false" id="0" x="0" y="0"/>
-                        <false comment="false" id="1" x="0" y="0"/>
-                    </eq>
-                </if>
-                <else comment="false" x="0" y="0">
-                    <group eventID="1" id="-1"/>
-                </else>
-                <control-sound-channel comment="false" x="0" y="0">
-                    <int id="0" val="1"/>
-                    <int id="1" val="10"/>
-                </control-sound-channel>
-                <control-sound-channel comment="false" x="0" y="0">
-                    <int id="0" val="2"/>
-                    <int id="1" val="23"/>
-                </control-sound-channel>
-            </group>
-            <int id="0" val="0"/>
-        </event-delay>
-    </group>
-    <group eventID="2" id="0">
-        <step comment="false" x="15" y="15">
-            <group eventID="2" id="-1">
-                <if comment="true" x="0" y="0">
-                    <group eventID="2" id="-1">
-                        <create-actor-on-layer comment="false" x="0" y="0">
-                            <actortype eid="9" id="0"/>
-                            <int id="1" val="419"/>
-                            <int id="2" val="279"/>
-                            <int id="3" val="0"/>
-                            <int id="4" val="2"/>
-                        </create-actor-on-layer>
-                    </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-game-val-44 comment="false" id="0" x="0" y="0"/>
-                        <true comment="false" id="1" x="0" y="0"/>
-                    </eq>
-                </if>
-            </group>
-        </step>
-    </group>
     <group eventID="3" id="0">
         <init comment="false" x="15" y="15">
             <group eventID="3" id="-1">
@@ -71,5 +16,55 @@
                 </dolater>
             </group>
         </init>
+    </group>
+    <group eventID="4" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <draw-text comment="false" x="0" y="0">
+                    <get-game-val-61 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="660"/>
+                    <int id="2" val="60"/>
+                </draw-text>
+                <draw-text comment="false" x="0" y="0">
+                    <get-game-val-19 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="828"/>
+                    <int id="2" val="60"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="5" id="0">
+        <event-delay comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="5" id="-1">
+                        <play-sound-channel comment="false" x="0" y="0">
+                            <int id="0" val="1"/>
+                            <sound eid="178" id="1"/>
+                            <int id="2" val="23"/>
+                        </play-sound-channel>
+                        <set-game-val-61 comment="false" x="0" y="0">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-61>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-61 comment="false" id="0" x="0" y="0"/>
+                        <false comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="0" y="0">
+                    <group eventID="5" id="-1"/>
+                </else>
+                <control-sound-channel comment="false" x="0" y="0">
+                    <int id="0" val="1"/>
+                    <int id="1" val="10"/>
+                </control-sound-channel>
+                <control-sound-channel comment="false" x="0" y="0">
+                    <int id="0" val="2"/>
+                    <int id="1" val="23"/>
+                </control-sound-channel>
+            </group>
+            <int id="0" val="0"/>
+        </event-delay>
     </group>
 </groups>

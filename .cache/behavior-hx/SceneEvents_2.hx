@@ -71,6 +71,8 @@ class SceneEvents_2 extends SceneScript
 	public var _minDown:Float;
 	public var _minLeft:Float;
 	public var _minRght:Float;
+	public var _cooldown:Bool;
+	public var _chance:Float;
 	
 	/* ======================= After N seconds ======================== */
 	public function _event_AfterNsecs(timeTask:TimedTask):Void
@@ -92,7 +94,7 @@ class SceneEvents_2 extends SceneScript
 				{
 					for(index0 in 0...38)
 					{
-						Engine.engine.setGameAttribute("speedtime", ((Engine.engine.getGameAttribute("speedtime") : Float) - 0.0099));
+						Engine.engine.setGameAttribute("speedtime", ((Engine.engine.getGameAttribute("speedtime") : Float) - 0.00999));
 						break;
 						break;
 					}
@@ -109,7 +111,7 @@ class SceneEvents_2 extends SceneScript
 				{
 					for(index0 in 0...38)
 					{
-						Engine.engine.setGameAttribute("x2coinstime", ((Engine.engine.getGameAttribute("x2coinstime") : Float) - 0.0099));
+						Engine.engine.setGameAttribute("x2coinstime", ((Engine.engine.getGameAttribute("x2coinstime") : Float) - 0.00999));
 						break;
 						break;
 					}
@@ -126,7 +128,7 @@ class SceneEvents_2 extends SceneScript
 				{
 					for(index0 in 0...38)
 					{
-						Engine.engine.setGameAttribute("bigtime", ((Engine.engine.getGameAttribute("bigtime") : Float) - 0.0099));
+						Engine.engine.setGameAttribute("bigtime", ((Engine.engine.getGameAttribute("bigtime") : Float) - 0.00999));
 						break;
 						break;
 					}
@@ -176,6 +178,30 @@ class SceneEvents_2 extends SceneScript
 			}
 		}
 	}
+	/* ======================= Every N seconds ======================== */
+	public function _event_badcoin(timeTask:TimedTask):Void
+	{
+		if(wrapper.enabled && true)
+		{
+			_chance = randomInt(1, 10);
+			if((((_chance == 1) || (_chance == 2)) || ((_chance == 3) || ((_chance == 4) || (_chance == 5)))))
+			{
+				createRecycledActor(getActorType(300), randomInt(30, 1250), randomInt(30, 674), Script.FRONT);
+			}
+		}
+	}
+	/* ======================= Every N seconds ======================== */
+	public function _event_coolcoin(timeTask:TimedTask):Void
+	{
+		if(wrapper.enabled && true)
+		{
+			_chance = randomInt(1, 10);
+			if((((_chance == 1) || (_chance == 2)) || (_chance == 3)))
+			{
+				createRecycledActor(getActorType(295), randomInt(30, 1250), randomInt(30, 674), Script.FRONT);
+			}
+		}
+	}
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
@@ -194,21 +220,23 @@ class SceneEvents_2 extends SceneScript
 		_minLeft = 0.0;
 		nameMap.set("minRght", "_minRght");
 		_minRght = 0.0;
+		nameMap.set("cooldown", "_cooldown");
+		_cooldown = false;
+		nameMap.set("chancered", "_chance");
+		_chance = 0.0;
 		
 	}
 	
 	override public function init()
 	{
-		/* ======================== When Creating ========================= */
-		if(((Engine.engine.getGameAttribute("disablezombie") : Bool) == false))
-		{
-			createRecycledActorOnLayer(getActorType(233), 105, 320, engine.getLayerById(Std.int(3)));
-		}
+		
 		
 		runLater(1000 * 0.5, _event_AfterNsecs, null);
 		addListener(engine.whenUpdated, _event_Updating);
 		addListener(engine.whenDrawing, _event_Drawing);
 		addListener(engine.whenUpdated, _event_joystick);
+		runPeriodically(1000 * 2, _event_badcoin, null);
+		runPeriodically(1000 * 2, _event_coolcoin, null);
 		
 	}
 	

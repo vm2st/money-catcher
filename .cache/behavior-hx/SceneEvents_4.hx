@@ -75,6 +75,7 @@ class SceneEvents_4 extends SceneScript
 	override public function init()
 	{
 		/* ======================== When Creating ========================= */
+		Engine.engine.setGameAttribute("skinsh", 0);
 		Engine.engine.setGameAttribute("nosound", false);
 		
 		

@@ -186,7 +186,7 @@ class ActorEvents_140 extends ActorScript
 	{
 		if(wrapper.enabled && true)
 		{
-			g.drawString("" + Engine.engine.getGameAttribute("volume"), 27, -40);
+			g.drawString("" + Engine.engine.getGameAttribute("volume"), 27, 15);
 		}
 	}
 	/* =========================== On Actor =========================== */

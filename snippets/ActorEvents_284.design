@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <clear-list comment="false" x="0" y="0">
+                    <get-game-val-59 comment="false" id="0" x="0" y="0"/>
+                </clear-list>
+                <clear-list comment="false" x="0" y="0">
+                    <get-game-val-58 comment="false" id="0" x="0" y="0"/>
+                </clear-list>
+                <set-game-val-0 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-0>
+                <set-game-val-15 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-15>
+                <set-game-val-39 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-39>
+                <set-game-val-57 comment="false" x="0" y="0">
+                    <int id="0" val="30"/>
+                </set-game-val-57>
+                <set-game-val-48 comment="false" x="0" y="0">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-48>
+                <set-game-val-54 comment="false" x="0" y="0">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-54>
+                <set-game-val-50 comment="false" x="0" y="0">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-50>
+                <set-game-val-19 comment="false" x="0" y="0">
+                    <int id="0" val="100"/>
+                </set-game-val-19>
+                <set-game-val-38 comment="false" x="0" y="0">
+                    <int id="0" val="114"/>
+                </set-game-val-38>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="4"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="1" id="1">
+        <code-long comment="false" x="688" y="50">
+            <int id="0" val="// скины&#10;0 - скин эндермена&#10;1 - скин тв-мена&#10;&#10;// фоны&#10;&#10;0 - зимний фон&#10;1 - космический фон"/>
+        </code-long>
+    </group>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="2" id="-1">
+                        <die comment="false" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-38 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="114"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+</groups>

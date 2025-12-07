@@ -65,14 +65,6 @@ import com.stencyl.graphics.shaders.BloomShader;
 class SceneEvents_0 extends SceneScript
 {
 	
-	/* ======================= After N seconds ======================== */
-	public function _event_AfterNsecs(timeTask:TimedTask):Void
-	{
-		if(wrapper.enabled && true)
-		{
-			switchScene(GameModel.get().scenes.get(1).getID(), null, createCrossfadeTransition(0.5));
-		}
-	}
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
@@ -82,9 +74,31 @@ class SceneEvents_0 extends SceneScript
 	
 	override public function init()
 	{
+		/* ======================== When Creating ========================= */
+		loadGame("mySave", function(success:Bool):Void
+		{
+			if(success)
+			{
+				setVolumeForAllSounds((Engine.engine.getGameAttribute("volume") : Float)/100);
+				Engine.engine.setGameAttribute("musicpositron", 0);
+				Engine.engine.setGameAttribute("hit", false);
+				Engine.engine.setGameAttribute("menu music is playing", false);
+				runLater(1000 * 1, function(timeTask:TimedTask):Void
+				{
+					switchScene(GameModel.get().scenes.get(1).getID(), null, createCrossfadeTransition(0.5));
+				}, null);
+			}
+			else
+			{
+				runLater(1000 * 1, function(timeTask:TimedTask):Void
+				{
+					switchScene(GameModel.get().scenes.get(1).getID(), null, createCrossfadeTransition(0.5));
+				}, null);
+				createRecycledActor(getActorType(276), 615, 666, Script.FRONT);
+				getLastCreatedActor().setAnimation("error");
+			}
+		});
 		
-		
-		runLater(1000 * 1, _event_AfterNsecs, null);
 		
 	}
 	

@@ -2,9 +2,373 @@
 <pack>
     <actor
         adamp="0.0"
-        ascale="false"
+        ascale="true"
         atlasID="0"
         bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="151"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="274"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="0ffsave"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="275"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="275"
+        name="0ffsave"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="40"
+            id="0"
+            loop="true"
+            name="enoff"
+            numframes="1"
+            originx="43"
+            originy="20"
+            sync="false"
+            version="2"
+            width="87">
+            <poly
+                data="4,0,40,87,40,87,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="25"
+            id="1"
+            loop="true"
+            name="ruoff"
+            numframes="1"
+            originx="47"
+            originy="12"
+            sync="false"
+            version="2"
+            width="95"/>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="40"
+            id="2"
+            loop="true"
+            name="enon"
+            numframes="1"
+            originx="43"
+            originy="20"
+            sync="false"
+            version="2"
+            width="87">
+            <poly
+                data="4,0,40,87,40,87,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="25"
+            id="3"
+            loop="true"
+            name="ruon"
+            numframes="1"
+            originx="47"
+            originy="12"
+            sync="false"
+            version="2"
+            width="95"/>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="149"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="270"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="1msave"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="271"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="271"
+        name="1msave"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="40"
+            id="0"
+            loop="true"
+            name="off"
+            numframes="1"
+            originx="35"
+            originy="20"
+            sync="false"
+            version="2"
+            width="70">
+            <poly
+                data="4,0,40,70,40,70,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="40"
+            id="1"
+            loop="true"
+            name="on"
+            numframes="1"
+            originx="35"
+            originy="20"
+            sync="false"
+            version="2"
+            width="70">
+            <poly
+                data="4,0,40,70,40,70,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="148"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="268"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="5msave"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="269"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="269"
+        name="5msave"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="40"
+            id="0"
+            loop="true"
+            name="off"
+            numframes="1"
+            originx="42"
+            originy="20"
+            sync="false"
+            version="2"
+            width="84">
+            <poly
+                data="4,0,40,84,40,84,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="40"
+            id="1"
+            loop="true"
+            name="on"
+            numframes="1"
+            originx="42"
+            originy="20"
+            sync="false"
+            version="2"
+            width="84">
+            <poly
+                data="4,0,40,84,40,84,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="150"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="272"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="30ssave"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="273"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="273"
+        name="30ssave"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="40"
+            id="0"
+            loop="true"
+            name="off"
+            numframes="1"
+            originx="42"
+            originy="20"
+            sync="false"
+            version="2"
+            width="84">
+            <poly
+                data="4,0,40,84,40,84,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="40"
+            id="1"
+            loop="true"
+            name="on"
+            numframes="1"
+            originx="42"
+            originy="20"
+            sync="false"
+            version="2"
+            width="84">
+            <poly
+                data="4,0,40,84,40,84,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="false"
+        atlasID="0"
+        bodytype="1"
         continuous="false"
         desc=""
         eventsnippetid="91"
@@ -23,7 +387,7 @@
         rest="0.0"
         shared="false"
         sprite="156"
-        static="true">
+        static="false">
         <snippets/>
     </actor>
     <sprite
@@ -116,7 +480,81 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="147"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="266"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="autosavetext"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="267"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="267"
+        name="autosavetext"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="65"
+            id="0"
+            loop="true"
+            name="en"
+            numframes="1"
+            originx="211"
+            originy="32"
+            sync="false"
+            version="2"
+            width="423">
+            <poly
+                data="4,0,65,423,65,423,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="105"
+            id="1"
+            loop="true"
+            name="ru"
+            numframes="1"
+            originx="225"
+            originy="52"
+            sync="false"
+            version="2"
+            width="450"/>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="27"
@@ -135,7 +573,7 @@
         rest="0.0"
         shared="false"
         sprite="36"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -150,7 +588,7 @@
         <anim
             across="2"
             down="1"
-            durations="200,300"
+            durations="350,350"
             height="64"
             id="0"
             loop="true"
@@ -166,7 +604,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="59"
@@ -185,7 +623,7 @@
         rest="0.0"
         shared="false"
         sprite="90"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -210,13 +648,23 @@
             originy="32"
             sync="false"
             version="2"
-            width="64"/>
+            width="64">
+            <poly
+                data="4,0,64,64,64,64,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="60"
@@ -235,7 +683,7 @@
         rest="0.0"
         shared="false"
         sprite="92"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -250,7 +698,7 @@
         <anim
             across="2"
             down="1"
-            durations="300,350"
+            durations="350,350"
             height="64"
             id="0"
             loop="true"
@@ -260,7 +708,17 @@
             originy="32"
             sync="false"
             version="2"
-            width="128"/>
+            width="128">
+            <poly
+                data="4,0,64,64,64,64,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
     </sprite>
     <background
         atlasID="0"
@@ -284,7 +742,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="44"
@@ -303,7 +761,7 @@
         rest="0.0"
         shared="false"
         sprite="67"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -352,17 +810,7 @@
             originy="51"
             sync="false"
             version="2"
-            width="288">
-            <poly
-                data="4,0,365,1024,365,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="288"/>
     </sprite>
     <background
         atlasID="0"
@@ -386,7 +834,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="143"
@@ -405,7 +853,7 @@
         rest="0.0"
         shared="false"
         sprite="259"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -420,7 +868,7 @@
         <anim
             across="2"
             down="1"
-            durations="200,300"
+            durations="350,350"
             height="64"
             id="0"
             loop="true"
@@ -430,13 +878,23 @@
             originy="32"
             sync="false"
             version="2"
-            width="128"/>
+            width="128">
+            <poly
+                data="4,0,64,64,64,64,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="55"
@@ -455,7 +913,7 @@
         rest="0.0"
         shared="false"
         sprite="81"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -470,7 +928,7 @@
         <anim
             across="2"
             down="1"
-            durations="300,350"
+            durations="350,350"
             height="64"
             id="0"
             loop="true"
@@ -480,13 +938,23 @@
             originy="32"
             sync="false"
             version="2"
-            width="128"/>
+            width="128">
+            <poly
+                data="4,0,64,64,64,64,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="61"
@@ -505,7 +973,7 @@
         rest="0.0"
         shared="false"
         sprite="94"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -520,7 +988,7 @@
         <anim
             across="2"
             down="1"
-            durations="300,350"
+            durations="350,350"
             height="64"
             id="0"
             loop="true"
@@ -534,9 +1002,73 @@
     </sprite>
     <actor
         adamp="0.0"
+        ascale="false"
+        atlasID="0"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="163"
+        fixedrot="false"
+        fric="0.13"
+        gid="1"
+        id="300"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="badcoin"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.17"
+        shared="false"
+        sprite="301"
+        static="true">
+        <snippets>
+            <s enabled="false" id="125">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="1"
+        defaultAnimation="1"
+        desc=""
+        id="301"
+        name="badcoin"
+        readable="true"
+        shared="false">
+        <anim
+            across="3"
+            down="2"
+            durations="100,100,100,100,100,100"
+            height="76"
+            id="1"
+            loop="true"
+            name="Анимация 1"
+            numframes="6"
+            originx="19"
+            originy="19"
+            sync="false"
+            version="2"
+            width="114">
+            <circle
+                data="19,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Круг"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="89"
@@ -555,7 +1087,7 @@
         rest="0.0"
         shared="false"
         sprite="151"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -586,7 +1118,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="90"
@@ -605,7 +1137,7 @@
         rest="0.0"
         shared="false"
         sprite="153"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -796,7 +1328,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="67"
@@ -815,7 +1347,7 @@
         rest="0.0"
         shared="false"
         sprite="107"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -846,7 +1378,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="46"
@@ -865,7 +1397,7 @@
         rest="0.0"
         shared="false"
         sprite="71"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -914,14 +1446,64 @@
             originy="56"
             sync="false"
             version="2"
-            width="409">
+            width="409"/>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="1"
+        continuous="true"
+        desc=""
+        eventsnippetid="159"
+        fixedrot="false"
+        fric="0.75"
+        gid="5"
+        id="289"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="brickwall"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.05"
+        shared="false"
+        sprite="290"
+        static="false">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="290"
+        name="brickwall"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="245"
+            id="0"
+            loop="true"
+            name="Анимация 0"
+            numframes="1"
+            originx="39"
+            originy="122"
+            sync="false"
+            version="2"
+            width="78">
             <poly
-                data="4,0,283,1024,283,1024,0,0,0"
+                data="4,0,245,78,245,78,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
                 id="0"
-                name="ru"
+                name="Анимация 0"
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -930,7 +1512,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="85"
@@ -949,7 +1531,7 @@
         rest="0.0"
         shared="false"
         sprite="143"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -1018,7 +1600,7 @@
             height="111"
             id="0"
             loop="true"
-            name="Анимация 0"
+            name="equipen"
             numframes="1"
             originx="185"
             originy="55"
@@ -1031,7 +1613,55 @@
                 fric="0.2"
                 gid="-1000"
                 id="0"
-                name="Анимация 0"
+                name="equipen"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="1"
+            loop="true"
+            name="equipru"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="2"
+            loop="true"
+            name="equipped"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipped"
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -1078,7 +1708,7 @@
             height="111"
             id="0"
             loop="true"
-            name="Анимация 0"
+            name="buy"
             numframes="1"
             originx="185"
             originy="55"
@@ -1092,6 +1722,78 @@
                 gid="-1000"
                 id="0"
                 name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="1"
+            loop="true"
+            name="equipru"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="2"
+            loop="true"
+            name="equipen"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipen"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="3"
+            loop="true"
+            name="equipped"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipped"
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -1138,7 +1840,7 @@
             height="111"
             id="0"
             loop="true"
-            name="Анимация 0"
+            name="buy"
             numframes="1"
             originx="185"
             originy="55"
@@ -1155,6 +1857,78 @@
                 rest="0.0"
                 sensor="false"/>
         </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="1"
+            loop="true"
+            name="equipen"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipen"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="2"
+            loop="true"
+            name="equipru"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="3"
+            loop="true"
+            name="equipped"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipped"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
     </sprite>
     <actor
         adamp="0.0"
@@ -1164,11 +1938,11 @@
         continuous="true"
         desc=""
         eventsnippetid="10"
-        fixedrot="false"
+        fixedrot="true"
         fric="0.38"
         gid="0"
         id="14"
-        ignoreg="false"
+        ignoreg="true"
         inertia="1.0"
         ldamp="0.0"
         mass="60.0"
@@ -1279,7 +2053,7 @@
             version="2"
             width="68">
             <poly
-                data="4,0,59,29,59,29,0,0,0"
+                data="4,0,59,34,59,34,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="0"
@@ -1303,7 +2077,7 @@
             version="2"
             width="68">
             <poly
-                data="4,0,59,29,59,29,0,0,0"
+                data="4,0,59,34,59,34,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="0"
@@ -1339,10 +2113,10 @@
     </sprite>
     <actor
         adamp="0.0"
-        ascale="false"
+        ascale="true"
         atlasID="0"
         bodytype="2"
-        continuous="false"
+        continuous="true"
         desc=""
         eventsnippetid="93"
         fixedrot="true"
@@ -1351,12 +2125,12 @@
         id="160"
         ignoreg="true"
         inertia="1.0"
-        ldamp="1.0"
+        ldamp="0.0"
         mass="60.0"
         name="charBIG"
         oid="-1"
         pausable="true"
-        physicsMode="1"
+        physicsMode="0"
         rest="0.09"
         shared="false"
         sprite="161"
@@ -1522,7 +2296,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="82"
@@ -1541,7 +2315,7 @@
         rest="0.0"
         shared="false"
         sprite="137"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -1572,7 +2346,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="127"
@@ -1591,7 +2365,7 @@
         rest="0.0"
         shared="false"
         sprite="230"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -1684,8 +2458,8 @@
     </actor>
     <sprite
         atlasID="0"
-        default="0"
-        defaultAnimation="0"
+        default="1"
+        defaultAnimation="1"
         desc=""
         id="17"
         name="coin"
@@ -1695,23 +2469,23 @@
             across="3"
             down="2"
             durations="100,100,100,100,100,100"
-            height="786"
-            id="0"
+            height="76"
+            id="1"
             loop="true"
-            name="animat"
+            name="Анимация 1"
             numframes="6"
-            originx="194"
-            originy="196"
-            sync="true"
+            originx="19"
+            originy="19"
+            sync="false"
             version="2"
-            width="1167">
-            <poly
-                data="4,170,200,210,200,210,160,170,160"
+            width="114">
+            <circle
+                data="19,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
                 id="0"
-                name="animat"
+                name="Круг"
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -1786,6 +2560,70 @@
                 name="Анимация 1"
                 rest="0.0"
                 sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="162"
+        fixedrot="false"
+        fric="0.13"
+        gid="1"
+        id="295"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="coolcoin"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.17"
+        shared="false"
+        sprite="296"
+        static="true">
+        <snippets>
+            <s enabled="true" id="125">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="1"
+        defaultAnimation="1"
+        desc=""
+        id="296"
+        name="coolcoin"
+        readable="true"
+        shared="false">
+        <anim
+            across="3"
+            down="2"
+            durations="100,100,100,100,100,100"
+            height="76"
+            id="1"
+            loop="true"
+            name="Анимация 1"
+            numframes="6"
+            originx="19"
+            originy="19"
+            sync="false"
+            version="2"
+            width="114">
+            <circle
+                data="19,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Круг"
+                rest="0.0"
+                sensor="true"/>
         </anim>
     </sprite>
     <actor
@@ -1917,6 +2755,66 @@
         bodytype="0"
         continuous="true"
         desc=""
+        eventsnippetid="164"
+        fixedrot="false"
+        fric="0.13"
+        gid="1"
+        id="302"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="decorativecoin"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.17"
+        shared="false"
+        sprite="303"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="1"
+        defaultAnimation="1"
+        desc=""
+        id="303"
+        name="decorativecoin"
+        readable="true"
+        shared="false">
+        <anim
+            across="3"
+            down="2"
+            durations="100,100,100,100,100,100"
+            height="76"
+            id="1"
+            loop="true"
+            name="Анимация 1"
+            numframes="6"
+            originx="19"
+            originy="19"
+            sync="false"
+            version="2"
+            width="114">
+            <circle
+                data="19,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Круг"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
+        continuous="true"
+        desc=""
         eventsnippetid="108"
         fixedrot="false"
         fric="0.2"
@@ -1974,7 +2872,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="75"
@@ -1993,7 +2891,7 @@
         rest="0.0"
         shared="false"
         sprite="123"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -2018,17 +2916,7 @@
             originy="30"
             sync="false"
             version="2"
-            width="492">
-            <poly
-                data="4,0,81,656,81,656,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="492"/>
         <anim
             across="1"
             down="1"
@@ -2042,23 +2930,13 @@
             originy="62"
             sync="false"
             version="2"
-            width="768">
-            <poly
-                data="4,0,166,1024,166,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="768"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="130"
@@ -2077,7 +2955,7 @@
         rest="0.0"
         shared="false"
         sprite="236"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -2102,17 +2980,7 @@
             originy="33"
             sync="false"
             version="2"
-            width="172">
-            <poly
-                data="4,0,133,345,133,345,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="172"/>
         <anim
             across="1"
             down="1"
@@ -2126,23 +2994,13 @@
             originy="34"
             sync="false"
             version="2"
-            width="174">
-            <poly
-                data="4,0,69,174,69,174,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 1"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="174"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="146"
@@ -2161,7 +3019,7 @@
         rest="0.0"
         shared="false"
         sprite="265"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -2186,17 +3044,7 @@
             originy="33"
             sync="false"
             version="2"
-            width="172">
-            <poly
-                data="4,0,133,345,133,345,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="172"/>
         <anim
             across="1"
             down="1"
@@ -2210,23 +3058,13 @@
             originy="34"
             sync="false"
             version="2"
-            width="174">
-            <poly
-                data="4,0,69,174,69,174,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 1"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="174"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="144"
@@ -2245,7 +3083,7 @@
         rest="0.0"
         shared="false"
         sprite="261"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -2270,17 +3108,7 @@
             originy="18"
             sync="false"
             version="2"
-            width="448">
-            <poly
-                data="4,0,57,665,57,665,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="448"/>
         <anim
             across="1"
             down="1"
@@ -2294,23 +3122,13 @@
             originy="39"
             sync="false"
             version="2"
-            width="498">
-            <poly
-                data="4,0,164,1024,164,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="498"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="132"
@@ -2329,7 +3147,7 @@
         rest="0.0"
         shared="false"
         sprite="241"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -2354,17 +3172,7 @@
             originy="33"
             sync="false"
             version="2"
-            width="172">
-            <poly
-                data="4,0,133,345,133,345,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="172"/>
         <anim
             across="1"
             down="1"
@@ -2378,23 +3186,13 @@
             originy="34"
             sync="false"
             version="2"
-            width="174">
-            <poly
-                data="4,0,69,174,69,174,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 1"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="174"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="131"
@@ -2413,7 +3211,7 @@
         rest="0.0"
         shared="false"
         sprite="239"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -2438,17 +3236,7 @@
             originy="18"
             sync="false"
             version="2"
-            width="642">
-            <poly
-                data="4,0,37,642,37,642,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="642"/>
         <anim
             across="1"
             down="1"
@@ -2462,17 +3250,7 @@
             originy="63"
             sync="false"
             version="2"
-            width="783">
-            <poly
-                data="4,0,142,1024,142,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="783"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -2548,10 +3326,10 @@
         volume="1"/>
     <actor
         adamp="0.0"
-        ascale="false"
+        ascale="true"
         atlasID="0"
         bodytype="2"
-        continuous="false"
+        continuous="true"
         desc=""
         eventsnippetid="96"
         fixedrot="true"
@@ -2560,12 +3338,12 @@
         id="166"
         ignoreg="true"
         inertia="1.0"
-        ldamp="1.0"
+        ldamp="0.0"
         mass="60.0"
         name="enderman"
         oid="-1"
         pausable="true"
-        physicsMode="1"
+        physicsMode="0"
         rest="0.09"
         shared="false"
         sprite="167"
@@ -2648,9 +3426,9 @@
                 data="4,0,59,29,59,29,0,0,0"
                 density="0.1"
                 fric="0.2"
-                gid="0"
-                id="0"
-                name="Box"
+                gid="-1000"
+                id="1"
+                name="Квадрат "
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -2672,9 +3450,9 @@
                 data="4,0,59,34,59,34,0,0,0"
                 density="0.1"
                 fric="0.2"
-                gid="0"
-                id="0"
-                name="right"
+                gid="-1000"
+                id="1"
+                name="Квадрат "
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -2697,8 +3475,8 @@
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
-                id="0"
-                name="left"
+                id="1"
+                name="Квадрат "
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -2721,18 +3499,18 @@
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
-                id="0"
-                name="idleleftup"
+                id="1"
+                name="Квадрат "
                 rest="0.0"
                 sensor="false"/>
         </anim>
     </sprite>
     <actor
         adamp="0.0"
-        ascale="false"
+        ascale="true"
         atlasID="0"
         bodytype="2"
-        continuous="false"
+        continuous="true"
         desc=""
         eventsnippetid="97"
         fixedrot="true"
@@ -2741,12 +3519,12 @@
         id="168"
         ignoreg="true"
         inertia="1.0"
-        ldamp="1.0"
+        ldamp="0.0"
         mass="60.0"
         name="endermanBIG"
         oid="-1"
         pausable="true"
-        physicsMode="1"
+        physicsMode="0"
         rest="0.09"
         shared="false"
         sprite="169"
@@ -3016,17 +3794,7 @@
             originy="42"
             sync="false"
             version="2"
-            width="151">
-            <poly
-                data="4,0,720,1280,720,1280,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="151"/>
         <anim
             across="1"
             down="1"
@@ -3040,17 +3808,7 @@
             originy="42"
             sync="false"
             version="2"
-            width="151">
-            <poly
-                data="4,0,85,151,85,151,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="on"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="151"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -3124,17 +3882,7 @@
             originy="85"
             sync="false"
             version="2"
-            width="380">
-            <poly
-                data="4,0,170,380,170,380,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="380"/>
     </sprite>
     <music
         atlasID="0"
@@ -3152,7 +3900,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="141"
@@ -3171,7 +3919,7 @@
         rest="0.0"
         shared="false"
         sprite="255"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -3187,23 +3935,97 @@
             across="1"
             down="1"
             durations="100"
-            height="69"
+            height="72"
             id="0"
             loop="true"
             name="Анимация 0"
             numframes="1"
             originx="36"
-            originy="34"
+            originy="36"
             sync="false"
             version="2"
-            width="72">
+            width="72"/>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="2"
+        continuous="true"
+        desc=""
+        eventsnippetid="165"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="304"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="happynewyear"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="305"
+        static="false">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="305"
+        name="happynewyear"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="76"
+            id="0"
+            loop="true"
+            name="en"
+            numframes="1"
+            originx="355"
+            originy="38"
+            sync="false"
+            version="2"
+            width="710">
             <poly
-                data="4,0,350,362,350,362,0,0,0"
+                data="4,0,76,710,76,710,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
                 id="0"
                 name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="73"
+            id="1"
+            loop="true"
+            name="ru"
+            numframes="1"
+            originx="279"
+            originy="36"
+            sync="false"
+            version="2"
+            width="558">
+            <poly
+                data="4,0,73,558,73,558,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 1"
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -3268,23 +4090,13 @@
             originy="127"
             sync="false"
             version="2"
-            width="254">
-            <poly
-                data="4,0,255,254,255,254,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="254"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="1"
         continuous="true"
         desc=""
         eventsnippetid="31"
@@ -3328,23 +4140,13 @@
             originy="25"
             sync="false"
             version="2"
-            width="50">
-            <poly
-                data="4,0,2000,2000,2000,2000,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="50"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="121"
@@ -3363,7 +4165,7 @@
         rest="0.0"
         shared="false"
         sprite="218"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -3388,17 +4190,7 @@
             originy="43"
             sync="false"
             version="2"
-            width="407">
-            <poly
-                data="4,0,87,407,87,407,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="407"/>
         <anim
             across="1"
             down="1"
@@ -3412,17 +4204,7 @@
             originy="72"
             sync="false"
             version="2"
-            width="409">
-            <poly
-                data="4,0,365,1024,365,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="409"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -3556,23 +4338,13 @@
             originy="17"
             sync="false"
             version="2"
-            width="203">
-            <poly
-                data="4,0,175,1024,175,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="203"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="78"
@@ -3591,7 +4363,7 @@
         rest="0.0"
         shared="false"
         sprite="129"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -3640,23 +4412,13 @@
             originy="19"
             sync="false"
             version="2"
-            width="432">
-            <poly
-                data="4,0,96,1080,96,1080,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="432"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="79"
@@ -3675,7 +4437,7 @@
         rest="0.0"
         shared="false"
         sprite="131"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -3724,17 +4486,7 @@
             originy="23"
             sync="false"
             version="2"
-            width="324">
-            <poly
-                data="4,0,154,1080,154,1080,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="324"/>
     </sprite>
     <music
         atlasID="0"
@@ -3812,7 +4564,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="8"
@@ -3831,7 +4583,7 @@
         rest="0.0"
         shared="false"
         sprite="12"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -3872,7 +4624,7 @@
         adamp="0.0"
         ascale="false"
         atlasID="0"
-        bodytype="2"
+        bodytype="1"
         continuous="false"
         desc=""
         eventsnippetid="84"
@@ -3991,26 +4743,16 @@
             across="1"
             down="1"
             durations="100"
-            height="50"
+            height="87"
             id="0"
             loop="true"
             name="Анимация 0"
             numframes="1"
             originx="25"
-            originy="25"
+            originy="43"
             sync="false"
             version="2"
-            width="50">
-            <poly
-                data="4,0,512,512,512,512,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="50"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -4051,18 +4793,68 @@
             across="1"
             down="1"
             durations="100"
-            height="50"
+            height="87"
             id="0"
             loop="true"
             name="Анимация 0"
             numframes="1"
             originx="25"
-            originy="25"
+            originy="43"
             sync="false"
             version="2"
-            width="50">
+            width="50"/>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="158"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="286"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="no"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="287"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="287"
+        name="no"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="135"
+            id="0"
+            loop="true"
+            name="Анимация 0"
+            numframes="1"
+            originx="67"
+            originy="67"
+            sync="false"
+            version="2"
+            width="135">
             <poly
-                data="4,0,50,50,50,50,0,0,0"
+                data="4,0,360,360,360,360,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -4071,12 +4863,36 @@
                 rest="0.0"
                 sensor="false"/>
         </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="135"
+            id="1"
+            loop="true"
+            name="empty1"
+            numframes="1"
+            originx="67"
+            originy="67"
+            sync="false"
+            version="2"
+            width="135">
+            <poly
+                data="4,0,135,135,135,135,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="empty"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="119"
@@ -4095,7 +4911,7 @@
         rest="0.0"
         shared="false"
         sprite="214"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -4163,6 +4979,66 @@
         bodytype="0"
         continuous="true"
         desc=""
+        eventsnippetid="153"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="278"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="notification"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="279"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="279"
+        name="notification"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="320"
+            id="0"
+            loop="true"
+            name="Анимация 0"
+            numframes="1"
+            originx="320"
+            originy="160"
+            sync="false"
+            version="2"
+            width="640">
+            <poly
+                data="4,0,64,128,64,128,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
+        continuous="true"
+        desc=""
         eventsnippetid="69"
         fixedrot="false"
         fric="0.2"
@@ -4204,17 +5080,7 @@
             originy="32"
             sync="false"
             version="2"
-            width="64">
-            <poly
-                data="4,0,512,512,512,512,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="pause"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="64"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -4278,17 +5144,7 @@
             originy="32"
             sync="false"
             version="2"
-            width="512">
-            <poly
-                data="4,0,130,1024,130,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="512"/>
     </sprite>
     <font
         alphabet=" !&quot;#$%&amp;&apos;()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~&#127;&#128;&#129;&#130;&#131;&#132;&#134;&#135;&#136;&#137;&#138;&#139;&#140;&#141;&#142;&#143;&#144;&#145;&#146;&#147;&#148;&#149;&#150;&#151;&#152;&#153;&#154;&#155;&#156;&#157;&#158;&#159; ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ"
@@ -4351,17 +5207,7 @@
             originy="131"
             sync="false"
             version="2"
-            width="442">
-            <poly
-                data="4,100,138,238,138,238,70,100,70"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Animation 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="442"/>
         <anim
             across="1"
             down="1"
@@ -4375,18 +5221,20 @@
             originy="131"
             sync="false"
             version="2"
-            width="442">
-            <poly
-                data="4,0,203,340,203,340,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="442"/>
     </sprite>
+    <music
+        atlasID="0"
+        desc=""
+        id="299"
+        loop="true"
+        name="plus"
+        oid="-1"
+        pan="0"
+        shared="false"
+        stream="false"
+        type="mp3"
+        volume="1"/>
     <actor
         adamp="0.0"
         ascale="false"
@@ -4426,26 +5274,16 @@
             across="1"
             down="1"
             durations="100"
-            height="50"
+            height="87"
             id="0"
             loop="true"
             name="Анимация 0"
             numframes="1"
             originx="25"
-            originy="25"
+            originy="43"
             sync="false"
             version="2"
-            width="50">
-            <poly
-                data="4,0,512,512,512,512,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="50"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -4486,32 +5324,22 @@
             across="1"
             down="1"
             durations="100"
-            height="50"
+            height="87"
             id="0"
             loop="true"
             name="Анимация 0"
             numframes="1"
             originx="25"
-            originy="25"
+            originy="43"
             sync="false"
             version="2"
-            width="50">
-            <poly
-                data="4,0,50,50,50,50,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="50"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="120"
@@ -4530,7 +5358,7 @@
         rest="0.0"
         shared="false"
         sprite="216"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -4555,17 +5383,7 @@
             originy="53"
             sync="false"
             version="2"
-            width="878">
-            <poly
-                data="4,0,106,878,106,878,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="878"/>
         <anim
             across="1"
             down="1"
@@ -4579,17 +5397,7 @@
             originy="53"
             sync="false"
             version="2"
-            width="878">
-            <poly
-                data="4,0,106,878,106,878,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="878"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -4705,6 +5513,56 @@
         volume="1"/>
     <actor
         adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="156"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="282"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="resetgame"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="283"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="283"
+        name="resetgame"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="60"
+            id="0"
+            loop="true"
+            name="Анимация 0"
+            numframes="1"
+            originx="234"
+            originy="30"
+            sync="false"
+            version="2"
+            width="469"/>
+    </sprite>
+    <actor
+        adamp="0.0"
         ascale="false"
         atlasID="0"
         bodytype="0"
@@ -4811,17 +5669,7 @@
             originy="42"
             sync="false"
             version="2"
-            width="128">
-            <poly
-                data="4,0,682,1024,682,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="128"/>
         <anim
             across="1"
             down="1"
@@ -4835,17 +5683,7 @@
             originy="42"
             sync="false"
             version="2"
-            width="128">
-            <poly
-                data="4,0,85,128,85,128,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="on"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="128"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -4909,23 +5747,13 @@
             originy="17"
             sync="false"
             version="2"
-            width="199">
-            <poly
-                data="4,0,175,1024,175,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="199"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="80"
@@ -4944,7 +5772,7 @@
         rest="0.0"
         shared="false"
         sprite="133"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -4983,23 +5811,13 @@
             originy="29"
             sync="false"
             version="2"
-            width="486">
-            <poly
-                data="4,0,131,1080,131,1080,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="486"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="81"
@@ -5018,7 +5836,7 @@
         rest="0.0"
         shared="false"
         sprite="135"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -5057,23 +5875,91 @@
             originy="23"
             sync="false"
             version="2"
-            width="324">
-            <poly
-                data="4,0,154,1080,154,1080,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="324"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="152"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="276"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="saving"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="277"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="1"
+        defaultAnimation="1"
+        desc=""
+        id="277"
+        name="saving"
+        readable="false"
+        shared="false">
+        <anim
+            across="3"
+            down="3"
+            durations="100,100,100,100,100,100,100,100,100"
+            height="111"
+            id="0"
+            loop="true"
+            name="saving"
+            numframes="9"
+            originx="18"
+            originy="18"
+            sync="false"
+            version="2"
+            width="111"/>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="37"
+            id="1"
+            loop="true"
+            name="off"
+            numframes="1"
+            originx="18"
+            originy="18"
+            sync="false"
+            version="2"
+            width="37"/>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="37"
+            id="2"
+            loop="true"
+            name="error"
+            numframes="1"
+            originx="18"
+            originy="18"
+            sync="false"
+            version="2"
+            width="37"/>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="47"
@@ -5092,7 +5978,7 @@
         rest="0.0"
         shared="false"
         sprite="73"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -5153,6 +6039,18 @@
                 sensor="false"/>
         </anim>
     </sprite>
+    <music
+        atlasID="0"
+        desc=""
+        id="288"
+        loop="true"
+        name="set"
+        oid="-1"
+        pan="0"
+        shared="false"
+        stream="false"
+        type="mp3"
+        volume="1"/>
     <actor
         adamp="0.0"
         ascale="true"
@@ -5181,8 +6079,8 @@
     </actor>
     <sprite
         atlasID="0"
-        default="0"
-        defaultAnimation="0"
+        default="2"
+        defaultAnimation="2"
         desc=""
         id="75"
         name="setgreenbckgrnd"
@@ -5193,9 +6091,9 @@
             down="1"
             durations="100"
             height="111"
-            id="0"
+            id="1"
             loop="true"
-            name="Анимация 0"
+            name="equipru"
             numframes="1"
             originx="185"
             originy="55"
@@ -5208,7 +6106,55 @@
                 fric="0.2"
                 gid="-1000"
                 id="0"
-                name="Анимация 0"
+                name="equipru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="2"
+            loop="true"
+            name="equipen"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipen"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="3"
+            loop="true"
+            name="equipped"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipped"
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -5255,7 +6201,7 @@
             height="111"
             id="0"
             loop="true"
-            name="Анимация 0"
+            name="buy"
             numframes="1"
             originx="185"
             originy="55"
@@ -5269,6 +6215,78 @@
                 gid="-1000"
                 id="0"
                 name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="1"
+            loop="true"
+            name="equipru"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="2"
+            loop="true"
+            name="equipen"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipen"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="3"
+            loop="true"
+            name="equipped"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipped"
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -5321,23 +6339,13 @@
             originy="140"
             sync="false"
             version="2"
-            width="272">
-            <poly
-                data="4,0,300,300,300,300,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="272"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="22"
@@ -5356,7 +6364,7 @@
         rest="0.0"
         shared="false"
         sprite="32"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -5381,17 +6389,7 @@
             originy="51"
             sync="false"
             version="2"
-            width="380">
-            <poly
-                data="4,0,102,380,102,380,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="380"/>
         <anim
             across="1"
             down="1"
@@ -5405,17 +6403,7 @@
             originy="45"
             sync="false"
             version="2"
-            width="384">
-            <poly
-                data="4,0,233,1024,233,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="384"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -5459,7 +6447,7 @@
             height="111"
             id="0"
             loop="true"
-            name="Анимация 0"
+            name="buy"
             numframes="1"
             originx="185"
             originy="55"
@@ -5473,6 +6461,78 @@
                 gid="-1000"
                 id="0"
                 name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="1"
+            loop="true"
+            name="equipru"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="2"
+            loop="true"
+            name="equipen"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipen"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="111"
+            id="3"
+            loop="true"
+            name="equipped"
+            numframes="1"
+            originx="185"
+            originy="55"
+            sync="false"
+            version="2"
+            width="370">
+            <poly
+                data="4,0,111,370,111,370,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="equipped"
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -5525,17 +6585,7 @@
             originy="85"
             sync="false"
             version="2"
-            width="380">
-            <poly
-                data="4,0,363,687,363,687,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="380"/>
         <anim
             across="1"
             down="1"
@@ -5549,23 +6599,13 @@
             originy="85"
             sync="false"
             version="2"
-            width="380">
-            <poly
-                data="4,0,170,380,170,380,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="380"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="42"
@@ -5584,7 +6624,7 @@
         rest="0.0"
         shared="false"
         sprite="63"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -5633,23 +6673,13 @@
             originy="42"
             sync="false"
             version="2"
-            width="337">
-            <poly
-                data="4,0,259,1024,259,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="337"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="45"
@@ -5668,7 +6698,7 @@
         rest="0.0"
         shared="false"
         sprite="69"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -5717,17 +6747,7 @@
             originy="43"
             sync="false"
             version="2"
-            width="286">
-            <poly
-                data="4,0,311,1024,311,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="286"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -5853,7 +6873,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="138"
@@ -5872,7 +6892,7 @@
         rest="0.0"
         shared="false"
         sprite="249"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -5897,17 +6917,7 @@
             originy="109"
             sync="false"
             version="2"
-            width="1328">
-            <poly
-                data="4,0,437,2656,437,2656,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="1328"/>
         <anim
             across="1"
             down="1"
@@ -5921,17 +6931,7 @@
             originy="95"
             sync="false"
             version="2"
-            width="1024">
-            <poly
-                data="4,0,190,1024,190,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="1024"/>
     </sprite>
     <music
         atlasID="0"
@@ -5949,7 +6949,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="135"
@@ -5968,7 +6968,7 @@
         rest="0.0"
         shared="false"
         sprite="247"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -5984,32 +6984,36 @@
             across="1"
             down="1"
             durations="100"
-            height="104"
+            height="203"
             id="0"
             loop="true"
-            name="Анимация 0"
+            name="en"
             numframes="1"
-            originx="164"
-            originy="52"
+            originx="316"
+            originy="101"
             sync="false"
             version="2"
-            width="328">
-            <poly
-                data="4,0,208,656,208,656,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="633"/>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="203"
+            id="1"
+            loop="true"
+            name="ru"
+            numframes="1"
+            originx="316"
+            originy="101"
+            sync="false"
+            version="2"
+            width="633"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="133"
@@ -6028,7 +7032,7 @@
         rest="0.0"
         shared="false"
         sprite="243"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -6053,17 +7057,7 @@
             originy="11"
             sync="false"
             version="2"
-            width="311">
-            <poly
-                data="4,0,22,311,22,311,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="311"/>
         <anim
             across="1"
             down="1"
@@ -6077,23 +7071,13 @@
             originy="22"
             sync="false"
             version="2"
-            width="322">
-            <poly
-                data="4,0,140,1024,140,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="322"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="98"
@@ -6112,7 +7096,7 @@
         rest="0.0"
         shared="false"
         sprite="171"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -6177,7 +7161,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="128"
@@ -6196,7 +7180,7 @@
         rest="0.0"
         shared="false"
         sprite="232"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -6261,7 +7245,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="139"
@@ -6280,7 +7264,7 @@
         rest="0.0"
         shared="false"
         sprite="251"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -6305,17 +7289,7 @@
             originy="218"
             sync="false"
             version="2"
-            width="1412">
-            <poly
-                data="4,0,873,2824,873,2824,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="1412"/>
         <anim
             across="1"
             down="1"
@@ -6329,23 +7303,13 @@
             originy="159"
             sync="false"
             version="2"
-            width="1024">
-            <poly
-                data="4,0,318,1024,318,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="1024"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="140"
@@ -6364,7 +7328,7 @@
         rest="0.0"
         shared="false"
         sprite="253"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -6389,23 +7353,77 @@
             originy="30"
             sync="false"
             version="2"
-            width="413">
-            <poly
-                data="4,0,61,413,61,413,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="413"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="154"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="280"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="text5"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="281"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="281"
+        name="text5"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="76"
+            id="0"
+            loop="true"
+            name="en"
+            numframes="1"
+            originx="287"
+            originy="38"
+            sync="false"
+            version="2"
+            width="575"/>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="123"
+            id="1"
+            loop="true"
+            name="ru"
+            numframes="1"
+            originx="300"
+            originy="61"
+            sync="false"
+            version="2"
+            width="600"/>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="101"
@@ -6424,7 +7442,7 @@
         rest="0.0"
         shared="false"
         sprite="177"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -6533,17 +7551,7 @@
             originy="0"
             sync="false"
             version="2"
-            width="525">
-            <poly
-                data="4,0,102,525,102,525,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Loading-03-10-2024"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="525"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -6593,23 +7601,13 @@
             originy="0"
             sync="false"
             version="2"
-            width="847">
-            <poly
-                data="4,0,85,847,85,847,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Loading-03-10-2024"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="847"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="99"
@@ -6628,7 +7626,7 @@
         rest="0.0"
         shared="false"
         sprite="173"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -6693,7 +7691,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="100"
@@ -6712,7 +7710,7 @@
         rest="0.0"
         shared="false"
         sprite="175"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -6821,17 +7819,7 @@
             originy="39"
             sync="false"
             version="2"
-            width="70">
-            <poly
-                data="4,0,426,376,426,376,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="70"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -6881,17 +7869,7 @@
             originy="10"
             sync="false"
             version="2"
-            width="70">
-            <poly
-                data="4,0,20,122,20,122,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="70"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -6941,24 +7919,14 @@
             originy="10"
             sync="false"
             version="2"
-            width="70">
-            <poly
-                data="4,0,153,126,153,126,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="70"/>
     </sprite>
     <actor
         adamp="0.0"
-        ascale="false"
+        ascale="true"
         atlasID="0"
         bodytype="2"
-        continuous="false"
+        continuous="true"
         desc=""
         eventsnippetid="110"
         fixedrot="true"
@@ -6967,12 +7935,12 @@
         id="195"
         ignoreg="true"
         inertia="1.0"
-        ldamp="1.0"
+        ldamp="0.0"
         mass="60.0"
         name="tvman"
         oid="-1"
         pausable="true"
-        physicsMode="1"
+        physicsMode="0"
         rest="0.09"
         shared="false"
         sprite="196"
@@ -7136,10 +8104,10 @@
     </sprite>
     <actor
         adamp="0.0"
-        ascale="false"
+        ascale="true"
         atlasID="0"
         bodytype="2"
-        continuous="false"
+        continuous="true"
         desc=""
         eventsnippetid="112"
         fixedrot="true"
@@ -7153,7 +8121,7 @@
         name="tvmanBIG"
         oid="-1"
         pausable="true"
-        physicsMode="1"
+        physicsMode="0"
         rest="0.09"
         shared="false"
         sprite="200"
@@ -7439,7 +8407,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="14"
@@ -7458,7 +8426,7 @@
         rest="0.0"
         shared="false"
         sprite="21"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -7474,26 +8442,16 @@
             across="1"
             down="1"
             durations="100"
-            height="45"
+            height="48"
             id="0"
             loop="true"
             name="Animation 0"
             numframes="1"
-            originx="56"
-            originy="22"
+            originx="36"
+            originy="24"
             sync="false"
             version="2"
-            width="113">
-            <poly
-                data="4,0,45,113,45,113,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Animation 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="73"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -7567,23 +8525,13 @@
             originy="94"
             sync="false"
             version="2"
-            width="193">
-            <poly
-                data="4,0,3768,3864,3768,3864,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="vm2_new"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="193"/>
     </sprite>
     <actor
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="28"
@@ -7602,7 +8550,7 @@
         rest="0.0"
         shared="false"
         sprite="38"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -7627,17 +8575,7 @@
             originy="32"
             sync="false"
             version="2"
-            width="298">
-            <poly
-                data="4,0,65,298,65,298,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="298"/>
         <anim
             across="1"
             down="1"
@@ -7651,17 +8589,7 @@
             originy="0"
             sync="false"
             version="2"
-            width="307">
-            <poly
-                data="4,0,233,1024,233,1024,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
+            width="307"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -7787,7 +8715,57 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="157"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="284"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="yes"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="285"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="285"
+        name="yes"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="135"
+            id="0"
+            loop="true"
+            name="Анимация 0"
+            numframes="1"
+            originx="78"
+            originy="67"
+            sync="false"
+            version="2"
+            width="156"/>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="117"
@@ -7806,7 +8784,7 @@
         rest="0.0"
         shared="false"
         sprite="210"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -7871,7 +8849,7 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="118"
@@ -7890,7 +8868,7 @@
         rest="0.0"
         shared="false"
         sprite="212"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -7989,7 +8967,7 @@
         <anim
             across="3"
             down="3"
-            durations="90,90,90,90,100,100,100"
+            durations="85,85,85,85,85,85,85"
             height="204"
             id="0"
             loop="true"
@@ -8013,7 +8991,7 @@
         <anim
             across="3"
             down="3"
-            durations="90,90,90,90,100,90,100"
+            durations="85,85,85,85,85,85,85"
             height="204"
             id="1"
             loop="true"

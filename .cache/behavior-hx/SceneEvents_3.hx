@@ -65,6 +65,17 @@ import com.stencyl.graphics.shaders.BloomShader;
 class SceneEvents_3 extends SceneScript
 {
 	
+	/* ========================= When Drawing ========================= */
+	public function _event_Drawing(g:G, x:Float, y:Float):Void
+	{
+		if(wrapper.enabled && true)
+		{
+			if(((Engine.engine.getGameAttribute("devmode") : Bool) == true))
+			{
+				g.drawString("" + Engine.engine.getGameAttribute("skinsh"), 1125, 495);
+			}
+		}
+	}
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
@@ -76,6 +87,7 @@ class SceneEvents_3 extends SceneScript
 	{
 		
 		
+		addListener(engine.whenDrawing, _event_Drawing);
 		
 	}
 	

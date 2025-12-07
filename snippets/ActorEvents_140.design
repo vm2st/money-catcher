@@ -687,7 +687,7 @@
                 <draw-text comment="false" x="0" y="0">
                     <get-game-val-19 comment="false" id="0" x="0" y="0"/>
                     <int id="1" val="27"/>
-                    <int id="2" val="-40"/>
+                    <int id="2" val="15"/>
                 </draw-text>
             </group>
         </draw>

@@ -72,6 +72,21 @@ class ActorEvents_246 extends ActorScript
 			openURLInBrowser("https://t.me/MoneyCatcherGame");
 		}
 	}
+	/* ======================== When Updating ========================= */
+	public function _event_Updating(elapsedTime:Float):Void
+	{
+		if(wrapper.enabled && true)
+		{
+			if(((Engine.engine.getGameAttribute("language") : String) == "ru"))
+			{
+				actor.setAnimation("ru");
+			}
+			if(((Engine.engine.getGameAttribute("language") : String) == "en"))
+			{
+				actor.setAnimation("en");
+			}
+		}
+	}
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
@@ -84,6 +99,7 @@ class ActorEvents_246 extends ActorScript
 		
 		
 		addListener(actor.whenMousedOver, _event_OnActor);
+		addListener(actor.whenUpdated, _event_Updating);
 		
 	}
 	

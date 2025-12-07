@@ -69,6 +69,7 @@ class ActorEvents_233 extends ActorScript
 	public var _angleDeg:Float;
 	public var _deg:Float;
 	public var _hit:Bool;
+	public var _r:Bool;
 	
 	/* ========================= When Drawing ========================= */
 	public function _event_Drawing(g:G, x:Float, y:Float):Void
@@ -77,7 +78,7 @@ class ActorEvents_233 extends ActorScript
 		{
 			if(((Engine.engine.getGameAttribute("devmode") : Bool) == true))
 			{
-				g.drawString("" + _deg, 50, 50);
+				g.drawString("" + _angleDeg, 50, 50);
 			}
 		}
 	}
@@ -91,11 +92,34 @@ class ActorEvents_233 extends ActorScript
 			_diffY = ((Engine.engine.getGameAttribute("playerY") : Float) - actor.getY());
 			_angleDeg = Utils.DEG * (Math.atan2(_diffY, _diffX));
 			actor.setVelocity(_angleDeg, 12);
+			if((_deg >= 180))
+			{
+				_angleDeg = 179;
+			}
+			
+			if((_deg <= -180))
+			{
+				_angleDeg = -179;
+			}
+			if((_angleDeg >= 179))
+			{
+				actor.setAnimation("l");
+				_r = false;
+			}
+			else
+			{
+				_r = true;
+			}
 			if((((_angleDeg >= -180) && (_angleDeg <= -90)) || ((_angleDeg <= 180) && (_angleDeg >= 90))))
 			{
 				actor.setAnimation("l");
+				_r = false;
 			}
 			else
+			{
+				_r = true;
+			}
+			if((_r == true))
 			{
 				actor.setAnimation("r");
 			}
@@ -113,7 +137,7 @@ class ActorEvents_233 extends ActorScript
 			}
 			if(((Engine.engine.getGameAttribute("hit") : Bool) == true))
 			{
-				if((((Engine.engine.getGameAttribute("anglezombie") : Float) > 0) && ((Engine.engine.getGameAttribute("anglezombie") : Float) < 90)))
+				if((((Engine.engine.getGameAttribute("anglezombie") : Float) >= 0) && ((Engine.engine.getGameAttribute("anglezombie") : Float) <= 90)))
 				{
 					if((actor.getX() > 1180))
 					{
@@ -124,7 +148,7 @@ class ActorEvents_233 extends ActorScript
 						actor.setX((actor.getX() - 20));
 					}
 				}
-				if((((Engine.engine.getGameAttribute("anglezombie") : Float) > 90) && ((Engine.engine.getGameAttribute("anglezombie") : Float) < 180)))
+				if((((Engine.engine.getGameAttribute("anglezombie") : Float) >= 90) && ((Engine.engine.getGameAttribute("anglezombie") : Float) <= 180)))
 				{
 					if((actor.getX() < 30))
 					{
@@ -135,7 +159,7 @@ class ActorEvents_233 extends ActorScript
 						actor.setX((actor.getX() + 20));
 					}
 				}
-				if((((Engine.engine.getGameAttribute("anglezombie") : Float) > 0) && ((Engine.engine.getGameAttribute("anglezombie") : Float) < 180)))
+				if((((Engine.engine.getGameAttribute("anglezombie") : Float) >= 0) && ((Engine.engine.getGameAttribute("anglezombie") : Float) <= 180)))
 				{
 					if((actor.getY() > 630))
 					{
@@ -146,7 +170,7 @@ class ActorEvents_233 extends ActorScript
 						actor.setY((actor.getY() - 20));
 					}
 				}
-				if((((Engine.engine.getGameAttribute("anglezombie") : Float) > -180) && ((Engine.engine.getGameAttribute("anglezombie") : Float) < 0)))
+				if((((Engine.engine.getGameAttribute("anglezombie") : Float) >= -180) && ((Engine.engine.getGameAttribute("anglezombie") : Float) <= 0)))
 				{
 					if((actor.getY() < 30))
 					{
@@ -156,6 +180,11 @@ class ActorEvents_233 extends ActorScript
 					{
 						actor.setY((actor.getY() + 20));
 					}
+				}
+				if(((Engine.engine.getGameAttribute("anglezombie") : Float) >= 180))
+				{
+					actor.setX((actor.getX() + 20));
+					actor.setAnimation("l");
 				}
 			}
 		}
@@ -265,12 +294,16 @@ class ActorEvents_233 extends ActorScript
 		_deg = 0.0;
 		nameMap.set("hit", "_hit");
 		_hit = false;
+		nameMap.set("r", "_r");
+		_r = false;
 		
 	}
 	
 	override public function init()
 	{
-		
+		/* ======================== When Creating ========================= */
+		actor.setX(randomInt(10, 1260));
+		actor.setY(randomInt(10, 690));
 		
 		addListener(actor.whenDrawing, _event_Drawing);
 		addListener(actor.whenUpdated, _event_Updating);

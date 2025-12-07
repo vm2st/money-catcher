@@ -73,6 +73,21 @@ class ActorEvents_207 extends ActorScript
 			{
 				recycleActor(actor);
 			}
+			if(!((Engine.engine.getGameAttribute("skin") : Float) == 0))
+			{
+				if(((Engine.engine.getGameAttribute("language") : String) == "ru"))
+				{
+					actor.setAnimation("equipru");
+				}
+				if(((Engine.engine.getGameAttribute("language") : String) == "en"))
+				{
+					actor.setAnimation("equipen");
+				}
+			}
+			else
+			{
+				actor.setAnimation("equipped");
+			}
 		}
 	}
 	/* =========================== On Actor =========================== */
@@ -80,29 +95,15 @@ class ActorEvents_207 extends ActorScript
 	{
 		if(wrapper.enabled && 5 == mouseState)
 		{
-			if(((Engine.engine.getGameAttribute("coins") : Float) > 49.9))
+			if(!((Engine.engine.getGameAttribute("skin") : Float) == 0))
 			{
-				if(!((Engine.engine.getGameAttribute("skin") : Float) == 0))
-				{
-					Engine.engine.setGameAttribute("skin", 0);
-				}
-				else
-				{
-					playSound(getSound(103));
-					createRecycledActor(getActorType(209), 427, 565, Script.FRONT);
-					return;
-				}
-				Engine.engine.setGameAttribute("coins", ((Engine.engine.getGameAttribute("coins") : Float) - 50));
-				playSound(getSound(154));
+				Engine.engine.setGameAttribute("skin", 0);
+				actor.setAnimation("equipped");
 			}
 			else
 			{
 				playSound(getSound(103));
-				createRecycledActor(getActorType(213), 432, 325, Script.FRONT);
-				if(((Engine.engine.getGameAttribute("skin") : Float) == 0))
-				{
-					createRecycledActor(getActorType(209), 427, 565, Script.FRONT);
-				}
+				createRecycledActor(getActorType(209), 427, 565, Script.FRONT);
 			}
 		}
 	}

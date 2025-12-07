@@ -27,7 +27,7 @@
                                         <set-game-val-26 comment="false" x="0" y="0">
                                             <minus comment="false" id="0" x="0" y="0">
                                                 <get-game-val-26 comment="false" id="0" x="0" y="0"/>
-                                                <int id="1" val="0.0099"/>
+                                                <int id="1" val="0.00999"/>
                                             </minus>
                                         </set-game-val-26>
                                         <break comment="false" x="0" y="0"/>
@@ -67,7 +67,7 @@
                                         <set-game-val-27 comment="false" x="0" y="0">
                                             <minus comment="false" id="0" x="0" y="0">
                                                 <get-game-val-27 comment="false" id="0" x="0" y="0"/>
-                                                <int id="1" val="0.0099"/>
+                                                <int id="1" val="0.00999"/>
                                             </minus>
                                         </set-game-val-27>
                                         <break comment="false" x="0" y="0"/>
@@ -107,7 +107,7 @@
                                         <set-game-val-28 comment="false" x="0" y="0">
                                             <minus comment="false" id="0" x="0" y="0">
                                                 <get-game-val-28 comment="false" id="0" x="0" y="0"/>
-                                                <int id="1" val="0.0099"/>
+                                                <int id="1" val="0.00999"/>
                                             </minus>
                                         </set-game-val-28>
                                         <break comment="false" x="0" y="0"/>
@@ -207,27 +207,6 @@
             </group>
         </draw>
     </group>
-    <group eventID="4" id="0">
-        <init comment="false" x="15" y="15">
-            <group eventID="4" id="-1">
-                <if comment="false" x="0" y="0">
-                    <group eventID="4" id="-1">
-                        <create-actor-on-layer comment="false" x="0" y="0">
-                            <actortype eid="233" id="0"/>
-                            <int id="1" val="105"/>
-                            <int id="2" val="320"/>
-                            <int id="3" val="0"/>
-                            <int id="4" val="3"/>
-                        </create-actor-on-layer>
-                    </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-game-val-50 comment="false" id="0" x="0" y="0"/>
-                        <false comment="false" id="1" x="0" y="0"/>
-                    </eq>
-                </if>
-            </group>
-        </init>
-    </group>
     <group eventID="5" id="0">
         <step comment="false" x="15" y="15">
             <group eventID="5" id="-1">
@@ -261,5 +240,107 @@
                 </if>
             </group>
         </step>
+    </group>
+    <group eventID="6" id="0">
+        <event-periodic comment="false" x="15" y="15">
+            <group eventID="6" id="-1">
+                <set-val-7-10 comment="false" x="0" y="0">
+                    <randint comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <int id="1" val="10"/>
+                    </randint>
+                </set-val-7-10>
+                <if comment="false" x="0" y="0">
+                    <group eventID="6" id="-1">
+                        <create-actor3 comment="false" x="0" y="0">
+                            <actortype eid="300" id="0"/>
+                            <randint comment="false" id="1" x="0" y="0">
+                                <int id="0" val="30"/>
+                                <int id="1" val="1250"/>
+                            </randint>
+                            <randint comment="false" id="2" x="0" y="0">
+                                <int id="0" val="30"/>
+                                <int id="1" val="674"/>
+                            </randint>
+                            <int id="3" val="0"/>
+                        </create-actor3>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <or comment="false" id="0" x="0" y="0">
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-7-10 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </eq>
+                            <eq comment="false" id="1" x="0" y="0">
+                                <get-val-7-10 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="2"/>
+                            </eq>
+                        </or>
+                        <or comment="false" id="1" x="0" y="0">
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-7-10 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="3"/>
+                            </eq>
+                            <or comment="false" id="1" x="0" y="0">
+                                <eq comment="false" id="0" x="0" y="0">
+                                    <get-val-7-10 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="4"/>
+                                </eq>
+                                <eq comment="false" id="1" x="0" y="0">
+                                    <get-val-7-10 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="5"/>
+                                </eq>
+                            </or>
+                        </or>
+                    </or>
+                </if>
+            </group>
+            <int id="0" val="2"/>
+        </event-periodic>
+    </group>
+    <group eventID="7" id="0">
+        <event-periodic comment="false" x="15" y="15">
+            <group eventID="7" id="-1">
+                <set-val-7-10 comment="false" x="0" y="0">
+                    <randint comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <int id="1" val="10"/>
+                    </randint>
+                </set-val-7-10>
+                <if comment="false" x="0" y="0">
+                    <group eventID="7" id="-1">
+                        <create-actor3 comment="false" x="0" y="0">
+                            <actortype eid="295" id="0"/>
+                            <randint comment="false" id="1" x="0" y="0">
+                                <int id="0" val="30"/>
+                                <int id="1" val="1250"/>
+                            </randint>
+                            <randint comment="false" id="2" x="0" y="0">
+                                <int id="0" val="30"/>
+                                <int id="1" val="674"/>
+                            </randint>
+                            <int id="3" val="0"/>
+                        </create-actor3>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <or comment="false" id="0" x="0" y="0">
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-7-10 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </eq>
+                            <eq comment="false" id="1" x="0" y="0">
+                                <get-val-7-10 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="2"/>
+                            </eq>
+                        </or>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <get-val-7-10 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="3"/>
+                        </eq>
+                    </or>
+                </if>
+            </group>
+            <int id="0" val="2"/>
+        </event-periodic>
     </group>
 </groups>

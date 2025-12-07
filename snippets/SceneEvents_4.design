@@ -3,6 +3,9 @@
     <group eventID="1" id="0">
         <init comment="false" x="15" y="15">
             <group eventID="1" id="-1">
+                <set-game-val-38 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-38>
                 <set-game-val-22 comment="false" x="0" y="0">
                     <false comment="false" id="0" x="0" y="0"/>
                 </set-game-val-22>

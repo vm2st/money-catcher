@@ -50,15 +50,15 @@
     iosLaunchScaleMode="0"
     kit="false"
     lockURL=""
-    maxScaleAndroid="4x"
-    maxScaleDesktop="4x"
-    maxScaleIOS="4x"
-    maxScaleWeb="4x"
+    maxScaleAndroid="3x"
+    maxScaleDesktop="3x"
+    maxScaleIOS="3x"
+    maxScaleWeb="3x"
     multitouch="true"
     name="Money Catcher"
     openflExtras=""
     orientation="1"
-    physicsMode="1"
+    physicsMode="0"
     pixelsnap="false"
     preloaderClass="com.stencyl.loader.StencylPreloader"
     preloaderstyle="0"
@@ -116,35 +116,35 @@
         <scale enabled="true" name="1.5x"/>
         <scale enabled="true" name="2x"/>
         <scale enabled="true" name="3x"/>
-        <scale enabled="true" name="4x"/>
+        <scale enabled="false" name="4x"/>
     </projectScales>
     <webScales>
         <scale enabled="true" name="1x"/>
         <scale enabled="true" name="1.5x"/>
         <scale enabled="true" name="2x"/>
         <scale enabled="true" name="3x"/>
-        <scale enabled="true" name="4x"/>
+        <scale enabled="false" name="4x"/>
     </webScales>
     <desktopScales>
         <scale enabled="true" name="1x"/>
         <scale enabled="true" name="1.5x"/>
         <scale enabled="true" name="2x"/>
         <scale enabled="true" name="3x"/>
-        <scale enabled="true" name="4x"/>
+        <scale enabled="false" name="4x"/>
     </desktopScales>
     <iOSScales>
         <scale enabled="true" name="1x"/>
         <scale enabled="true" name="1.5x"/>
         <scale enabled="true" name="2x"/>
         <scale enabled="true" name="3x"/>
-        <scale enabled="true" name="4x"/>
+        <scale enabled="false" name="4x"/>
     </iOSScales>
     <androidScales>
         <scale enabled="true" name="1x"/>
         <scale enabled="true" name="1.5x"/>
         <scale enabled="true" name="2x"/>
         <scale enabled="true" name="3x"/>
-        <scale enabled="true" name="4x"/>
+        <scale enabled="false" name="4x"/>
     </androidScales>
     <folders>
         <group desc="" id="0" name="shop" type="scene">
@@ -154,6 +154,8 @@
         </group>
         <group desc="" id="1" name="player" type="actortype">
             <r id="14"/>
+            <r id="39"/>
+            <r id="41"/>
             <r id="43"/>
             <r id="45"/>
             <r id="47"/>
@@ -205,6 +207,7 @@
             <r id="213"/>
             <r id="231"/>
             <r id="254"/>
+            <r id="302"/>
         </group>
         <group desc="" id="3" name="load n save" type="actortype">
             <r id="124"/>
@@ -218,14 +221,18 @@
     <packs/>
     <groups>
         <group desc="" id="4" name="NPC"/>
+        <group desc="" id="5" name="Obstacles"/>
     </groups>
     <cgroups>
         <cgroup g1="0" g2="0"/>
         <cgroup g1="0" g2="1"/>
         <cgroup g1="0" g2="4"/>
+        <cgroup g1="0" g2="5"/>
         <cgroup g1="1" g2="1"/>
         <cgroup g1="1" g2="3"/>
+        <cgroup g1="1" g2="5"/>
         <cgroup g1="3" g2="3"/>
+        <cgroup g1="4" g2="5"/>
     </cgroups>
     <input>
         <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
@@ -276,7 +283,6 @@
         <number cid="-1" id="34" name="y" save="true" value="310.0"/>
         <boolean cid="-1" id="35" name="bigisbuy" save="true" value="false"/>
         <boolean cid="-1" id="36" name="bigisdisabled01S" save="true" value="false"/>
-        <boolean cid="-1" id="37" name="menu music is playing" save="true" value="false"/>
         <number cid="-1" id="38" name="skinsh" save="true" value="0.0"/>
         <number cid="-1" id="39" name="skin" save="true" value="0.0"/>
         <boolean cid="-1" id="40" name="notenoughtcoins" save="true" value="false"/>
@@ -293,6 +299,19 @@
         <boolean cid="-1" id="52" name="hit" save="true" value="false"/>
         <boolean cid="-1" id="53" name="izdrgng" save="true" value="false"/>
         <boolean cid="-1" id="54" name="disabletransitions" save="true" value="false"/>
+        <number cid="-1" id="55" name="zombieX" save="true" value="0.0"/>
+        <number cid="-1" id="56" name="zombieY" save="true" value="0.0"/>
+        <number cid="-1" id="57" name="autosave" save="true" value="30.0"/>
+        <list cid="-1" id="58" name="skins" save="true" val="list">
+            <boolean order="0" value="false"/>
+            <boolean order="1" value="false"/>
+        </list>
+        <list cid="-1" id="59" name="backgrounds" save="true" val="list">
+            <boolean order="0" value="false"/>
+            <boolean order="1" value="false"/>
+        </list>
+        <number cid="-1" id="60" name="musicpositron" save="true" value="0.0"/>
+        <boolean cid="-1" id="61" name="menu music is playing" save="true" value="false"/>
     </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
@@ -328,7 +347,7 @@
             desc=""
             dirty="true"
             id="0"
-            members="1,3,5,7,9,11,13,14,16,18,20,24,26,28,30,31,35,37,39,41,43,45,47,49,57,61,62,64,66,68,70,72,74,76,78,80,82,83,87,89,91,93,95,97,99,101,103,104,106,110,114,116,118,120,122,124,126,128,130,132,134,136,140,142,144,146,150,152,154,155,158,160,166,168,170,172,174,176,178,183,185,187,189,191,195,199,203,205,207,209,211,213,215,217,219,221,223,224,226,229,231,233,235,237,238,240,242,244,246,248,250,252,254,258,260,264"
+            members="1,3,5,7,9,11,13,14,16,18,20,24,26,28,30,31,35,37,39,41,43,45,47,49,57,61,62,64,66,68,70,72,74,76,78,80,82,83,87,89,91,93,95,97,99,101,103,104,106,110,114,116,118,120,122,124,126,128,130,132,134,136,140,142,144,146,150,152,154,155,158,160,166,168,170,172,174,176,178,183,185,187,189,191,195,199,203,205,207,209,211,213,215,217,219,221,223,224,226,229,231,233,235,237,238,240,242,244,246,248,250,252,254,258,260,264,266,268,270,272,274,276,278,280,282,284,286,288,289,295,299,300,302,304"
             name="Main Atlas"
             pvr="false"
             resize="0"

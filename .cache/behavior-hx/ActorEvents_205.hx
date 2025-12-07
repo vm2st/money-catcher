@@ -73,6 +73,28 @@ class ActorEvents_205 extends ActorScript
 			{
 				recycleActor(actor);
 			}
+			if(!((Engine.engine.getGameAttribute("skin") : Float) == 2))
+			{
+				if(((Engine.engine.getGameAttribute("skins") : Array<Dynamic>)[1] == true))
+				{
+					if(((Engine.engine.getGameAttribute("language") : String) == "ru"))
+					{
+						actor.setAnimation("equipru");
+					}
+					if(((Engine.engine.getGameAttribute("language") : String) == "en"))
+					{
+						actor.setAnimation("equipen");
+					}
+				}
+				else
+				{
+					actor.setAnimation("buy");
+				}
+			}
+			if(((Engine.engine.getGameAttribute("skin") : Float) == 2))
+			{
+				actor.setAnimation("equipped");
+			}
 		}
 	}
 	/* =========================== On Actor =========================== */
@@ -80,27 +102,32 @@ class ActorEvents_205 extends ActorScript
 	{
 		if(wrapper.enabled && 5 == mouseState)
 		{
-			if(((Engine.engine.getGameAttribute("coins") : Float) >= 50))
+			if(!((Engine.engine.getGameAttribute("skins") : Array<Dynamic>)[1] == true))
 			{
-				if(!((Engine.engine.getGameAttribute("skin") : Float) == 2))
+				if(((Engine.engine.getGameAttribute("coins") : Float) >= 50))
 				{
 					Engine.engine.setGameAttribute("skin", 2);
+					Engine.engine.setGameAttribute("coins", ((Engine.engine.getGameAttribute("coins") : Float) - 50));
+					playSound(getSound(154));
+					(Engine.engine.getGameAttribute("skins") : Array<Dynamic>)[1] = true;
+					actor.setAnimation("equipped");
 				}
 				else
 				{
 					playSound(getSound(103));
-					createRecycledActor(getActorType(209), 427, 565, Script.FRONT);
-					return;
+					createRecycledActor(getActorType(213), 432, 325, Script.FRONT);
 				}
-				Engine.engine.setGameAttribute("coins", ((Engine.engine.getGameAttribute("coins") : Float) - 50));
-				playSound(getSound(154));
 			}
 			else
 			{
-				playSound(getSound(103));
-				createRecycledActor(getActorType(213), 432, 325, Script.FRONT);
-				if(((Engine.engine.getGameAttribute("skin") : Float) == 2))
+				if(!((Engine.engine.getGameAttribute("skin") : Float) == 2))
 				{
+					Engine.engine.setGameAttribute("skin", 2);
+					actor.setAnimation("equipped");
+				}
+				else
+				{
+					playSound(getSound(103));
 					createRecycledActor(getActorType(209), 427, 565, Script.FRONT);
 				}
 			}

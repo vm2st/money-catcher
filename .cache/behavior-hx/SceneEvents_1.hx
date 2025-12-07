@@ -83,14 +83,6 @@ class SceneEvents_1 extends SceneScript
 			resumeSoundOnChannel(23);
 		}
 	}
-	/* ======================== When Updating ========================= */
-	public function _event_Updating(elapsedTime:Float):Void
-	{
-		if(wrapper.enabled && true)
-		{
-			
-		}
-	}
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
@@ -108,7 +100,6 @@ class SceneEvents_1 extends SceneScript
 		}, null);
 		
 		runLater(1000 * 0, _event_AfterNsecs, null);
-		addListener(engine.whenUpdated, _event_Updating);
 		
 	}
 	

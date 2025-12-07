@@ -67,6 +67,7 @@ class Design_9_9_BackgroundMusic extends SceneScript
 	public var _Channel:Float;
 	public var _StopChannelFirst:Bool;
 	public var _MusictoPlay:Sound;
+	public var _Position:Float;
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
@@ -77,6 +78,8 @@ class Design_9_9_BackgroundMusic extends SceneScript
 		nameMap.set("Stop Channel First", "_StopChannelFirst");
 		_StopChannelFirst = true;
 		nameMap.set("Music to Play", "_MusictoPlay");
+		nameMap.set("Position", "_Position");
+		_Position = 0.0;
 		
 	}
 	
@@ -88,6 +91,7 @@ class Design_9_9_BackgroundMusic extends SceneScript
 			stopSoundOnChannel(Std.int(_Channel));
 		}
 		loopSoundOnChannel(_MusictoPlay, Std.int(_Channel));
+		setPositionForChannel(23, Std.int((Engine.engine.getGameAttribute("musicpositron") : Float)));
 		
 		
 	}

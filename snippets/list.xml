@@ -18,11 +18,11 @@
         <blocks/>
         <events>
             <event
-                displayName="After N secs"
+                displayName="Created"
                 enabled="true"
-                id="1"
-                name="event-delay"
-                order="1"
+                id="2"
+                name="init"
+                order="2"
                 repeats="true"/>
         </events>
     </snippet>
@@ -122,25 +122,25 @@
         <blocks/>
         <events>
             <event
-                displayName="After N secs"
-                enabled="true"
-                id="1"
-                name="event-delay"
-                order="1"
-                repeats="true"/>
-            <event
-                displayName="Updating"
-                enabled="true"
-                id="2"
-                name="step"
-                order="4"
-                repeats="true"/>
-            <event
                 displayName="Created"
                 enabled="true"
                 id="3"
                 name="init"
+                order="3"
+                repeats="true"/>
+            <event
+                displayName="Drawing"
+                enabled="false"
+                id="4"
+                name="draw"
                 order="2"
+                repeats="true"/>
+            <event
+                displayName="After N secs"
+                enabled="true"
+                id="5"
+                name="event-delay"
+                order="4"
                 repeats="true"/>
         </events>
     </snippet>
@@ -262,6 +262,26 @@
             id="8"
             name="_minRght"
             order="6"/>
+        <boolean
+            default="false"
+            defaultValue="false"
+            desc=""
+            dropdown=""
+            fullname="cooldown"
+            hidden="false"
+            id="9"
+            name="_cooldown"
+            order="7"/>
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="chancered"
+            hidden="false"
+            id="10"
+            name="_chance"
+            order="8"/>
         <blocks/>
         <events>
             <event
@@ -286,18 +306,25 @@
                 order="6"
                 repeats="true"/>
             <event
-                displayName="Created"
-                enabled="true"
-                id="4"
-                name="init"
-                order="2"
-                repeats="true"/>
-            <event
                 displayName="joystick"
                 enabled="true"
                 id="5"
                 name="step"
                 order="7"
+                repeats="true"/>
+            <event
+                displayName="badcoin"
+                enabled="true"
+                id="6"
+                name="event-periodic"
+                order="8"
+                repeats="true"/>
+            <event
+                displayName="coolcoin"
+                enabled="true"
+                id="7"
+                name="event-periodic"
+                order="9"
                 repeats="true"/>
         </events>
     </snippet>
@@ -367,7 +394,7 @@
             hidden="false"
             id="2"
             name="_StopChannelFirst"
-            order="2"/>
+            order="3"/>
         <sound
             default=""
             defaultValue=""
@@ -378,6 +405,16 @@
             id="3"
             name="_MusictoPlay"
             order="0"/>
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="Position"
+            hidden="false"
+            id="4"
+            name="_Position"
+            order="2"/>
         <blocks/>
         <events>
             <event
@@ -468,35 +505,42 @@
                 enabled="true"
                 id="2"
                 name="event-collide-typetotype"
-                order="2"
+                order="3"
                 repeats="true"/>
             <event
                 displayName="Type - Type Copy Copy"
                 enabled="true"
                 id="3"
                 name="event-collide-typetotype"
-                order="3"
+                order="4"
                 repeats="true"/>
             <event
                 displayName="Type - Type Copy Copy Copy"
                 enabled="true"
                 id="4"
                 name="event-collide-typetotype"
-                order="4"
+                order="5"
                 repeats="true"/>
             <event
                 displayName="Type - Type Copy Copy Copy Copy"
                 enabled="true"
                 id="5"
                 name="event-collide-typetotype"
-                order="5"
+                order="6"
                 repeats="true"/>
             <event
                 displayName="Type - Type Copy Copy Copy Copy Copy"
                 enabled="true"
                 id="6"
                 name="event-collide-typetotype"
-                order="6"
+                order="7"
+                repeats="true"/>
+            <event
+                displayName="Created"
+                enabled="true"
+                id="7"
+                name="init"
+                order="2"
                 repeats="true"/>
         </events>
     </snippet>
@@ -954,7 +998,15 @@
         shared="false"
         type="scene">
         <blocks/>
-        <events/>
+        <events>
+            <event
+                displayName="Drawing"
+                enabled="true"
+                id="1"
+                name="draw"
+                order="1"
+                repeats="true"/>
+        </events>
     </snippet>
     <snippet
         actorid="28"
@@ -2080,13 +2132,6 @@
                 id="2"
                 name="step"
                 order="13"
-                repeats="true"/>
-            <event
-                displayName="On Actor"
-                enabled="true"
-                id="3"
-                name="event-mouse-enter-exit-actor"
-                order="2"
                 repeats="true"/>
             <event
                 displayName="On Actor"
@@ -3477,6 +3522,13 @@
                 name="event-mouse-enter-exit-actor"
                 order="2"
                 repeats="false"/>
+            <event
+                displayName="Drawing"
+                enabled="false"
+                id="3"
+                name="draw"
+                order="3"
+                repeats="true"/>
         </events>
     </snippet>
     <snippet
@@ -4228,6 +4280,16 @@
             hidden="false"
             id="7"
             name="_hit"
+            order="6"/>
+        <boolean
+            default="false"
+            defaultValue="false"
+            desc=""
+            dropdown=""
+            fullname="r"
+            hidden="false"
+            id="8"
+            name="_r"
             order="5"/>
         <blocks/>
         <events>
@@ -4236,7 +4298,7 @@
                 enabled="true"
                 id="2"
                 name="step"
-                order="3"
+                order="5"
                 repeats="false"/>
             <event
                 displayName="Drawing"
@@ -4250,28 +4312,35 @@
                 enabled="true"
                 id="4"
                 name="event-collide-actortotype"
-                order="5"
+                order="8"
                 repeats="true"/>
             <event
                 displayName="Actor - Type Copy Copy"
                 enabled="true"
                 id="6"
                 name="event-collide-actortotype"
-                order="7"
+                order="10"
                 repeats="true"/>
             <event
                 displayName="Actor - Type Copy Copy Copy Copy"
                 enabled="true"
                 id="8"
                 name="event-collide-actortotype"
-                order="9"
+                order="12"
                 repeats="true"/>
             <event
                 displayName="Every N secs"
                 enabled="true"
                 id="10"
                 name="event-periodic"
-                order="4"
+                order="7"
+                repeats="true"/>
+            <event
+                displayName="Created"
+                enabled="true"
+                id="11"
+                name="init"
+                order="6"
                 repeats="true"/>
         </events>
     </snippet>
@@ -4480,6 +4549,13 @@
                 id="1"
                 name="event-mouse-enter-exit-actor"
                 order="1"
+                repeats="true"/>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="2"
+                name="step"
+                order="2"
                 repeats="true"/>
         </events>
     </snippet>
@@ -4826,6 +4902,658 @@
                 id="3"
                 name="init"
                 order="2"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="266"
+        attachedevent="true"
+        class="scripts.ActorEvents_266"
+        classname="scripts.ActorEvents_266"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="147"
+        name="ActorEvents_266"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="true"/>
+            <event
+                displayName="Drawing"
+                enabled="true"
+                id="2"
+                name="draw"
+                order="2"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="268"
+        attachedevent="true"
+        class="scripts.ActorEvents_268"
+        classname="scripts.ActorEvents_268"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="148"
+        name="ActorEvents_268"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="true"/>
+            <event
+                displayName="On Actor"
+                enabled="true"
+                id="2"
+                name="event-mouse-enter-exit-actor"
+                order="2"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="270"
+        attachedevent="true"
+        class="scripts.ActorEvents_270"
+        classname="scripts.ActorEvents_270"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="149"
+        name="ActorEvents_270"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="true"/>
+            <event
+                displayName="On Actor"
+                enabled="true"
+                id="2"
+                name="event-mouse-enter-exit-actor"
+                order="2"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="272"
+        attachedevent="true"
+        class="scripts.ActorEvents_272"
+        classname="scripts.ActorEvents_272"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="150"
+        name="ActorEvents_272"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="true"/>
+            <event
+                displayName="On Actor"
+                enabled="true"
+                id="2"
+                name="event-mouse-enter-exit-actor"
+                order="2"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="274"
+        attachedevent="true"
+        class="scripts.ActorEvents_274"
+        classname="scripts.ActorEvents_274"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="151"
+        name="ActorEvents_274"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="2"
+                name="step"
+                order="2"
+                repeats="true"/>
+            <event
+                displayName="On Actor"
+                enabled="true"
+                id="3"
+                name="event-mouse-enter-exit-actor"
+                order="3"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="276"
+        attachedevent="true"
+        class="scripts.ActorEvents_276"
+        classname="scripts.ActorEvents_276"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="152"
+        name="ActorEvents_276"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <boolean
+            default="false"
+            defaultValue="false"
+            desc=""
+            dropdown=""
+            fullname="startmusic"
+            hidden="false"
+            id="1"
+            name="_startmusic"
+            order="0"/>
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="true"/>
+            <event
+                displayName="Every N secs"
+                enabled="true"
+                id="2"
+                name="event-periodic"
+                order="2"
+                repeats="true"/>
+            <event
+                displayName="Created"
+                enabled="true"
+                id="3"
+                name="init"
+                order="3"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="278"
+        attachedevent="true"
+        class="scripts.ActorEvents_278"
+        classname="scripts.ActorEvents_278"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="153"
+        name="ActorEvents_278"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="280"
+        attachedevent="true"
+        class="scripts.ActorEvents_280"
+        classname="scripts.ActorEvents_280"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="154"
+        name="ActorEvents_280"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        attachedevent="false"
+        class="scripts.Design_155_155_BackgroundMusic"
+        classname="scripts.Design_155_155_BackgroundMusic"
+        desc="Loop music when the scene is loaded."
+        description="Loop music when the scene is loaded."
+        design="true"
+        drawOrder="0"
+        id="155"
+        name="New Background Music"
+        oid="-1"
+        package="scripts"
+        shared="false"
+        type="scene">
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc="The channel at which to play the music. Must be between 0 and 31 inclusive."
+            dropdown=""
+            fullname="Channel"
+            hidden="false"
+            id="1"
+            name="_Channel"
+            order="1"/>
+        <boolean
+            default="true"
+            defaultValue="true"
+            desc="If selected, the sound on the selected channel will be stopped before the music starts."
+            dropdown=""
+            fullname="Stop Channel First"
+            hidden="false"
+            id="2"
+            name="_StopChannelFirst"
+            order="2"/>
+        <sound
+            default=""
+            defaultValue=""
+            desc="The background music to play."
+            dropdown=""
+            fullname="Music to Play"
+            hidden="false"
+            id="3"
+            name="_MusictoPlay"
+            order="0"/>
+        <blocks/>
+        <events>
+            <event
+                displayName="Created"
+                enabled="true"
+                id="2"
+                name="init"
+                order="2"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="282"
+        attachedevent="true"
+        class="scripts.ActorEvents_282"
+        classname="scripts.ActorEvents_282"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="156"
+        name="ActorEvents_282"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="On Actor"
+                enabled="true"
+                id="1"
+                name="event-mouse-enter-exit-actor"
+                order="1"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="284"
+        attachedevent="true"
+        class="scripts.ActorEvents_284"
+        classname="scripts.ActorEvents_284"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="157"
+        name="ActorEvents_284"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="On Actor"
+                enabled="true"
+                id="1"
+                name="event-mouse-enter-exit-actor"
+                order="1"
+                repeats="true"/>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="2"
+                name="step"
+                order="3"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="286"
+        attachedevent="true"
+        class="scripts.ActorEvents_286"
+        classname="scripts.ActorEvents_286"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="158"
+        name="ActorEvents_286"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <boolean
+            default="false"
+            defaultValue="false"
+            desc=""
+            dropdown=""
+            fullname="ifgesjuihgdib"
+            hidden="false"
+            id="1"
+            name="_ifgesjuihgdib"
+            order="0"/>
+        <blocks/>
+        <events>
+            <event
+                displayName="On Actor"
+                enabled="true"
+                id="1"
+                name="event-mouse-enter-exit-actor"
+                order="1"
+                repeats="true"/>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="2"
+                name="step"
+                order="3"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="289"
+        attachedevent="true"
+        class="scripts.ActorEvents_289"
+        classname="scripts.ActorEvents_289"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="159"
+        name="ActorEvents_289"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet
+        actorid="295"
+        attachedevent="true"
+        class="scripts.ActorEvents_295"
+        classname="scripts.ActorEvents_295"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="162"
+        name="ActorEvents_295"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="coins"
+            hidden="false"
+            id="1"
+            name="_coins"
+            order="0"/>
+        <blocks/>
+        <events>
+            <event
+                displayName="Type - Type"
+                enabled="true"
+                id="1"
+                name="event-collide-typetotype"
+                order="1"
+                repeats="true"/>
+            <event
+                displayName="Type - Type Copy"
+                enabled="true"
+                id="2"
+                name="event-collide-typetotype"
+                order="3"
+                repeats="true"/>
+            <event
+                displayName="Type - Type Copy Copy"
+                enabled="true"
+                id="3"
+                name="event-collide-typetotype"
+                order="4"
+                repeats="false"/>
+            <event
+                displayName="Type - Type Copy Copy Copy"
+                enabled="true"
+                id="4"
+                name="event-collide-typetotype"
+                order="5"
+                repeats="true"/>
+            <event
+                displayName="Type - Type Copy Copy Copy Copy"
+                enabled="true"
+                id="5"
+                name="event-collide-typetotype"
+                order="6"
+                repeats="true"/>
+            <event
+                displayName="Type - Type Copy Copy Copy Copy Copy"
+                enabled="true"
+                id="6"
+                name="event-collide-typetotype"
+                order="7"
+                repeats="true"/>
+            <event
+                displayName="Created"
+                enabled="true"
+                id="7"
+                name="init"
+                order="2"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="300"
+        attachedevent="true"
+        class="scripts.ActorEvents_300"
+        classname="scripts.ActorEvents_300"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="163"
+        name="ActorEvents_300"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="coins"
+            hidden="false"
+            id="1"
+            name="_coins"
+            order="0"/>
+        <blocks/>
+        <events>
+            <event
+                displayName="Type - Type"
+                enabled="true"
+                id="1"
+                name="event-collide-typetotype"
+                order="1"
+                repeats="false"/>
+            <event
+                displayName="Type - Type Copy"
+                enabled="true"
+                id="2"
+                name="event-collide-typetotype"
+                order="4"
+                repeats="true"/>
+            <event
+                displayName="Type - Type Copy Copy"
+                enabled="true"
+                id="3"
+                name="event-collide-typetotype"
+                order="5"
+                repeats="true"/>
+            <event
+                displayName="Type - Type Copy Copy Copy"
+                enabled="true"
+                id="4"
+                name="event-collide-typetotype"
+                order="6"
+                repeats="true"/>
+            <event
+                displayName="Type - Type Copy Copy Copy Copy"
+                enabled="true"
+                id="5"
+                name="event-collide-typetotype"
+                order="7"
+                repeats="true"/>
+            <event
+                displayName="Type - Type Copy Copy Copy Copy Copy"
+                enabled="true"
+                id="6"
+                name="event-collide-typetotype"
+                order="8"
+                repeats="true"/>
+            <event
+                displayName="Created"
+                enabled="true"
+                id="7"
+                name="init"
+                order="2"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="302"
+        attachedevent="true"
+        class="scripts.ActorEvents_302"
+        classname="scripts.ActorEvents_302"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="164"
+        name="ActorEvents_302"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="coins"
+            hidden="false"
+            id="1"
+            name="_coins"
+            order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet
+        actorid="304"
+        attachedevent="true"
+        class="scripts.ActorEvents_304"
+        classname="scripts.ActorEvents_304"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="165"
+        name="ActorEvents_304"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
                 repeats="true"/>
         </events>
     </snippet>

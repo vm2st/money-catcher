@@ -95,7 +95,7 @@
             order="1"
             sx="1.0"
             sy="1.0"
-            x="583"
+            x="605"
             y="652"
             z="2"/>
         <actor
@@ -214,6 +214,32 @@
             sy="1.0"
             x="419"
             y="279"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="13"
+            c="false"
+            group="3"
+            id="276"
+            name="saving 13"
+            order="1"
+            sx="1.0"
+            sy="1.0"
+            x="5"
+            y="73"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="14"
+            c="false"
+            group="3"
+            id="304"
+            name="happynewyear 14"
+            order="2"
+            sx="1.0"
+            sy="1.0"
+            x="284"
+            y="247"
             z="3"/>
     </actors>
     <snippets>

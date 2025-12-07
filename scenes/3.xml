@@ -55,7 +55,7 @@
             order="1"
             scrollFactorX="1.0"
             scrollFactorY="1.0"
-            visible="true"/>
+            visible="false"/>
         <layer
             blendMode="normal"
             color="0,255,0"
@@ -312,19 +312,6 @@
             z="2"/>
         <actor
             a="0.0"
-            aid="20"
-            c="false"
-            group="3"
-            id="246"
-            name="telegram 20"
-            order="14"
-            sx="1.0"
-            sy="1.0"
-            x="15"
-            y="387"
-            z="2"/>
-        <actor
-            a="0.0"
             aid="25"
             c="false"
             group="3"
@@ -382,7 +369,7 @@
             group="3"
             id="260"
             name="disabletransitionstext 29"
-            order="15"
+            order="14"
             sx="1.0"
             sy="1.0"
             x="465"
@@ -395,7 +382,7 @@
             group="3"
             id="264"
             name="disabletransitions 30"
-            order="16"
+            order="15"
             sx="1.0"
             sy="1.0"
             x="929"
@@ -414,6 +401,136 @@
             x="715"
             y="231"
             z="3"/>
+        <actor
+            a="0.0"
+            aid="32"
+            c="false"
+            group="3"
+            id="266"
+            name="autosavetext 32"
+            order="16"
+            sx="1.0"
+            sy="1.0"
+            x="552"
+            y="318"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="33"
+            c="false"
+            group="3"
+            id="268"
+            name="5msave 33"
+            order="17"
+            sx="1.0"
+            sy="1.0"
+            x="954"
+            y="418"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="34"
+            c="false"
+            group="3"
+            id="272"
+            name="30ssave 34"
+            order="18"
+            sx="1.0"
+            sy="1.0"
+            x="668"
+            y="418"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="35"
+            c="false"
+            group="3"
+            id="270"
+            name="1msave 35"
+            order="19"
+            sx="1.0"
+            sy="1.0"
+            x="814"
+            y="418"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="36"
+            c="false"
+            group="3"
+            id="274"
+            name="0ffsave 36"
+            order="20"
+            sx="1.0"
+            sy="1.0"
+            x="522"
+            y="418"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="37"
+            c="false"
+            group="3"
+            id="99"
+            name="BELIY_PRYAMOUGOLNIK_NAHUI 37"
+            order="9"
+            sx="4.03"
+            sy="2.25"
+            x="714"
+            y="357"
+            z="3"/>
+        <actor
+            a="0.0"
+            aid="38"
+            c="false"
+            group="3"
+            id="246"
+            name="telegram 38"
+            order="21"
+            sx="0.5"
+            sy="0.5"
+            x="-135"
+            y="324"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="39"
+            c="false"
+            group="3"
+            id="282"
+            name="resetgame 39"
+            order="22"
+            sx="1.0"
+            sy="1.0"
+            x="353"
+            y="637"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="42"
+            c="false"
+            group="3"
+            id="284"
+            name="yes 42"
+            order="23"
+            sx="1.0"
+            sy="1.0"
+            x="-327"
+            y="-184"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="43"
+            c="false"
+            group="3"
+            id="276"
+            name="saving 43"
+            order="24"
+            sx="1.0"
+            sy="1.0"
+            x="5"
+            y="30"
+            z="2"/>
     </actors>
     <snippets>
         <s enabled="true" id="136">

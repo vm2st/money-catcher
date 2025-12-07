@@ -72,13 +72,13 @@ class ActorEvents_16 extends ActorScript
 		{
 			if(((Engine.engine.getGameAttribute("cooldown") : Bool) == false))
 			{
-				actor.setY(randomInt(-175, 500));
-				actor.setX(randomInt(-175, 1000));
+				actor.setY(randomInt(30, 674));
+				actor.setX(randomInt(30, 1250));
 			}
 			runLater(1000 * 0.0001, function(timeTask:TimedTask):Void
 			{
 				Engine.engine.setGameAttribute("cooldown", true);
-				runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+				runLater(1000 * 0.1, function(timeTask:TimedTask):Void
 				{
 					Engine.engine.setGameAttribute("cooldown", false);
 				}, actor);
@@ -92,13 +92,13 @@ class ActorEvents_16 extends ActorScript
 		{
 			if(((Engine.engine.getGameAttribute("cooldown") : Bool) == false))
 			{
-				actor.setY(randomInt(-175, 500));
-				actor.setX(randomInt(-175, 1000));
+				actor.setY(randomInt(30, 674));
+				actor.setX(randomInt(30, 1250));
 			}
 			runLater(1000 * 0.0001, function(timeTask:TimedTask):Void
 			{
 				Engine.engine.setGameAttribute("cooldown", true);
-				runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+				runLater(1000 * 0.1, function(timeTask:TimedTask):Void
 				{
 					Engine.engine.setGameAttribute("cooldown", false);
 				}, actor);
@@ -112,13 +112,13 @@ class ActorEvents_16 extends ActorScript
 		{
 			if(((Engine.engine.getGameAttribute("cooldown") : Bool) == false))
 			{
-				actor.setY(randomInt(-175, 500));
-				actor.setX(randomInt(-175, 1000));
+				actor.setY(randomInt(30, 674));
+				actor.setX(randomInt(30, 1250));
 			}
 			runLater(1000 * 0.0001, function(timeTask:TimedTask):Void
 			{
 				Engine.engine.setGameAttribute("cooldown", true);
-				runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+				runLater(1000 * 0.1, function(timeTask:TimedTask):Void
 				{
 					Engine.engine.setGameAttribute("cooldown", false);
 				}, actor);
@@ -132,13 +132,13 @@ class ActorEvents_16 extends ActorScript
 		{
 			if(((Engine.engine.getGameAttribute("cooldown") : Bool) == false))
 			{
-				actor.setY(randomInt(-175, 500));
-				actor.setX(randomInt(-175, 1000));
+				actor.setY(randomInt(30, 674));
+				actor.setX(randomInt(30, 1250));
 			}
 			runLater(1000 * 0.0001, function(timeTask:TimedTask):Void
 			{
 				Engine.engine.setGameAttribute("cooldown", true);
-				runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+				runLater(1000 * 0.1, function(timeTask:TimedTask):Void
 				{
 					Engine.engine.setGameAttribute("cooldown", false);
 				}, actor);
@@ -152,13 +152,13 @@ class ActorEvents_16 extends ActorScript
 		{
 			if(((Engine.engine.getGameAttribute("cooldown") : Bool) == false))
 			{
-				actor.setY(randomInt(-175, 500));
-				actor.setX(randomInt(-175, 1000));
+				actor.setY(randomInt(30, 674));
+				actor.setX(randomInt(30, 1250));
 			}
 			runLater(1000 * 0.0001, function(timeTask:TimedTask):Void
 			{
 				Engine.engine.setGameAttribute("cooldown", true);
-				runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+				runLater(1000 * 0.1, function(timeTask:TimedTask):Void
 				{
 					Engine.engine.setGameAttribute("cooldown", false);
 				}, actor);
@@ -172,13 +172,13 @@ class ActorEvents_16 extends ActorScript
 		{
 			if(((Engine.engine.getGameAttribute("cooldown") : Bool) == false))
 			{
-				actor.setY(randomInt(-175, 500));
-				actor.setX(randomInt(-175, 1000));
+				actor.setY(randomInt(30, 674));
+				actor.setX(randomInt(30, 1250));
 			}
 			runLater(1000 * 0.0001, function(timeTask:TimedTask):Void
 			{
 				Engine.engine.setGameAttribute("cooldown", true);
-				runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+				runLater(1000 * 0.1, function(timeTask:TimedTask):Void
 				{
 					Engine.engine.setGameAttribute("cooldown", false);
 				}, actor);
@@ -196,7 +196,9 @@ class ActorEvents_16 extends ActorScript
 	
 	override public function init()
 	{
-		
+		/* ======================== When Creating ========================= */
+		actor.setY(randomInt(30, 674));
+		actor.setX(randomInt(30, 1250));
 		
 		addListenerWithKey2(engine.whenCollidedEvents, getActorType(14).ID, getActorType(16).ID, _event_TypeType);
 		addListenerWithKey2(engine.whenCollidedEvents, getActorType(160).ID, getActorType(16).ID, _event_TypeTypeCopy);

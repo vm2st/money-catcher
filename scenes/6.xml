@@ -93,8 +93,8 @@
             order="0"
             sx="1.0"
             sy="1.0"
-            x="1"
-            y="645"
+            x="0"
+            y="653"
             z="2"/>
         <actor
             a="0.0"
@@ -277,6 +277,19 @@
             sy="1.0"
             x="0"
             y="11"
+            z="2"/>
+        <actor
+            a="0.0"
+            aid="19"
+            c="false"
+            group="3"
+            id="276"
+            name="saving 19"
+            order="12"
+            sx="1.0"
+            sy="1.0"
+            x="5"
+            y="90"
             z="2"/>
     </actors>
     <snippets>

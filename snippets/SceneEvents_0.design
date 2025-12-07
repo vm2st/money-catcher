@@ -1,15 +1,64 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups format="1">
-    <group eventID="1" id="0">
-        <event-delay comment="false" x="15" y="15">
-            <group eventID="1" id="-1">
-                <scene-change-through comment="false" x="0" y="0">
-                    <scene eid="1" id="0"/>
-                    <int id="1" val="0"/>
-                    <int id="2" val="0.5"/>
-                </scene-change-through>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <load-game comment="false" x="0" y="0">
+                    <group eventID="2" id="-1">
+                        <if comment="false" x="0" y="0">
+                            <group eventID="2" id="-1">
+                                <set-volume comment="false" x="0" y="0">
+                                    <get-game-val-19 comment="false" id="0" x="0" y="0"/>
+                                </set-volume>
+                                <set-game-val-60 comment="false" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </set-game-val-60>
+                                <set-game-val-52 comment="false" x="0" y="0">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-52>
+                                <set-game-val-61 comment="false" x="0" y="0">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-61>
+                                <dolater comment="false" x="0" y="0">
+                                    <group eventID="2" id="-1">
+                                        <scene-change-through comment="false" x="0" y="0">
+                                            <scene eid="1" id="0"/>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="0.5"/>
+                                        </scene-change-through>
+                                    </group>
+                                    <int id="0" val="1"/>
+                                </dolater>
+                            </group>
+                            <load-success comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="0" y="0">
+                            <group eventID="2" id="-1">
+                                <dolater comment="false" x="0" y="0">
+                                    <group eventID="2" id="-1">
+                                        <scene-change-through comment="false" x="0" y="0">
+                                            <scene eid="1" id="0"/>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="0.5"/>
+                                        </scene-change-through>
+                                    </group>
+                                    <int id="0" val="1"/>
+                                </dolater>
+                                <create-actor3 comment="false" x="0" y="0">
+                                    <actortype eid="276" id="0"/>
+                                    <int id="1" val="615"/>
+                                    <int id="2" val="666"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                                <setanim comment="false" x="0" y="0">
+                                    <ACTOR eid="lastcreated" id="0"/>
+                                    <int id="1" val="error"/>
+                                </setanim>
+                            </group>
+                        </else>
+                    </group>
+                </load-game>
             </group>
-            <int id="0" val="1"/>
-        </event-delay>
+        </init>
     </group>
 </groups>

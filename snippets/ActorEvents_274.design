@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="2" id="-1">
+                        <if comment="false" x="0" y="0">
+                            <group eventID="2" id="-1">
+                                <setanim comment="false" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="ruon"/>
+                                </setanim>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-57 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </eq>
+                        </if>
+                        <else comment="false" x="0" y="0">
+                            <group eventID="2" id="-1">
+                                <setanim comment="false" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="ruoff"/>
+                                </setanim>
+                            </group>
+                        </else>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-42 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="ru"/>
+                    </eq>
+                </if>
+                <if comment="false" x="0" y="0">
+                    <group eventID="2" id="-1">
+                        <if comment="false" x="0" y="0">
+                            <group eventID="2" id="-1">
+                                <setanim comment="false" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="enon"/>
+                                </setanim>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-57 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </eq>
+                        </if>
+                        <else comment="false" x="0" y="0">
+                            <group eventID="2" id="-1">
+                                <setanim comment="false" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="enoff"/>
+                                </setanim>
+                            </group>
+                        </else>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-42 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="en"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-game-val-57 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-57>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+</groups>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <event-collide-typetotype comment="false" x="20" y="16">
+            <group eventID="1" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <set-game-val-0 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="2"/>
+                            </plus>
+                        </set-game-val-0>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-24 comment="false" id="0" x="0" y="0"/>
+                        <false comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <set-game-val-0 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="4"/>
+                            </plus>
+                        </set-game-val-0>
+                    </group>
+                </else>
+                <play-sound4 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <sound eid="299" id="1"/>
+                </play-sound4>
+                <die comment="false" x="0" y="0">
+                    <second-actor comment="false" id="0" x="0" y="0"/>
+                </die>
+            </group>
+            <actortype eid="14" id="0"/>
+            <actortype eid="295" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="2" id="0">
+        <event-collide-typetotype comment="false" x="15" y="14">
+            <group eventID="2" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="2" id="-1">
+                        <set-game-val-0 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="2"/>
+                            </plus>
+                        </set-game-val-0>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-24 comment="false" id="0" x="0" y="0"/>
+                        <false comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="0" y="0">
+                    <group eventID="2" id="-1">
+                        <set-game-val-0 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="4"/>
+                            </plus>
+                        </set-game-val-0>
+                    </group>
+                </else>
+                <play-sound4 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <sound eid="299" id="1"/>
+                </play-sound4>
+                <die comment="false" x="0" y="0">
+                    <second-actor comment="false" id="0" x="0" y="0"/>
+                </die>
+            </group>
+            <actortype eid="160" id="0"/>
+            <actortype eid="295" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="3" id="0">
+        <event-collide-typetotype comment="false" x="15" y="14">
+            <group eventID="3" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="3" id="-1">
+                        <set-game-val-0 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="2"/>
+                            </plus>
+                        </set-game-val-0>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-24 comment="false" id="0" x="0" y="0"/>
+                        <false comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="0" y="0">
+                    <group eventID="3" id="-1">
+                        <set-game-val-0 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="4"/>
+                            </plus>
+                        </set-game-val-0>
+                    </group>
+                </else>
+                <play-sound4 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <sound eid="299" id="1"/>
+                </play-sound4>
+                <die comment="false" x="0" y="0">
+                    <second-actor comment="false" id="0" x="0" y="0"/>
+                </die>
+            </group>
+            <actortype eid="166" id="0"/>
+            <actortype eid="295" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="4" id="0">
+        <event-collide-typetotype comment="false" x="15" y="14">
+            <group eventID="4" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="4" id="-1">
+                        <set-game-val-0 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="2"/>
+                            </plus>
+                        </set-game-val-0>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-24 comment="false" id="0" x="0" y="0"/>
+                        <false comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="0" y="0">
+                    <group eventID="4" id="-1">
+                        <set-game-val-0 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="4"/>
+                            </plus>
+                        </set-game-val-0>
+                    </group>
+                </else>
+                <play-sound4 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <sound eid="299" id="1"/>
+                </play-sound4>
+                <die comment="false" x="0" y="0">
+                    <second-actor comment="false" id="0" x="0" y="0"/>
+                </die>
+            </group>
+            <actortype eid="168" id="0"/>
+            <actortype eid="295" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="5" id="0">
+        <event-collide-typetotype comment="false" x="15" y="14">
+            <group eventID="5" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="5" id="-1">
+                        <set-game-val-0 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="2"/>
+                            </plus>
+                        </set-game-val-0>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-24 comment="false" id="0" x="0" y="0"/>
+                        <false comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="0" y="0">
+                    <group eventID="5" id="-1">
+                        <set-game-val-0 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="4"/>
+                            </plus>
+                        </set-game-val-0>
+                    </group>
+                </else>
+                <play-sound4 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <sound eid="299" id="1"/>
+                </play-sound4>
+                <die comment="false" x="0" y="0">
+                    <second-actor comment="false" id="0" x="0" y="0"/>
+                </die>
+            </group>
+            <actortype eid="195" id="0"/>
+            <actortype eid="295" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="6" id="0">
+        <event-collide-typetotype comment="false" x="15" y="14">
+            <group eventID="6" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="6" id="-1">
+                        <set-game-val-0 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="2"/>
+                            </plus>
+                        </set-game-val-0>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-24 comment="false" id="0" x="0" y="0"/>
+                        <false comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="0" y="0">
+                    <group eventID="6" id="-1">
+                        <set-game-val-0 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="4"/>
+                            </plus>
+                        </set-game-val-0>
+                    </group>
+                </else>
+                <play-sound4 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <sound eid="299" id="1"/>
+                </play-sound4>
+                <die comment="false" x="0" y="0">
+                    <second-actor comment="false" id="0" x="0" y="0"/>
+                </die>
+            </group>
+            <actortype eid="199" id="0"/>
+            <actortype eid="295" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="7" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="7" id="-1">
+                <dolater comment="false" x="0" y="0">
+                    <group eventID="7" id="-1">
+                        <die comment="false" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <int id="0" val="3"/>
+                </dolater>
+            </group>
+        </init>
+    </group>
+</groups>

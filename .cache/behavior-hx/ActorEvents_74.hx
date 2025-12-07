@@ -71,50 +71,8 @@ class ActorEvents_74 extends ActorScript
 	{
 		if(wrapper.enabled && 5 == mouseState)
 		{
-			if(((Engine.engine.getGameAttribute("coins") : Float) < 49.9))
-			{
-				if(((Engine.engine.getGameAttribute("nosound") : Bool) == false))
-				{
-					playSoundOnChannel(getSound(103), 2);
-					createRecycledActor(getActorType(213), 421, 533, Script.FRONT);
-				}
-			}
-		}
-	}
-	/* =========================== On Actor =========================== */
-	public function _event_OnActor2(mouseState:Int):Void
-	{
-		if(wrapper.enabled && 5 == mouseState)
-		{
-			if(((Engine.engine.getGameAttribute("backgroundglobal") : Float) == 0))
-			{
-				createRecycledActor(getActorType(211), 367, 350, Script.FRONT);
-				playSoundOnChannel(getSound(103), 2);
-				_buy1 = false;
-				runLater(1000 * 1, function(timeTask:TimedTask):Void
-				{
-					_buy1 = true;
-				}, actor);
-			}
-			if(((Engine.engine.getGameAttribute("coins") : Float) > 49.9))
-			{
-				if((_buy1 == true))
-				{
-					Engine.engine.setGameAttribute("c", (Engine.engine.getGameAttribute("coins") : Float));
-					runLater(1000 * 0.1, function(timeTask:TimedTask):Void
-					{
-						Engine.engine.setGameAttribute("coins", ((Engine.engine.getGameAttribute("coins") : Float) - 50));
-						playSoundOnChannel(getSound(154), 3);
-						_buy = true;
-						Engine.engine.setGameAttribute("backgroundglobal", 0);
-						Engine.engine.setGameAttribute("nosound", true);
-						runLater(1000 * 1, function(timeTask:TimedTask):Void
-						{
-							Engine.engine.setGameAttribute("nosound", false);
-						}, actor);
-					}, actor);
-				}
-			}
+			Engine.engine.setGameAttribute("backgroundglobal", 0);
+			actor.setAnimation("equipped");
 		}
 	}
 	/* ======================== When Updating ========================= */
@@ -130,10 +88,20 @@ class ActorEvents_74 extends ActorScript
 			{
 				recycleActor(actor);
 			}, actor);
-			if((_buy == true))
+			if(!((Engine.engine.getGameAttribute("backgroundglobal") : Float) == 0))
 			{
-				Engine.engine.setGameAttribute("coins", ((Engine.engine.getGameAttribute("c") : Float) - 50));
-				_buy = false;
+				if(((Engine.engine.getGameAttribute("language") : String) == "ru"))
+				{
+					actor.setAnimation("equipru");
+				}
+				if(((Engine.engine.getGameAttribute("language") : String) == "en"))
+				{
+					actor.setAnimation("equipen");
+				}
+			}
+			else
+			{
+				actor.setAnimation("equipped");
 			}
 		}
 	}
@@ -153,7 +121,6 @@ class ActorEvents_74 extends ActorScript
 		
 		
 		addListener(actor.whenMousedOver, _event_OnActor);
-		addListener(actor.whenMousedOver, _event_OnActor2);
 		addListener(actor.whenUpdated, _event_Updating);
 		
 	}

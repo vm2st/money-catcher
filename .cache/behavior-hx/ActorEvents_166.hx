@@ -366,6 +366,7 @@ class ActorEvents_166 extends ActorScript
 			{
 				g.drawString("" + Engine.engine.getGameAttribute("playerX"), 50, 50);
 				g.drawString("" + Engine.engine.getGameAttribute("playerY"), 50, 65);
+				g.drawString("" + Engine.engine.getGameAttribute("hit"), 50, 80);
 			}
 		}
 	}

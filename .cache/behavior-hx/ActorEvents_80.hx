@@ -77,6 +77,7 @@ class ActorEvents_80 extends ActorScript
 			{
 				switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideRightTransition(0));
 			}
+			Engine.engine.setGameAttribute("musicpositron", getPositionForChannel(23));
 		}
 	}
 	/* ======================== When Updating ========================= */
@@ -94,6 +95,7 @@ class ActorEvents_80 extends ActorScript
 				{
 					switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideRightTransition(0.3));
 				}
+				Engine.engine.setGameAttribute("musicpositron", getPositionForChannel(23));
 			}
 		}
 	}
