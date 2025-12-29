@@ -175,7 +175,7 @@
                         <set-game-val-0 comment="false" x="0" y="0">
                             <minus comment="false" id="0" x="0" y="0">
                                 <get-game-val-0 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="5"/>
+                                <int id="1" val="10"/>
                             </minus>
                         </set-game-val-0>
                         <set-val-129-7 comment="false" x="0" y="0">
@@ -189,391 +189,32 @@
                 </if>
                 <if comment="false" x="0" y="0">
                     <group eventID="2" id="-1">
-                        <if comment="false" x="0" y="0">
-                            <group eventID="2" id="-1">
-                                <if comment="false" x="0" y="0">
-                                    <group eventID="2" id="-1">
-                                        <set-xy comment="false" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                            <plus comment="false" id="2" x="0" y="0">
-                                                <get-xy comment="false" id="0" x="0" y="0">
-                                                    <ACTOR eid="this" id="0"/>
-                                                    <int id="1" val="0"/>
-                                                </get-xy>
-                                                <int id="1" val="20"/>
-                                            </plus>
-                                        </set-xy>
-                                    </group>
-                                    <more comment="false" id="0" x="0" y="0">
-                                        <get-xy comment="false" id="0" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                        </get-xy>
-                                        <int id="1" val="1180"/>
-                                    </more>
-                                </if>
-                                <else comment="false" x="0" y="0">
-                                    <group eventID="2" id="-1">
-                                        <set-xy comment="false" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                            <minus comment="false" id="2" x="0" y="0">
-                                                <get-xy comment="false" id="0" x="0" y="0">
-                                                    <ACTOR eid="this" id="0"/>
-                                                    <int id="1" val="0"/>
-                                                </get-xy>
-                                                <int id="1" val="20"/>
-                                            </minus>
-                                        </set-xy>
-                                    </group>
-                                </else>
-                            </group>
-                            <and comment="false" id="0" x="0" y="0">
-                                <moreeq comment="false" id="0" x="0" y="0">
-                                    <get-game-val-51 comment="false" id="0" x="0" y="0"/>
-                                    <int id="1" val="0"/>
-                                </moreeq>
-                                <lesseq comment="false" id="1" x="0" y="0">
-                                    <get-game-val-51 comment="false" id="0" x="0" y="0"/>
-                                    <int id="1" val="90"/>
-                                </lesseq>
-                            </and>
-                        </if>
-                        <if comment="false" x="0" y="0">
-                            <group eventID="2" id="-1">
-                                <if comment="false" x="0" y="0">
-                                    <group eventID="2" id="-1">
-                                        <set-xy comment="false" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                            <minus comment="false" id="2" x="0" y="0">
-                                                <get-xy comment="false" id="0" x="0" y="0">
-                                                    <ACTOR eid="this" id="0"/>
-                                                    <int id="1" val="0"/>
-                                                </get-xy>
-                                                <int id="1" val="20"/>
-                                            </minus>
-                                        </set-xy>
-                                    </group>
-                                    <less comment="false" id="0" x="0" y="0">
-                                        <get-xy comment="false" id="0" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                        </get-xy>
-                                        <int id="1" val="30"/>
-                                    </less>
-                                </if>
-                                <else comment="false" x="0" y="0">
-                                    <group eventID="2" id="-1">
-                                        <set-xy comment="false" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                            <plus comment="false" id="2" x="0" y="0">
-                                                <get-xy comment="false" id="0" x="0" y="0">
-                                                    <ACTOR eid="this" id="0"/>
-                                                    <int id="1" val="0"/>
-                                                </get-xy>
-                                                <int id="1" val="20"/>
-                                            </plus>
-                                        </set-xy>
-                                    </group>
-                                </else>
-                            </group>
-                            <and comment="false" id="0" x="0" y="0">
-                                <moreeq comment="false" id="0" x="0" y="0">
-                                    <get-game-val-51 comment="false" id="0" x="0" y="0"/>
-                                    <int id="1" val="90"/>
-                                </moreeq>
-                                <lesseq comment="false" id="1" x="0" y="0">
-                                    <get-game-val-51 comment="false" id="0" x="0" y="0"/>
-                                    <int id="1" val="180"/>
-                                </lesseq>
-                            </and>
-                        </if>
-                        <if comment="false" x="0" y="0">
-                            <group eventID="2" id="-1">
-                                <if comment="false" x="0" y="0">
-                                    <group eventID="2" id="-1">
-                                        <set-xy comment="false" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                            <minus comment="false" id="2" x="0" y="0">
-                                                <get-xy comment="false" id="0" x="0" y="0">
-                                                    <ACTOR eid="this" id="0"/>
-                                                    <int id="1" val="0"/>
-                                                </get-xy>
-                                                <int id="1" val="20"/>
-                                            </minus>
-                                        </set-xy>
-                                    </group>
-                                    <more comment="false" id="0" x="0" y="0">
-                                        <get-xy comment="false" id="0" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="1"/>
-                                        </get-xy>
-                                        <int id="1" val="630"/>
-                                    </more>
-                                </if>
-                                <else comment="false" x="0" y="0">
-                                    <group eventID="2" id="-1">
-                                        <set-xy comment="false" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="1"/>
-                                            <minus comment="false" id="2" x="0" y="0">
-                                                <get-xy comment="false" id="0" x="0" y="0">
-                                                    <ACTOR eid="this" id="0"/>
-                                                    <int id="1" val="1"/>
-                                                </get-xy>
-                                                <int id="1" val="20"/>
-                                            </minus>
-                                        </set-xy>
-                                    </group>
-                                </else>
-                            </group>
-                            <and comment="false" id="0" x="0" y="0">
-                                <moreeq comment="false" id="0" x="0" y="0">
-                                    <get-game-val-51 comment="false" id="0" x="0" y="0"/>
-                                    <int id="1" val="0"/>
-                                </moreeq>
-                                <lesseq comment="false" id="1" x="0" y="0">
-                                    <get-game-val-51 comment="false" id="0" x="0" y="0"/>
-                                    <int id="1" val="180"/>
-                                </lesseq>
-                            </and>
-                        </if>
-                        <if comment="false" x="0" y="0">
-                            <group eventID="2" id="-1">
-                                <if comment="false" x="0" y="0">
-                                    <group eventID="2" id="-1">
-                                        <set-xy comment="false" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                            <minus comment="false" id="2" x="0" y="0">
-                                                <get-xy comment="false" id="0" x="0" y="0">
-                                                    <ACTOR eid="this" id="0"/>
-                                                    <int id="1" val="0"/>
-                                                </get-xy>
-                                                <int id="1" val="20"/>
-                                            </minus>
-                                        </set-xy>
-                                    </group>
-                                    <less comment="false" id="0" x="0" y="0">
-                                        <get-xy comment="false" id="0" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="1"/>
-                                        </get-xy>
-                                        <int id="1" val="30"/>
-                                    </less>
-                                </if>
-                                <else comment="false" x="0" y="0">
-                                    <group eventID="2" id="-1">
-                                        <set-xy comment="false" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="1"/>
-                                            <plus comment="false" id="2" x="0" y="0">
-                                                <get-xy comment="false" id="0" x="0" y="0">
-                                                    <ACTOR eid="this" id="0"/>
-                                                    <int id="1" val="1"/>
-                                                </get-xy>
-                                                <int id="1" val="20"/>
-                                            </plus>
-                                        </set-xy>
-                                    </group>
-                                </else>
-                            </group>
-                            <and comment="false" id="0" x="0" y="0">
-                                <moreeq comment="false" id="0" x="0" y="0">
-                                    <get-game-val-51 comment="false" id="0" x="0" y="0"/>
-                                    <int id="1" val="-180"/>
-                                </moreeq>
-                                <lesseq comment="false" id="1" x="0" y="0">
-                                    <get-game-val-51 comment="false" id="0" x="0" y="0"/>
-                                    <int id="1" val="0"/>
-                                </lesseq>
-                            </and>
-                        </if>
-                        <if comment="false" x="0" y="0">
-                            <group eventID="2" id="-1">
-                                <set-xy comment="false" x="0" y="0">
-                                    <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="0"/>
-                                    <plus comment="false" id="2" x="0" y="0">
-                                        <get-xy comment="false" id="0" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                        </get-xy>
-                                        <int id="1" val="20"/>
-                                    </plus>
-                                </set-xy>
-                                <setanim comment="false" x="0" y="0">
-                                    <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="l"/>
-                                </setanim>
-                            </group>
-                            <moreeq comment="false" id="0" x="0" y="0">
-                                <get-game-val-51 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="180"/>
-                            </moreeq>
-                        </if>
+                        <push-shove2 comment="false" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <get-game-val-62 comment="false" id="2" x="0" y="0"/>
+                            <int id="3" val="20000"/>
+                        </push-shove2>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <get-game-val-52 comment="false" id="0" x="0" y="0"/>
                         <true comment="false" id="1" x="0" y="0"/>
                     </eq>
                 </if>
+                <set-game-val-55 comment="false" x="0" y="0">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-game-val-55>
+                <set-game-val-56 comment="false" x="0" y="0">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-game-val-56>
             </group>
         </step>
-    </group>
-    <group eventID="2" id="1">
-        <if comment="false" x="1054" y="1312">
-            <group eventID="2" id="-1">
-                <set-xy comment="false" x="0" y="0">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="1"/>
-                    <plus comment="false" id="2" x="0" y="0">
-                        <get-xy comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="1"/>
-                        </get-xy>
-                        <int id="1" val="20"/>
-                    </plus>
-                </set-xy>
-            </group>
-            <less comment="false" id="0" x="0" y="0">
-                <get-xy comment="false" id="0" x="0" y="0">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="1"/>
-                </get-xy>
-                <int id="1" val="20"/>
-            </less>
-        </if>
-        <if comment="false" x="0" y="0">
-            <group eventID="2" id="-1">
-                <set-xy comment="false" x="0" y="0">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="0"/>
-                    <plus comment="false" id="2" x="0" y="0">
-                        <get-xy comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="0"/>
-                        </get-xy>
-                        <int id="1" val="30"/>
-                    </plus>
-                </set-xy>
-            </group>
-            <less comment="false" id="0" x="0" y="0">
-                <get-xy comment="false" id="0" x="0" y="0">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="0"/>
-                </get-xy>
-                <int id="1" val="20"/>
-            </less>
-        </if>
-        <if comment="false" x="0" y="0">
-            <group eventID="2" id="-1">
-                <set-xy comment="false" x="0" y="0">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="1"/>
-                    <minus comment="false" id="2" x="0" y="0">
-                        <get-xy comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="1"/>
-                        </get-xy>
-                        <int id="1" val="20"/>
-                    </minus>
-                </set-xy>
-            </group>
-            <more comment="false" id="0" x="0" y="0">
-                <get-xy comment="false" id="0" x="0" y="0">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="1"/>
-                </get-xy>
-                <int id="1" val="600"/>
-            </more>
-        </if>
-    </group>
-    <group eventID="2" id="2">
-        <if comment="false" x="1041" y="1106">
-            <group eventID="2" id="-1">
-                <set-xy comment="false" x="0" y="0">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="0"/>
-                    <plus comment="false" id="2" x="0" y="0">
-                        <get-xy comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="0"/>
-                        </get-xy>
-                        <int id="1" val="20"/>
-                    </plus>
-                </set-xy>
-            </group>
-            <more comment="false" id="0" x="0" y="0">
-                <get-xy comment="false" id="0" x="0" y="0">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="0"/>
-                </get-xy>
-                <int id="1" val="1180"/>
-            </more>
-        </if>
-    </group>
-    <group eventID="2" id="3">
-        <if comment="false" x="1070" y="867">
-            <group eventID="2" id="-1">
-                <set-xy comment="false" x="0" y="0">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="0"/>
-                    <plus comment="false" id="2" x="0" y="0">
-                        <get-xy comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="0"/>
-                        </get-xy>
-                        <int id="1" val="20"/>
-                    </plus>
-                </set-xy>
-            </group>
-            <more comment="false" id="0" x="0" y="0">
-                <get-xy comment="false" id="0" x="0" y="0">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="0"/>
-                </get-xy>
-                <int id="1" val="1180"/>
-            </more>
-        </if>
-    </group>
-    <group eventID="2" id="-1">
-        <more comment="false" x="828" y="771">
-            <int id="0" val=""/>
-            <int id="1" val="0"/>
-        </more>
-        <less comment="false" x="922" y="772">
-            <int id="0" val=""/>
-            <int id="1" val="90"/>
-        </less>
-        <less comment="false" x="928" y="1002">
-            <int id="0" val=""/>
-            <int id="1" val="180"/>
-        </less>
-        <more comment="false" x="810" y="1002">
-            <int id="0" val=""/>
-            <int id="1" val="90"/>
-        </more>
-        <more comment="false" x="918" y="1206">
-            <int id="0" val=""/>
-            <int id="1" val="0"/>
-        </more>
-        <less comment="false" x="802" y="1208">
-            <int id="0" val=""/>
-            <int id="1" val="180"/>
-        </less>
-        <less comment="false" x="916" y="1410">
-            <int id="0" val=""/>
-            <int id="1" val="0"/>
-        </less>
-        <more comment="false" x="796" y="1411">
-            <int id="0" val=""/>
-            <int id="1" val="-180"/>
-        </more>
     </group>
     <group eventID="3" id="0">
         <draw comment="false" x="15" y="15">
@@ -669,7 +310,7 @@
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-game-val-52>
                     </group>
-                    <int id="0" val="0.1"/>
+                    <int id="0" val="0.01"/>
                 </dolater>
             </group>
             <ACTOR eid="this" id="0"/>
@@ -710,7 +351,7 @@
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-game-val-52>
                     </group>
-                    <int id="0" val="0.1"/>
+                    <int id="0" val="0.01"/>
                 </dolater>
             </group>
             <ACTOR eid="this" id="0"/>
@@ -768,11 +409,11 @@
                         <set-xy comment="false" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
-                            <int id="2" val="2"/>
+                            <int id="2" val="5"/>
                         </set-xy>
                     </group>
                     <more comment="false" id="0" x="0" y="0">
-                        <int id="0" val="2"/>
+                        <int id="0" val="5"/>
                         <get-xy comment="false" id="1" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
@@ -784,11 +425,11 @@
                         <set-xy comment="false" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
-                            <int id="2" val="3"/>
+                            <int id="2" val="5"/>
                         </set-xy>
                     </group>
                     <more comment="false" id="0" x="0" y="0">
-                        <int id="0" val="3"/>
+                        <int id="0" val="5"/>
                         <get-xy comment="false" id="1" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
@@ -800,7 +441,7 @@
                         <set-xy comment="false" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
-                            <int id="2" val="645"/>
+                            <int id="2" val="635"/>
                         </set-xy>
                     </group>
                     <more comment="false" id="0" x="0" y="0">
@@ -808,7 +449,7 @@
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                         </get-xy>
-                        <int id="1" val="645"/>
+                        <int id="1" val="635"/>
                     </more>
                 </if>
             </group>

@@ -105,6 +105,17 @@
                         <int id="1" val="1"/>
                     </eq>
                 </if>
+                <if comment="false" x="0" y="0">
+                    <group eventID="3" id="-1">
+                        <die comment="false" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-53 comment="false" id="0" x="0" y="0"/>
+                        <false comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
             </group>
         </step>
     </group>
@@ -126,7 +137,7 @@
                 <set-game-val-53 comment="false" x="0" y="0">
                     <false comment="false" id="0" x="0" y="0"/>
                 </set-game-val-53>
-                <delete-region comment="false" x="0" y="0">
+                <delete-region comment="true" x="0" y="0">
                     <REGION eid="lastcreated" id="0"/>
                 </delete-region>
                 <die comment="false" x="0" y="0">
@@ -151,22 +162,22 @@
     <group eventID="5" id="0">
         <init comment="false" x="15" y="15">
             <group eventID="5" id="-1">
-                <create-circular-region comment="false" x="0" y="0">
+                <create-circular-region comment="true" x="0" y="0">
                     <minus comment="false" id="0" x="0" y="0">
                         <get-xy comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                         </get-xy>
-                        <int id="1" val="176"/>
+                        <int id="1" val="300"/>
                     </minus>
                     <minus comment="false" id="1" x="0" y="0">
                         <get-xy comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                         </get-xy>
-                        <int id="1" val="176"/>
+                        <int id="1" val="300"/>
                     </minus>
-                    <int id="2" val="200"/>
+                    <int id="2" val="500"/>
                 </create-circular-region>
                 <create-actor3 comment="false" x="0" y="0">
                     <actortype eid="39" id="0"/>
@@ -225,30 +236,6 @@
             </group>
         </init>
     </group>
-    <group eventID="6" id="0">
-        <event-mouse-enter-exit-region comment="false" x="15" y="15">
-            <group eventID="6" id="-1">
-                <set-xy comment="false" x="0" y="0">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="2"/>
-                    <mousexy comment="false" id="2" x="0" y="0">
-                        <int id="0" val="0"/>
-                        <int id="1" val="0"/>
-                    </mousexy>
-                </set-xy>
-                <set-xy comment="false" x="0" y="0">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="3"/>
-                    <mousexy comment="false" id="2" x="0" y="0">
-                        <int id="0" val="0"/>
-                        <int id="1" val="1"/>
-                    </mousexy>
-                </set-xy>
-            </group>
-            <REGION eid="lastcreated" id="0"/>
-            <int id="1" val="3"/>
-        </event-mouse-enter-exit-region>
-    </group>
     <group eventID="7" id="0">
         <draw comment="false" x="15" y="15">
             <group eventID="7" id="-1">
@@ -287,5 +274,28 @@
                 </if>
             </group>
         </draw>
+    </group>
+    <group eventID="8" id="0">
+        <event-mouse-press-release comment="false" x="15" y="15">
+            <group eventID="8" id="-1">
+                <set-xy comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="2"/>
+                    <mousexy comment="false" id="2" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="0"/>
+                    </mousexy>
+                </set-xy>
+                <set-xy comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="3"/>
+                    <mousexy comment="false" id="2" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="1"/>
+                    </mousexy>
+                </set-xy>
+            </group>
+            <int id="0" val="2"/>
+        </event-mouse-press-release>
     </group>
 </groups>
