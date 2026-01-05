@@ -149,6 +149,10 @@
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="equipped"/>
                                 </setanim>
+                                <play-sound4 comment="false" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <sound eid="288" id="1"/>
+                                </play-sound4>
                             </group>
                             <noteq comment="false" id="0" x="0" y="0">
                                 <get-game-val-39 comment="false" id="0" x="0" y="0"/>
@@ -175,79 +179,5 @@
             <ACTOR eid="this" id="0"/>
             <int id="1" val="4"/>
         </event-mouse-enter-exit-actor>
-    </group>
-    <group eventID="2" id="1">
-        <if comment="true" x="730" y="99">
-            <group eventID="2" id="-1">
-                <if comment="false" x="0" y="0">
-                    <group eventID="2" id="-1">
-                        <set-game-val-39 comment="false" x="0" y="0">
-                            <int id="0" val="2"/>
-                        </set-game-val-39>
-                    </group>
-                    <noteq comment="false" id="0" x="0" y="0">
-                        <get-game-val-39 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="2"/>
-                    </noteq>
-                </if>
-                <else comment="false" x="0" y="0">
-                    <group eventID="2" id="-1">
-                        <play-sound4 comment="false" x="0" y="0">
-                            <int id="0" val="0"/>
-                            <sound eid="103" id="1"/>
-                        </play-sound4>
-                        <create-actor3 comment="false" x="0" y="0">
-                            <actortype eid="209" id="0"/>
-                            <int id="1" val="427"/>
-                            <int id="2" val="565"/>
-                            <int id="3" val="0"/>
-                        </create-actor3>
-                        <stop comment="false" x="0" y="0"/>
-                    </group>
-                </else>
-                <set-game-val-0 comment="false" x="0" y="0">
-                    <minus comment="false" id="0" x="0" y="0">
-                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="50"/>
-                    </minus>
-                </set-game-val-0>
-                <play-sound4 comment="false" x="0" y="0">
-                    <int id="0" val="0"/>
-                    <sound eid="154" id="1"/>
-                </play-sound4>
-            </group>
-            <moreeq comment="false" id="0" x="0" y="0">
-                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
-                <int id="1" val="50"/>
-            </moreeq>
-        </if>
-        <else comment="true" x="0" y="0">
-            <group eventID="2" id="-1">
-                <play-sound4 comment="false" x="0" y="0">
-                    <int id="0" val="0"/>
-                    <sound eid="103" id="1"/>
-                </play-sound4>
-                <create-actor3 comment="false" x="0" y="0">
-                    <actortype eid="213" id="0"/>
-                    <int id="1" val="432"/>
-                    <int id="2" val="325"/>
-                    <int id="3" val="0"/>
-                </create-actor3>
-                <if comment="false" x="0" y="0">
-                    <group eventID="2" id="-1">
-                        <create-actor3 comment="false" x="0" y="0">
-                            <actortype eid="209" id="0"/>
-                            <int id="1" val="427"/>
-                            <int id="2" val="565"/>
-                            <int id="3" val="0"/>
-                        </create-actor3>
-                    </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-game-val-39 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="2"/>
-                    </eq>
-                </if>
-            </group>
-        </else>
     </group>
 </groups>

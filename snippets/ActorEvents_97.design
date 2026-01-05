@@ -82,6 +82,10 @@
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="equipped"/>
                                 </setanim>
+                                <play-sound4 comment="false" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <sound eid="288" id="1"/>
+                                </play-sound4>
                             </group>
                             <noteq comment="false" id="0" x="0" y="0">
                                 <get-game-val-15 comment="false" id="0" x="0" y="0"/>
@@ -94,28 +98,6 @@
             <ACTOR eid="this" id="0"/>
             <int id="1" val="4"/>
         </event-mouse-enter-exit-actor>
-    </group>
-    <group eventID="1" id="1">
-        <if comment="false" x="724" y="131">
-            <group eventID="1" id="-1"/>
-            <eq comment="false" id="0" x="0" y="0">
-                <get-game-val-15 comment="false" id="0" x="0" y="0"/>
-                <int id="1" val="-1"/>
-            </eq>
-        </if>
-    </group>
-    <group eventID="1" id="2">
-        <set-val-63-2 comment="false" x="737" y="370">
-            <false comment="false" id="0" x="0" y="0"/>
-        </set-val-63-2>
-        <dolater comment="false" x="0" y="0">
-            <group eventID="1" id="-1">
-                <set-val-63-2 comment="false" x="0" y="0">
-                    <true comment="false" id="0" x="0" y="0"/>
-                </set-val-63-2>
-            </group>
-            <int id="0" val="1"/>
-        </dolater>
     </group>
     <group eventID="2" id="0">
         <step comment="false" x="15" y="15">

@@ -1580,166 +1580,6 @@
         </events>
     </snippet>
     <snippet
-        actorid="43"
-        attachedevent="true"
-        class="scripts.ActorEvents_43"
-        classname="scripts.ActorEvents_43"
-        desc="Actor Specific Events"
-        description="Actor Specific Events"
-        design="true"
-        drawOrder="0"
-        id="32"
-        name="ActorEvents_43"
-        oid="-1"
-        package="scripts."
-        shared="false"
-        type="actor">
-        <blocks/>
-        <events>
-            <event
-                displayName="On Actor"
-                enabled="true"
-                id="1"
-                name="event-mouse-enter-exit-actor"
-                order="1"
-                repeats="true"/>
-            <event
-                displayName="On Actor"
-                enabled="true"
-                id="3"
-                name="event-mouse-enter-exit-actor"
-                order="3"
-                repeats="true"/>
-            <event
-                displayName="On Actor"
-                enabled="true"
-                id="4"
-                name="event-mouse-enter-exit-actor"
-                order="4"
-                repeats="true"/>
-        </events>
-    </snippet>
-    <snippet
-        actorid="45"
-        attachedevent="true"
-        class="scripts.ActorEvents_45"
-        classname="scripts.ActorEvents_45"
-        desc="Actor Specific Events"
-        description="Actor Specific Events"
-        design="true"
-        drawOrder="0"
-        id="33"
-        name="ActorEvents_45"
-        oid="-1"
-        package="scripts."
-        shared="false"
-        type="actor">
-        <blocks/>
-        <events>
-            <event
-                displayName="On Actor"
-                enabled="true"
-                id="1"
-                name="event-mouse-enter-exit-actor"
-                order="1"
-                repeats="true"/>
-            <event
-                displayName="On Actor"
-                enabled="true"
-                id="2"
-                name="event-mouse-enter-exit-actor"
-                order="2"
-                repeats="false"/>
-            <event
-                displayName="On Actor"
-                enabled="true"
-                id="3"
-                name="event-mouse-enter-exit-actor"
-                order="3"
-                repeats="true"/>
-        </events>
-    </snippet>
-    <snippet
-        actorid="47"
-        attachedevent="true"
-        class="scripts.ActorEvents_47"
-        classname="scripts.ActorEvents_47"
-        desc="Actor Specific Events"
-        description="Actor Specific Events"
-        design="true"
-        drawOrder="0"
-        id="34"
-        name="ActorEvents_47"
-        oid="-1"
-        package="scripts."
-        shared="false"
-        type="actor">
-        <blocks/>
-        <events>
-            <event
-                displayName="On Actor"
-                enabled="true"
-                id="1"
-                name="event-mouse-enter-exit-actor"
-                order="1"
-                repeats="true"/>
-            <event
-                displayName="On Actor"
-                enabled="true"
-                id="2"
-                name="event-mouse-enter-exit-actor"
-                order="2"
-                repeats="false"/>
-            <event
-                displayName="On Actor"
-                enabled="true"
-                id="3"
-                name="event-mouse-enter-exit-actor"
-                order="3"
-                repeats="true"/>
-        </events>
-    </snippet>
-    <snippet
-        actorid="49"
-        attachedevent="true"
-        class="scripts.ActorEvents_49"
-        classname="scripts.ActorEvents_49"
-        desc="Actor Specific Events"
-        description="Actor Specific Events"
-        design="true"
-        drawOrder="0"
-        id="35"
-        name="ActorEvents_49"
-        oid="-1"
-        package="scripts."
-        shared="false"
-        type="actor">
-        <blocks/>
-        <events>
-            <event
-                displayName="On Actor"
-                enabled="true"
-                id="1"
-                name="event-mouse-enter-exit-actor"
-                order="2"
-                repeats="false"/>
-            <event
-                displayName="On Actor"
-                enabled="true"
-                id="2"
-                name="event-mouse-enter-exit-actor"
-                order="1"
-                repeats="true"/>
-            <event
-                displayName="On Actor"
-                enabled="true"
-                id="3"
-                name="event-mouse-enter-exit-actor"
-                order="3"
-                repeats="true"/>
-        </events>
-    </snippet>
-    <snippet
         actorid="57"
         attachedevent="true"
         class="scripts.ActorEvents_57"
@@ -1757,19 +1597,19 @@
         <blocks/>
         <events>
             <event
-                displayName="Click"
-                enabled="true"
-                id="1"
-                name="event-mouse-press-release"
-                order="1"
-                repeats="true"/>
-            <event
                 displayName="Updating"
                 enabled="true"
                 id="2"
                 name="step"
                 order="2"
                 repeats="false"/>
+            <event
+                displayName="On Actor"
+                enabled="true"
+                id="3"
+                name="event-mouse-enter-exit-actor"
+                order="3"
+                repeats="true"/>
         </events>
     </snippet>
     <snippet
@@ -1875,18 +1715,18 @@
         <blocks/>
         <events>
             <event
-                displayName="On Actor"
-                enabled="true"
-                id="1"
-                name="event-mouse-enter-exit-actor"
-                order="1"
-                repeats="true"/>
-            <event
                 displayName="Updating"
                 enabled="true"
                 id="2"
                 name="step"
                 order="2"
+                repeats="true"/>
+            <event
+                displayName="On Actor"
+                enabled="true"
+                id="3"
+                name="event-mouse-enter-exit-actor"
+                order="3"
                 repeats="true"/>
         </events>
     </snippet>
@@ -4156,56 +3996,6 @@
                 id="1"
                 name="init"
                 order="1"
-                repeats="true"/>
-        </events>
-    </snippet>
-    <snippet
-        actorid="229"
-        attachedevent="true"
-        class="scripts.ActorEvents_229"
-        classname="scripts.ActorEvents_229"
-        desc="Actor Specific Events"
-        description="Actor Specific Events"
-        design="true"
-        drawOrder="0"
-        id="127"
-        name="ActorEvents_229"
-        oid="-1"
-        package="scripts."
-        shared="false"
-        type="actor">
-        <boolean
-            default="false"
-            defaultValue="false"
-            desc=""
-            dropdown=""
-            fullname="deleted"
-            hidden="false"
-            id="1"
-            name="_deleted"
-            order="0"/>
-        <blocks/>
-        <events>
-            <event
-                displayName="On Actor"
-                enabled="true"
-                id="2"
-                name="event-mouse-enter-exit-actor"
-                order="2"
-                repeats="true"/>
-            <event
-                displayName="Updating"
-                enabled="true"
-                id="3"
-                name="step"
-                order="4"
-                repeats="true"/>
-            <event
-                displayName="Created"
-                enabled="true"
-                id="4"
-                name="init"
-                order="3"
                 repeats="true"/>
         </events>
     </snippet>

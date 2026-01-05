@@ -14,6 +14,9 @@
                     </group>
                     <int id="0" val="0.5"/>
                 </dolater>
+                <set-game-val-52 comment="false" x="0" y="0">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-52>
             </group>
         </init>
     </group>
@@ -63,6 +66,10 @@
                     <int id="0" val="2"/>
                     <int id="1" val="23"/>
                 </control-sound-channel>
+                <set-volume-channel comment="false" x="0" y="0">
+                    <int id="0" val="50"/>
+                    <int id="1" val="23"/>
+                </set-volume-channel>
             </group>
             <int id="0" val="0"/>
         </event-delay>

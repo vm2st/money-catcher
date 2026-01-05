@@ -3,6 +3,10 @@
     <group eventID="1" id="0">
         <event-delay comment="false" x="15" y="15">
             <group eventID="1" id="-1">
+                <set-volume-channel comment="false" x="0" y="0">
+                    <int id="0" val="50"/>
+                    <int id="1" val="10"/>
+                </set-volume-channel>
                 <control-sound-channel comment="false" x="0" y="0">
                     <int id="0" val="2"/>
                     <int id="1" val="10"/>
@@ -12,7 +16,7 @@
                     <int id="1" val="23"/>
                 </control-sound-channel>
             </group>
-            <int id="0" val="0.5"/>
+            <int id="0" val="0.3"/>
         </event-delay>
     </group>
     <group eventID="2" id="0">

@@ -25,9 +25,13 @@
                         </scene-change-through>
                     </group>
                 </else>
+                <play-sound4 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <sound eid="288" id="1"/>
+                </play-sound4>
             </group>
             <ACTOR eid="this" id="0"/>
-            <int id="1" val="2"/>
+            <int id="1" val="4"/>
         </event-mouse-enter-exit-actor>
     </group>
     <group eventID="3" id="0">
@@ -81,6 +85,10 @@
                                 </scene-change-through>
                             </group>
                         </else>
+                        <play-sound4 comment="false" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <sound eid="288" id="1"/>
+                        </play-sound4>
                     </group>
                     <keystate comment="false" id="0" x="0" y="0">
                         <int id="0" val="2"/>
