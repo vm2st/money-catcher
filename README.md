@@ -22,7 +22,7 @@ Have you found a bug? Report it <a href="https://t.me/vm2_bugs_bot">here</a>.</p
 
 <h2>About the builds in Releases</h2>
 <p>The versions of the game available here have been modified after export from Stencyl to improve the gaming experience!<br>
-In HTML5 & Android (APK) implemented dynamic resizing of the game field for correct display on different screens.
-*Note: If you export the project directly from Stencyl, this feature will not be available.*</p>
+In HTML5 & Android (APK) implemented dynamic resizing of the game field for correct display on different screens.<br>
+**Note: If you export the project directly from Stencyl, this feature will not be available.**</p>
 
 <h3  align="center">Here you can download and view the Stencyl version of this game.</h3>
