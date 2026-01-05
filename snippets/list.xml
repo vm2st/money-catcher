@@ -1604,10 +1604,10 @@
                 order="2"
                 repeats="false"/>
             <event
-                displayName="On Actor"
+                displayName="Click"
                 enabled="true"
                 id="3"
-                name="event-mouse-enter-exit-actor"
+                name="event-mouse-press-release"
                 order="3"
                 repeats="true"/>
         </events>
