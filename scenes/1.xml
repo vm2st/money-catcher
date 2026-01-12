@@ -95,8 +95,8 @@
             order="1"
             sx="0.8"
             sy="0.8"
-            x="529"
-            y="641"
+            x="578"
+            y="651"
             z="2"/>
         <actor
             a="0.0"
@@ -233,13 +233,13 @@
             aid="14"
             c="false"
             group="3"
-            id="304"
-            name="happynewyear 14"
+            id="306"
+            name="questsbttn 14"
             order="2"
             sx="1.0"
             sy="1.0"
-            x="284"
-            y="242"
+            x="1176"
+            y="11"
             z="3"/>
     </actors>
     <snippets>
@@ -250,7 +250,7 @@
             <prop id="8" list="0" val="0,0,0,255"/>
             <prop id="9" list="0" val="false"/>
             <prop id="10" list="0" val="Paused"/>
-            <prop id="11" list="0" val=""/>
+            <prop id="11" list="0" val="223"/>
         </s>
     </snippets>
     <terrain/>

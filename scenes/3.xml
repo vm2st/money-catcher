@@ -540,7 +540,7 @@
             <prop id="8" list="0" val="0,0,0,255"/>
             <prop id="9" list="0" val="false"/>
             <prop id="10" list="0" val="Paused"/>
-            <prop id="11" list="0" val=""/>
+            <prop id="11" list="0" val="223"/>
         </s>
     </snippets>
     <terrain/>

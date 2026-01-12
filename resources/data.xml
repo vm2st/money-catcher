@@ -2018,18 +2018,18 @@
             across="1"
             down="1"
             durations="100"
-            height="70"
+            height="59"
             id="0"
             loop="false"
             name="idlerightdown"
             numframes="1"
-            originx="16"
-            originy="35"
+            originx="14"
+            originy="29"
             sync="false"
             version="2"
-            width="33">
+            width="29">
             <poly
-                data="4,0,70,33,70,33,0,0,0"
+                data="4,0,0,29,0,29,59,0,59"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -2042,18 +2042,18 @@
             across="2"
             down="2"
             durations="100,100,100"
-            height="140"
+            height="118"
             id="1"
             loop="true"
             name="right"
             numframes="3"
-            originx="16"
-            originy="35"
+            originx="17"
+            originy="29"
             sync="true"
             version="2"
-            width="66">
+            width="68">
             <poly
-                data="4,0,70,33,70,33,0,0,0"
+                data="4,0,0,34,0,34,59,0,59"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -2066,18 +2066,18 @@
             across="2"
             down="2"
             durations="100,100,100"
-            height="140"
+            height="118"
             id="2"
             loop="true"
             name="left"
             numframes="3"
-            originx="16"
-            originy="35"
+            originx="17"
+            originy="29"
             sync="true"
             version="2"
-            width="66">
+            width="68">
             <poly
-                data="4,0,70,33,70,33,0,0,0"
+                data="4,0,0,34,0,34,59,0,59"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -2090,18 +2090,18 @@
             across="1"
             down="1"
             durations="100"
-            height="70"
+            height="59"
             id="3"
             loop="false"
             name="idleleftup"
             numframes="1"
-            originx="16"
-            originy="35"
+            originx="14"
+            originy="29"
             sync="false"
             version="2"
-            width="33">
+            width="29">
             <poly
-                data="4,0,70,33,70,33,0,0,0"
+                data="4,0,0,29,0,29,59,0,59"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -2199,18 +2199,18 @@
             across="1"
             down="1"
             durations="100"
-            height="140"
+            height="118"
             id="0"
             loop="false"
             name="idlerightdown"
             numframes="1"
-            originx="33"
-            originy="70"
+            originx="29"
+            originy="59"
             sync="false"
             version="2"
-            width="66">
+            width="58">
             <poly
-                data="4,0,70,33,70,33,0,0,0"
+                data="4,0,0,58,0,58,118,0,118"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -2223,18 +2223,18 @@
             across="2"
             down="2"
             durations="100,100,100"
-            height="280"
+            height="236"
             id="1"
             loop="true"
             name="right"
             numframes="3"
-            originx="33"
-            originy="70"
+            originx="34"
+            originy="59"
             sync="true"
             version="2"
-            width="132">
+            width="136">
             <poly
-                data="4,0,140,66,140,66,0,0,0"
+                data="4,0,0,68,0,68,118,0,118"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -2247,23 +2247,23 @@
             across="2"
             down="2"
             durations="100,100,100"
-            height="280"
+            height="236"
             id="2"
             loop="true"
             name="left"
             numframes="3"
-            originx="33"
-            originy="70"
+            originx="34"
+            originy="59"
             sync="true"
             version="2"
-            width="132">
+            width="136">
             <poly
-                data="4,0,118,68,118,68,0,0,0"
+                data="4,0,0,68,0,68,118,0,118"
                 density="0.1"
                 fric="0.2"
-                gid="0"
+                gid="-1000"
                 id="0"
-                name="Box"
+                name="left"
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -2271,18 +2271,18 @@
             across="1"
             down="1"
             durations="100"
-            height="140"
+            height="118"
             id="3"
             loop="false"
             name="idleleftup"
             numframes="1"
-            originx="33"
-            originy="70"
+            originx="29"
+            originy="59"
             sync="false"
             version="2"
-            width="66">
+            width="58">
             <poly
-                data="4,0,70,33,70,33,0,0,0"
+                data="4,0,0,58,0,58,118,0,118"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -3752,18 +3752,6 @@
         stream="true"
         type="mp3"
         volume="1"/>
-    <music
-        atlasID="0"
-        desc=""
-        id="307"
-        loop="true"
-        name="gamenwyr"
-        oid="-1"
-        pan="0"
-        shared="false"
-        stream="true"
-        type="mp3"
-        volume="1"/>
     <actor
         adamp="0.0"
         ascale="true"
@@ -3814,80 +3802,6 @@
             version="2"
             width="72"/>
     </sprite>
-    <actor
-        adamp="0.0"
-        ascale="true"
-        atlasID="0"
-        bodytype="0"
-        continuous="true"
-        desc=""
-        eventsnippetid="165"
-        fixedrot="false"
-        fric="0.2"
-        gid="3"
-        id="304"
-        ignoreg="false"
-        inertia="1.0"
-        ldamp="0.0"
-        mass="1.0"
-        name="happynewyear"
-        oid="-1"
-        pausable="true"
-        physicsMode="0"
-        rest="0.0"
-        shared="false"
-        sprite="305"
-        static="true">
-        <snippets/>
-    </actor>
-    <sprite
-        atlasID="0"
-        default="0"
-        defaultAnimation="0"
-        desc=""
-        id="305"
-        name="happynewyear"
-        readable="false"
-        shared="false">
-        <anim
-            across="1"
-            down="1"
-            durations="100"
-            height="76"
-            id="0"
-            loop="true"
-            name="en"
-            numframes="1"
-            originx="355"
-            originy="38"
-            sync="false"
-            version="2"
-            width="710"/>
-        <anim
-            across="1"
-            down="1"
-            durations="100"
-            height="85"
-            id="1"
-            loop="true"
-            name="ru"
-            numframes="1"
-            originx="358"
-            originy="42"
-            sync="false"
-            version="2"
-            width="716">
-            <poly
-                data="4,0,85,716,85,716,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="ru"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
-    </sprite>
     <music
         atlasID="0"
         desc=""
@@ -3900,6 +3814,66 @@
         stream="false"
         type="mp3"
         volume="1"/>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="2"
+        continuous="true"
+        desc=""
+        eventsnippetid="167"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="304"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="indev"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="305"
+        static="false">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="305"
+        name="indev"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="56"
+            id="0"
+            loop="true"
+            name="Анимация 0"
+            numframes="1"
+            originx="219"
+            originy="28"
+            sync="false"
+            version="2"
+            width="439">
+            <poly
+                data="4,0,0,439,0,439,56,0,56"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
     <actor
         adamp="0.0"
         ascale="true"
@@ -4292,18 +4266,6 @@
         id="178"
         loop="true"
         name="menumusic"
-        oid="-1"
-        pan="0"
-        shared="false"
-        stream="true"
-        type="mp3"
-        volume="1"/>
-    <music
-        atlasID="0"
-        desc=""
-        id="306"
-        loop="true"
-        name="menunwyr"
         oid="-1"
         pan="0"
         shared="false"
@@ -5307,6 +5269,66 @@
         stream="false"
         type="mp3"
         volume="1"/>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="2"
+        continuous="true"
+        desc=""
+        eventsnippetid="168"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="306"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="questsbttn"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="307"
+        static="false">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="307"
+        name="questsbttn"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="96"
+            id="0"
+            loop="true"
+            name="Анимация 0"
+            numframes="1"
+            originx="48"
+            originy="48"
+            sync="false"
+            version="2"
+            width="96">
+            <poly
+                data="4,0,0,128,0,128,128,0,128"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
     <actor
         adamp="0.0"
         ascale="true"
@@ -8081,8 +8103,8 @@
     </actor>
     <sprite
         atlasID="0"
-        default="1"
-        defaultAnimation="1"
+        default="0"
+        defaultAnimation="0"
         desc=""
         id="21"
         name="version"
@@ -8109,30 +8131,6 @@
                 gid="-1000"
                 id="0"
                 name="Animation 0"
-                rest="0.0"
-                sensor="false"/>
-        </anim>
-        <anim
-            across="1"
-            down="1"
-            durations="100"
-            height="69"
-            id="1"
-            loop="true"
-            name="Анимация 1"
-            numframes="1"
-            originx="110"
-            originy="34"
-            sync="false"
-            version="2"
-            width="220">
-            <poly
-                data="4,0,69,220,69,220,0,0,0"
-                density="0.1"
-                fric="0.2"
-                gid="-1000"
-                id="0"
-                name="Анимация 1"
                 rest="0.0"
                 sensor="false"/>
         </anim>
