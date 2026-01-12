@@ -4,6 +4,7 @@
 [![vm2 Studios](https://img.shields.io/badge/VM2_Studios-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/vm2_studios)
 [![Money Catcher](https://img.shields.io/badge/Money_Catcher-7289DA?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MoneyCatcherGame)
   [![Play on Newgrounds](https://img.shields.io/badge/🎮_Play_on_Newgrounds-F15A22?style=for-the-badge&logoColor=white&labelColor=F15A22&color=orange)](https://www.newgrounds.com/portal/view/996995)
+  [![Play on GitHub Pages](https://img.shields.io/badge/🎮_Play_on_GitHub_Pages-181717?style=for-the-badge&logo=github&logoColor=white)](https://v1ks1n.github.io/mon)
 [![Download for Windows](https://img.shields.io/badge/Download-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/v1ks1n/money-catcher/releases/download/1.9.1/Money+Catcher+1-9-1+Windows.zip)
 [![DOWNLOAD ANDROID](https://img.shields.io/badge/DOWNLOAD-ANDROID-brightgreen?style=for-the-badge&logo=android&logoColor=white)](https://github.com/v1ks1n/money-catcher/releases/download/1.9.1/money+catcher+1-9-1.apk)
 </div>
