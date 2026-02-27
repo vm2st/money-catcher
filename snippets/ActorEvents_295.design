@@ -34,6 +34,31 @@
                 <die comment="false" x="0" y="0">
                     <second-actor comment="false" id="0" x="0" y="0"/>
                 </die>
+                <if comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <set-game-val-70 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-game-val-70>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-67 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <if comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <set-game-val-67 comment="false" x="0" y="0">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-67>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="15"/>
+                    </moreeq>
+                </if>
             </group>
             <actortype eid="14" id="0"/>
             <actortype eid="295" id="1"/>
@@ -73,6 +98,31 @@
                 <die comment="false" x="0" y="0">
                     <second-actor comment="false" id="0" x="0" y="0"/>
                 </die>
+                <if comment="false" x="0" y="0">
+                    <group eventID="2" id="-1">
+                        <set-game-val-70 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-game-val-70>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-67 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <if comment="false" x="0" y="0">
+                    <group eventID="2" id="-1">
+                        <set-game-val-67 comment="false" x="0" y="0">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-67>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="15"/>
+                    </moreeq>
+                </if>
             </group>
             <actortype eid="160" id="0"/>
             <actortype eid="295" id="1"/>
@@ -112,6 +162,31 @@
                 <die comment="false" x="0" y="0">
                     <second-actor comment="false" id="0" x="0" y="0"/>
                 </die>
+                <if comment="false" x="0" y="0">
+                    <group eventID="3" id="-1">
+                        <set-game-val-70 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-game-val-70>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-67 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <if comment="false" x="0" y="0">
+                    <group eventID="3" id="-1">
+                        <set-game-val-67 comment="false" x="0" y="0">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-67>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="15"/>
+                    </moreeq>
+                </if>
             </group>
             <actortype eid="166" id="0"/>
             <actortype eid="295" id="1"/>
@@ -151,6 +226,31 @@
                 <die comment="false" x="0" y="0">
                     <second-actor comment="false" id="0" x="0" y="0"/>
                 </die>
+                <if comment="false" x="0" y="0">
+                    <group eventID="4" id="-1">
+                        <set-game-val-70 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-game-val-70>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-67 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <if comment="false" x="0" y="0">
+                    <group eventID="4" id="-1">
+                        <set-game-val-67 comment="false" x="0" y="0">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-67>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="15"/>
+                    </moreeq>
+                </if>
             </group>
             <actortype eid="168" id="0"/>
             <actortype eid="295" id="1"/>
@@ -190,6 +290,31 @@
                 <die comment="false" x="0" y="0">
                     <second-actor comment="false" id="0" x="0" y="0"/>
                 </die>
+                <if comment="false" x="0" y="0">
+                    <group eventID="5" id="-1">
+                        <set-game-val-70 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-game-val-70>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-67 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <if comment="false" x="0" y="0">
+                    <group eventID="5" id="-1">
+                        <set-game-val-67 comment="false" x="0" y="0">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-67>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="15"/>
+                    </moreeq>
+                </if>
             </group>
             <actortype eid="195" id="0"/>
             <actortype eid="295" id="1"/>
@@ -229,6 +354,31 @@
                 <die comment="false" x="0" y="0">
                     <second-actor comment="false" id="0" x="0" y="0"/>
                 </die>
+                <if comment="false" x="0" y="0">
+                    <group eventID="6" id="-1">
+                        <set-game-val-70 comment="false" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-game-val-70>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-67 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <if comment="false" x="0" y="0">
+                    <group eventID="6" id="-1">
+                        <set-game-val-67 comment="false" x="0" y="0">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-67>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="15"/>
+                    </moreeq>
+                </if>
             </group>
             <actortype eid="199" id="0"/>
             <actortype eid="295" id="1"/>

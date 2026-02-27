@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups format="1">
     <group eventID="1" id="0">
-        <step comment="false" x="15" y="15">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
             <group eventID="1" id="-1">
+                <set-game-val-64 comment="false" x="0" y="0">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-64>
+                <set-game-val-65 comment="false" x="0" y="0">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-65>
+                <set-game-val-66 comment="false" x="0" y="0">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-66>
+                <play-sound4 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <sound eid="288" id="1"/>
+                </play-sound4>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
                 <if comment="false" x="0" y="0">
-                    <group eventID="1" id="-1">
+                    <group eventID="2" id="-1">
                         <setanim comment="false" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="ru"/>
@@ -16,7 +37,7 @@
                     </eq>
                 </if>
                 <if comment="false" x="0" y="0">
-                    <group eventID="1" id="-1">
+                    <group eventID="2" id="-1">
                         <setanim comment="false" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="en"/>

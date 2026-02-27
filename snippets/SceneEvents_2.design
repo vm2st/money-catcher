@@ -198,6 +198,11 @@
                             <int id="1" val="1200"/>
                             <int id="2" val="240"/>
                         </draw-text>
+                        <draw-text comment="false" x="0" y="0">
+                            <get-game-val-68 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="925"/>
+                            <int id="2" val="100"/>
+                        </draw-text>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <get-game-val-48 comment="false" id="0" x="0" y="0"/>

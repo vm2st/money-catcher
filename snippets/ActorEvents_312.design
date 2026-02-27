@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="0" y="0">
+                            <group eventID="1" id="-1">
+                                <setanim comment="false" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="completeden"/>
+                                </setanim>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-42 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="en"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="0" y="0">
+                            <group eventID="1" id="-1">
+                                <setanim comment="false" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="completedru"/>
+                                </setanim>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-42 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="ru"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="0" y="0">
+                            <group eventID="1" id="-1">
+                                <if comment="false" x="0" y="0">
+                                    <group eventID="1" id="-1">
+                                        <set-game-val-0 comment="false" x="0" y="0">
+                                            <plus comment="false" id="0" x="0" y="0">
+                                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="30"/>
+                                            </plus>
+                                        </set-game-val-0>
+                                        <play-sound4 comment="false" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                            <sound eid="326" id="1"/>
+                                        </play-sound4>
+                                        <set-game-val-73 comment="false" x="0" y="0">
+                                            <true comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-73>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <get-game-val-73 comment="false" id="0" x="0" y="0"/>
+                                        <false comment="false" id="1" x="0" y="0"/>
+                                    </eq>
+                                </if>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-64 comment="false" id="0" x="0" y="0"/>
+                                <true comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-63 comment="false" id="0" x="0" y="0"/>
+                        <false comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="0" y="0">
+                            <group eventID="1" id="-1">
+                                <setanim comment="false" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="uncompleteden"/>
+                                </setanim>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-42 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="en"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="0" y="0">
+                            <group eventID="1" id="-1">
+                                <setanim comment="false" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="uncompletedru"/>
+                                </setanim>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-42 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="ru"/>
+                            </eq>
+                        </if>
+                        <set-game-val-64 comment="false" x="0" y="0">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-64>
+                        <set-game-val-73 comment="false" x="0" y="0">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-73>
+                    </group>
+                </else>
+                <if comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <set-game-val-63 comment="false" x="0" y="0">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-63>
+                    </group>
+                    <less comment="false" id="0" x="0" y="0">
+                        <get-game-val-69 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="15"/>
+                    </less>
+                </if>
+            </group>
+        </step>
+    </group>
+</groups>

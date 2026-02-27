@@ -1,2 +1,120 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<groups format="1"/>
+<groups format="1">
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <draw-text comment="false" x="0" y="0">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <get-game-val-69 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="/15"/>
+                    </str-combine>
+                    <int id="1" val="1042"/>
+                    <int id="2" val="175"/>
+                </draw-text>
+                <draw-text comment="false" x="0" y="0">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="/15"/>
+                    </str-combine>
+                    <int id="1" val="1042"/>
+                    <int id="2" val="312"/>
+                </draw-text>
+                <draw-text comment="false" x="0" y="0">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <get-game-val-71 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="/15"/>
+                    </str-combine>
+                    <int id="1" val="1042"/>
+                    <int id="2" val="444"/>
+                </draw-text>
+                <if comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <draw-text comment="false" x="0" y="0">
+                            <get-game-val-63 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="153"/>
+                            <int id="2" val="89"/>
+                        </draw-text>
+                        <draw-text comment="false" x="0" y="0">
+                            <get-game-val-67 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="153"/>
+                            <int id="2" val="98"/>
+                        </draw-text>
+                        <draw-text comment="false" x="0" y="0">
+                            <get-game-val-68 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="153"/>
+                            <int id="2" val="109"/>
+                        </draw-text>
+                        <draw-text comment="false" x="0" y="0">
+                            <get-game-val-64 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="153"/>
+                            <int id="2" val="200"/>
+                        </draw-text>
+                        <draw-text comment="false" x="0" y="0">
+                            <get-game-val-65 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="153"/>
+                            <int id="2" val="210"/>
+                        </draw-text>
+                        <draw-text comment="false" x="0" y="0">
+                            <get-game-val-66 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="153"/>
+                            <int id="2" val="220"/>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-48 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <if comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <draw-text comment="false" x="0" y="0">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <roundnew comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <get-game-val-72 comment="false" id="1" x="0" y="0"/>
+                                </roundnew>
+                                <str-combine comment="false" id="1" x="0" y="0">
+                                    <str-space comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="CEK"/>
+                                </str-combine>
+                            </str-combine>
+                            <int id="1" val="630"/>
+                            <int id="2" val="665"/>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-42 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="ru"/>
+                    </eq>
+                </if>
+                <if comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <draw-text comment="false" x="0" y="0">
+                            <str-combine comment="false" id="0" x="0" y="0">
+                                <roundnew comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <get-game-val-72 comment="false" id="1" x="0" y="0"/>
+                                </roundnew>
+                                <str-combine comment="false" id="1" x="0" y="0">
+                                    <str-space comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="SEC"/>
+                                </str-combine>
+                            </str-combine>
+                            <int id="1" val="390"/>
+                            <int id="2" val="666"/>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-42 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="en"/>
+                    </eq>
+                </if>
+                <draw-text comment="false" x="0" y="0">
+                    <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="1230"/>
+                    <int id="2" val="15"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+</groups>

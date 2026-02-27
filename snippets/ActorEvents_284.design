@@ -3,12 +3,12 @@
     <group eventID="1" id="0">
         <event-mouse-enter-exit-actor comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <clear-list comment="false" x="0" y="0">
-                    <get-game-val-59 comment="false" id="0" x="0" y="0"/>
-                </clear-list>
-                <clear-list comment="false" x="0" y="0">
-                    <get-game-val-58 comment="false" id="0" x="0" y="0"/>
-                </clear-list>
+                <set-game-val-59 comment="false" x="0" y="0">
+                    <create-list comment="false" id="0" x="0" y="0"/>
+                </set-game-val-59>
+                <set-game-val-58 comment="false" x="0" y="0">
+                    <create-list comment="false" id="0" x="0" y="0"/>
+                </set-game-val-58>
                 <set-game-val-0 comment="false" x="0" y="0">
                     <int id="0" val="0"/>
                 </set-game-val-0>
@@ -30,6 +30,36 @@
                 <set-game-val-50 comment="false" x="0" y="0">
                     <false comment="false" id="0" x="0" y="0"/>
                 </set-game-val-50>
+                <set-game-val-63 comment="false" x="0" y="0">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-63>
+                <set-game-val-67 comment="false" x="0" y="0">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-67>
+                <set-game-val-68 comment="false" x="0" y="0">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-68>
+                <set-game-val-64 comment="false" x="0" y="0">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-64>
+                <set-game-val-65 comment="false" x="0" y="0">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-65>
+                <set-game-val-66 comment="false" x="0" y="0">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-66>
+                <set-game-val-69 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-69>
+                <set-game-val-70 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-70>
+                <set-game-val-71 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-71>
+                <set-game-val-72 comment="false" x="0" y="0">
+                    <int id="0" val="300"/>
+                </set-game-val-72>
                 <set-game-val-19 comment="false" x="0" y="0">
                     <int id="0" val="100"/>
                 </set-game-val-19>
@@ -46,7 +76,7 @@
         </event-mouse-enter-exit-actor>
     </group>
     <group eventID="1" id="1">
-        <code-long comment="false" x="688" y="50">
+        <code-long comment="false" x="715" y="135">
             <int id="0" val="// скины&#10;0 - скин эндермена&#10;1 - скин тв-мена&#10;&#10;// фоны&#10;&#10;0 - зимний фон&#10;1 - космический фон"/>
         </code-long>
     </group>

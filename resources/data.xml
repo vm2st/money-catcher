@@ -837,6 +837,66 @@
         bodytype="0"
         continuous="true"
         desc=""
+        eventsnippetid="173"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="316"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="backquests"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="317"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="317"
+        name="backquests"
+        readable="false"
+        shared="false">
+        <anim
+            across="2"
+            down="1"
+            durations="350,350"
+            height="64"
+            id="0"
+            loop="true"
+            name="Анимация 0"
+            numframes="2"
+            originx="32"
+            originy="32"
+            sync="false"
+            version="2"
+            width="128">
+            <poly
+                data="4,0,64,64,64,64,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
+        continuous="true"
+        desc=""
         eventsnippetid="143"
         fixedrot="false"
         fric="0.2"
@@ -2029,7 +2089,7 @@
             version="2"
             width="29">
             <poly
-                data="4,0,0,29,0,29,59,0,59"
+                data="4,0,59,29,59,29,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -2053,7 +2113,7 @@
             version="2"
             width="68">
             <poly
-                data="4,0,0,34,0,34,59,0,59"
+                data="4,0,59,34,59,34,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -2077,7 +2137,7 @@
             version="2"
             width="68">
             <poly
-                data="4,0,0,34,0,34,59,0,59"
+                data="4,0,59,34,59,34,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -2101,7 +2161,7 @@
             version="2"
             width="29">
             <poly
-                data="4,0,0,29,0,29,59,0,59"
+                data="4,0,59,29,59,29,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -2210,7 +2270,7 @@
             version="2"
             width="58">
             <poly
-                data="4,0,0,58,0,58,118,0,118"
+                data="4,0,118,58,118,58,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -2234,7 +2294,7 @@
             version="2"
             width="136">
             <poly
-                data="4,0,0,68,0,68,118,0,118"
+                data="4,0,118,68,118,68,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -2258,7 +2318,7 @@
             version="2"
             width="136">
             <poly
-                data="4,0,0,68,0,68,118,0,118"
+                data="4,0,118,68,118,68,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -2282,7 +2342,7 @@
             version="2"
             width="58">
             <poly
-                data="4,0,0,58,0,58,118,0,118"
+                data="4,0,118,58,118,58,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
@@ -2474,6 +2534,90 @@
                 gid="-1000"
                 id="0"
                 name="Анимация 1"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="2"
+        continuous="true"
+        desc=""
+        eventsnippetid="172"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="314"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="collectallrewards"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="315"
+        static="false">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="315"
+        name="collectallrewards"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="45"
+            id="0"
+            loop="true"
+            name="en"
+            numframes="1"
+            originx="223"
+            originy="22"
+            sync="false"
+            version="2"
+            width="447">
+            <poly
+                data="4,0,91,894,91,894,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="45"
+            id="1"
+            loop="true"
+            name="ru"
+            numframes="1"
+            originx="223"
+            originy="22"
+            sync="false"
+            version="2"
+            width="447">
+            <poly
+                data="4,0,45,447,45,447,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="ru"
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -3856,7 +4000,7 @@
             height="56"
             id="0"
             loop="true"
-            name="Анимация 0"
+            name="en"
             numframes="1"
             originx="219"
             originy="28"
@@ -3864,12 +4008,36 @@
             version="2"
             width="439">
             <poly
-                data="4,0,0,439,0,439,56,0,56"
+                data="4,0,56,439,56,439,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
                 id="0"
                 name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="76"
+            id="1"
+            loop="true"
+            name="ru"
+            numframes="1"
+            originx="363"
+            originy="38"
+            sync="false"
+            version="2"
+            width="726">
+            <poly
+                data="4,0,76,726,76,726,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="ru"
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -4332,6 +4500,18 @@
                 sensor="false"/>
         </anim>
     </sprite>
+    <music
+        atlasID="0"
+        desc=""
+        id="326"
+        loop="true"
+        name="money"
+        oid="-1"
+        pan="0"
+        shared="false"
+        stream="false"
+        type="mp3"
+        volume="1"/>
     <actor
         adamp="0.0"
         ascale="true"
@@ -4843,16 +5023,16 @@
             across="1"
             down="1"
             durations="100"
-            height="76"
+            height="95"
             id="0"
             loop="true"
             name="pause"
             numframes="1"
-            originx="38"
-            originy="38"
+            originx="47"
+            originy="47"
             sync="false"
             version="2"
-            width="76"/>
+            width="95"/>
     </sprite>
     <actor
         adamp="0.0"
@@ -4893,16 +5073,16 @@
             across="1"
             down="1"
             durations="100"
-            height="76"
+            height="95"
             id="0"
             loop="true"
             name="amin"
             numframes="1"
-            originx="38"
-            originy="38"
+            originx="47"
+            originy="47"
             sync="false"
             version="2"
-            width="76"/>
+            width="95"/>
     </sprite>
     <font
         alphabet=" !&quot;#$%&amp;&apos;()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~&#127;&#128;&#129;&#130;&#131;&#132;&#134;&#135;&#136;&#137;&#138;&#139;&#140;&#141;&#142;&#143;&#144;&#145;&#146;&#147;&#148;&#149;&#150;&#151;&#152;&#153;&#154;&#155;&#156;&#157;&#158;&#159; ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ"
@@ -4965,7 +5145,17 @@
             originy="131"
             sync="false"
             version="2"
-            width="442"/>
+            width="442">
+            <poly
+                data="4,0,263,442,263,442,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="en"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
         <anim
             across="1"
             down="1"
@@ -5273,7 +5463,403 @@
         adamp="0.0"
         ascale="true"
         atlasID="0"
-        bodytype="2"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="171"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="312"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="quest1"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="313"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="313"
+        name="quest1"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="100"
+            id="0"
+            loop="true"
+            name="uncompleteden"
+            numframes="1"
+            originx="320"
+            originy="50"
+            sync="false"
+            version="2"
+            width="640">
+            <poly
+                data="4,0,100,640,100,640,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="100"
+            id="1"
+            loop="true"
+            name="completeden"
+            numframes="1"
+            originx="320"
+            originy="50"
+            sync="false"
+            version="2"
+            width="640">
+            <poly
+                data="4,0,100,640,100,640,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="completed"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="100"
+            id="2"
+            loop="true"
+            name="completedru"
+            numframes="1"
+            originx="320"
+            originy="50"
+            sync="false"
+            version="2"
+            width="640">
+            <poly
+                data="4,0,100,640,100,640,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="completedru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="100"
+            id="3"
+            loop="true"
+            name="uncompletedru"
+            numframes="1"
+            originx="320"
+            originy="50"
+            sync="false"
+            version="2"
+            width="640">
+            <poly
+                data="4,0,100,640,100,640,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="uncompletedru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="175"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="320"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="quest2"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="321"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="321"
+        name="quest2"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="100"
+            id="0"
+            loop="true"
+            name="uncompleteden"
+            numframes="1"
+            originx="320"
+            originy="50"
+            sync="false"
+            version="2"
+            width="640">
+            <poly
+                data="4,0,100,640,100,640,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="uncompleted"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="100"
+            id="1"
+            loop="true"
+            name="completeden"
+            numframes="1"
+            originx="320"
+            originy="50"
+            sync="false"
+            version="2"
+            width="640">
+            <poly
+                data="4,0,100,640,100,640,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="completeden"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="100"
+            id="2"
+            loop="true"
+            name="completedru"
+            numframes="1"
+            originx="320"
+            originy="50"
+            sync="false"
+            version="2"
+            width="640">
+            <poly
+                data="4,0,100,640,100,640,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="completedru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="100"
+            id="3"
+            loop="true"
+            name="uncompletedru"
+            numframes="1"
+            originx="320"
+            originy="50"
+            sync="false"
+            version="2"
+            width="640">
+            <poly
+                data="4,0,100,640,100,640,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="uncompletedru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="176"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="322"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="quest3"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="323"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="323"
+        name="quest3"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="100"
+            id="0"
+            loop="true"
+            name="uncompleteden"
+            numframes="1"
+            originx="320"
+            originy="50"
+            sync="false"
+            version="2"
+            width="640">
+            <poly
+                data="4,0,100,640,100,640,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="uncompleted"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="100"
+            id="1"
+            loop="true"
+            name="completeden"
+            numframes="1"
+            originx="320"
+            originy="50"
+            sync="false"
+            version="2"
+            width="640">
+            <poly
+                data="4,0,100,640,100,640,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="completeden"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="100"
+            id="2"
+            loop="true"
+            name="completedru"
+            numframes="1"
+            originx="320"
+            originy="50"
+            sync="false"
+            version="2"
+            width="640">
+            <poly
+                data="4,0,100,640,100,640,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="completedru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="100"
+            id="3"
+            loop="true"
+            name="uncompletedru"
+            numframes="1"
+            originx="320"
+            originy="50"
+            sync="false"
+            version="2"
+            width="640">
+            <poly
+                data="4,0,100,640,100,640,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="uncompletedru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
         continuous="true"
         desc=""
         eventsnippetid="168"
@@ -5292,7 +5878,7 @@
         rest="0.0"
         shared="false"
         sprite="307"
-        static="false">
+        static="true">
         <snippets/>
     </actor>
     <sprite
@@ -5319,12 +5905,180 @@
             version="2"
             width="96">
             <poly
-                data="4,0,0,128,0,128,128,0,128"
+                data="4,0,128,128,128,128,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"
                 id="0"
                 name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="170"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="310"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="queststext"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="311"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="311"
+        name="queststext"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="65"
+            id="0"
+            loop="true"
+            name="en"
+            numframes="1"
+            originx="141"
+            originy="32"
+            sync="false"
+            version="2"
+            width="282">
+            <poly
+                data="4,0,65,282,65,282,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="76"
+            id="1"
+            loop="true"
+            name="ru"
+            numframes="1"
+            originx="195"
+            originy="38"
+            sync="false"
+            version="2"
+            width="390">
+            <poly
+                data="4,0,76,390,76,390,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="ru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+    </sprite>
+    <actor
+        adamp="0.0"
+        ascale="true"
+        atlasID="0"
+        bodytype="0"
+        continuous="true"
+        desc=""
+        eventsnippetid="177"
+        fixedrot="false"
+        fric="0.2"
+        gid="3"
+        id="324"
+        ignoreg="false"
+        inertia="1.0"
+        ldamp="0.0"
+        mass="1.0"
+        name="questsupdatein"
+        oid="-1"
+        pausable="true"
+        physicsMode="0"
+        rest="0.0"
+        shared="false"
+        sprite="325"
+        static="true">
+        <snippets/>
+    </actor>
+    <sprite
+        atlasID="0"
+        default="0"
+        defaultAnimation="0"
+        desc=""
+        id="325"
+        name="questsupdatein"
+        readable="false"
+        shared="false">
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="25"
+            id="0"
+            loop="true"
+            name="en"
+            numframes="1"
+            originx="124"
+            originy="12"
+            sync="false"
+            version="2"
+            width="248">
+            <poly
+                data="4,0,25,248,25,248,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="Анимация 0"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
+        <anim
+            across="1"
+            down="1"
+            durations="100"
+            height="33"
+            id="1"
+            loop="true"
+            name="ru"
+            numframes="1"
+            originx="262"
+            originy="16"
+            sync="false"
+            version="2"
+            width="525">
+            <poly
+                data="4,0,33,525,33,525,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="ru"
                 rest="0.0"
                 sensor="false"/>
         </anim>
@@ -6649,7 +7403,17 @@
             originy="109"
             sync="false"
             version="2"
-            width="1328"/>
+            width="1328">
+            <poly
+                data="4,0,218,1328,218,1328,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="en"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
         <anim
             across="1"
             down="1"
@@ -6663,7 +7427,17 @@
             originy="95"
             sync="false"
             version="2"
-            width="1024"/>
+            width="1024">
+            <poly
+                data="4,0,190,1024,190,1024,0,0,0"
+                density="0.1"
+                fric="0.2"
+                gid="-1000"
+                id="0"
+                name="ru"
+                rest="0.0"
+                sensor="false"/>
+        </anim>
     </sprite>
     <music
         atlasID="0"
@@ -8114,18 +8888,18 @@
             across="1"
             down="1"
             durations="100"
-            height="51"
+            height="65"
             id="0"
             loop="true"
             name="Animation 0"
             numframes="1"
-            originx="60"
-            originy="25"
+            originx="54"
+            originy="32"
             sync="false"
             version="2"
-            width="121">
+            width="109">
             <poly
-                data="4,0,65,152,65,152,0,0,0"
+                data="4,0,65,109,65,109,0,0,0"
                 density="0.1"
                 fric="0.2"
                 gid="-1000"

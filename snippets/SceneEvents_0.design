@@ -19,6 +19,39 @@
                                 <set-game-val-61 comment="false" x="0" y="0">
                                     <false comment="false" id="0" x="0" y="0"/>
                                 </set-game-val-61>
+                                <if comment="false" x="0" y="0">
+                                    <group eventID="2" id="-1">
+                                        <set-game-val-63 comment="false" x="0" y="0">
+                                            <true comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-63>
+                                    </group>
+                                    <less comment="false" id="0" x="0" y="0">
+                                        <get-game-val-69 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="15"/>
+                                    </less>
+                                </if>
+                                <if comment="false" x="0" y="0">
+                                    <group eventID="2" id="-1">
+                                        <set-game-val-67 comment="false" x="0" y="0">
+                                            <true comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-67>
+                                    </group>
+                                    <less comment="false" id="0" x="0" y="0">
+                                        <get-game-val-70 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="15"/>
+                                    </less>
+                                </if>
+                                <if comment="false" x="0" y="0">
+                                    <group eventID="2" id="-1">
+                                        <set-game-val-68 comment="false" x="0" y="0">
+                                            <true comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-68>
+                                    </group>
+                                    <less comment="false" id="0" x="0" y="0">
+                                        <get-game-val-71 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="15"/>
+                                    </less>
+                                </if>
                                 <dolater comment="false" x="0" y="0">
                                     <group eventID="2" id="-1">
                                         <scene-change-through comment="false" x="0" y="0">

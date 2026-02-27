@@ -535,7 +535,7 @@
                 enabled="true"
                 id="1"
                 name="event-collide-typetotype"
-                order="1"
+                order="2"
                 repeats="true"/>
             <event
                 displayName="Type - Type Copy"
@@ -577,7 +577,7 @@
                 enabled="true"
                 id="7"
                 name="init"
-                order="2"
+                order="1"
                 repeats="true"/>
         </events>
     </snippet>
@@ -4913,6 +4913,13 @@
                 name="step"
                 order="1"
                 repeats="true"/>
+            <event
+                displayName="Every N secs"
+                enabled="true"
+                id="3"
+                name="event-periodic"
+                order="3"
+                repeats="true"/>
         </events>
     </snippet>
     <snippet
@@ -5181,7 +5188,7 @@
                 enabled="true"
                 id="1"
                 name="event-collide-typetotype"
-                order="1"
+                order="2"
                 repeats="true"/>
             <event
                 displayName="Type - Type Copy"
@@ -5223,7 +5230,7 @@
                 enabled="true"
                 id="7"
                 name="init"
-                order="2"
+                order="1"
                 repeats="true"/>
         </events>
     </snippet>
@@ -5259,7 +5266,7 @@
                 enabled="true"
                 id="1"
                 name="event-collide-typetotype"
-                order="1"
+                order="2"
                 repeats="false"/>
             <event
                 displayName="Type - Type Copy"
@@ -5301,7 +5308,7 @@
                 enabled="true"
                 id="7"
                 name="init"
-                order="2"
+                order="1"
                 repeats="true"/>
         </events>
     </snippet>
@@ -5461,11 +5468,19 @@
         name="SceneEvents_9"
         oid="-1"
         package="scripts."
-        sceneid="0"
+        sceneid="9"
         shared="false"
         type="scene">
         <blocks/>
-        <events/>
+        <events>
+            <event
+                displayName="Drawing"
+                enabled="true"
+                id="1"
+                name="draw"
+                order="1"
+                repeats="true"/>
+        </events>
     </snippet>
     <snippet
         actorid="304"
@@ -5483,7 +5498,15 @@
         shared="false"
         type="actor">
         <blocks/>
-        <events/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="true"/>
+        </events>
     </snippet>
     <snippet
         actorid="306"
@@ -5508,6 +5531,249 @@
                 id="1"
                 name="event-mouse-enter-exit-actor"
                 order="1"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="310"
+        attachedevent="true"
+        class="scripts.ActorEvents_310"
+        classname="scripts.ActorEvents_310"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="170"
+        name="ActorEvents_310"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="312"
+        attachedevent="true"
+        class="scripts.ActorEvents_312"
+        classname="scripts.ActorEvents_312"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="171"
+        name="ActorEvents_312"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <boolean
+            default="false"
+            defaultValue="false"
+            desc=""
+            dropdown=""
+            fullname="stop"
+            hidden="false"
+            id="1"
+            name="_stop"
+            order="0"/>
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="314"
+        attachedevent="true"
+        class="scripts.ActorEvents_314"
+        classname="scripts.ActorEvents_314"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="172"
+        name="ActorEvents_314"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="On Actor"
+                enabled="true"
+                id="1"
+                name="event-mouse-enter-exit-actor"
+                order="1"
+                repeats="true"/>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="2"
+                name="step"
+                order="2"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="316"
+        attachedevent="true"
+        class="scripts.ActorEvents_316"
+        classname="scripts.ActorEvents_316"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="173"
+        name="ActorEvents_316"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <boolean
+            default="false"
+            defaultValue="false"
+            desc=""
+            dropdown=""
+            fullname="time"
+            hidden="false"
+            id="1"
+            name="_time"
+            order="0"/>
+        <blocks/>
+        <events>
+            <event
+                displayName="On Actor"
+                enabled="true"
+                id="1"
+                name="event-mouse-enter-exit-actor"
+                order="1"
+                repeats="false"/>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="2"
+                name="step"
+                order="2"
+                repeats="true"/>
+            <event
+                displayName="Created"
+                enabled="true"
+                id="3"
+                name="init"
+                order="3"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="320"
+        attachedevent="true"
+        class="scripts.ActorEvents_320"
+        classname="scripts.ActorEvents_320"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="175"
+        name="ActorEvents_320"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <boolean
+            default="false"
+            defaultValue="false"
+            desc=""
+            dropdown=""
+            fullname="stop"
+            hidden="false"
+            id="1"
+            name="_stop"
+            order="0"/>
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="322"
+        attachedevent="true"
+        class="scripts.ActorEvents_322"
+        classname="scripts.ActorEvents_322"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="176"
+        name="ActorEvents_322"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <boolean
+            default="false"
+            defaultValue="false"
+            desc=""
+            dropdown=""
+            fullname="stop"
+            hidden="false"
+            id="1"
+            name="_stop"
+            order="0"/>
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="1"
+                name="step"
+                order="1"
+                repeats="false"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="324"
+        attachedevent="true"
+        class="scripts.ActorEvents_324"
+        classname="scripts.ActorEvents_324"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="177"
+        name="ActorEvents_324"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <blocks/>
+        <events>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="2"
+                name="step"
+                order="2"
                 repeats="true"/>
         </events>
     </snippet>
