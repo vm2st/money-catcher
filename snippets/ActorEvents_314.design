@@ -12,6 +12,9 @@
                 <set-game-val-66 comment="false" x="0" y="0">
                     <true comment="false" id="0" x="0" y="0"/>
                 </set-game-val-66>
+                <set-game-val-76 comment="false" x="0" y="0">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-76>
                 <play-sound4 comment="false" x="0" y="0">
                     <int id="0" val="0"/>
                     <sound eid="288" id="1"/>
@@ -46,6 +49,22 @@
                     <eq comment="false" id="0" x="0" y="0">
                         <get-game-val-42 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="en"/>
+                    </eq>
+                </if>
+                <if comment="false" x="0" y="0">
+                    <group eventID="2" id="-1">
+                        <dolater comment="false" x="0" y="0">
+                            <group eventID="2" id="-1">
+                                <set-game-val-76 comment="false" x="0" y="0">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-76>
+                            </group>
+                            <int id="0" val="0.1"/>
+                        </dolater>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-76 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
                     </eq>
                 </if>
             </group>

@@ -72,25 +72,12 @@
             z="0"/>
         <actor
             a="0.0"
-            aid="3"
-            c="false"
-            group="3"
-            id="252"
-            name="text4 3"
-            order="2"
-            sx="1.0"
-            sy="1.0"
-            x="432"
-            y="577"
-            z="0"/>
-        <actor
-            a="0.0"
             aid="5"
             c="false"
             group="3"
             id="254"
             name="gohome 5"
-            order="3"
+            order="2"
             sx="1.0"
             sy="1.0"
             x="1207"
@@ -103,11 +90,24 @@
             group="3"
             id="276"
             name="saving 6"
-            order="4"
+            order="3"
             sx="1.0"
             sy="1.0"
             x="5"
             y="73"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="7"
+            c="false"
+            group="3"
+            id="252"
+            name="text4 7"
+            order="4"
+            sx="1.0"
+            sy="1.0"
+            x="417"
+            y="580"
             z="0"/>
     </actors>
     <snippets>

@@ -63,32 +63,6 @@
     <actors>
         <actor
             a="0.0"
-            aid="16"
-            c="false"
-            group="3"
-            id="224"
-            name="BELIY 16"
-            order="8"
-            sx="1.2815"
-            sy="1.0"
-            x="1134"
-            y="-2"
-            z="5"/>
-        <actor
-            a="0.0"
-            aid="17"
-            c="false"
-            group="3"
-            id="87"
-            name="coinstext 17"
-            order="9"
-            sx="1.8"
-            sy="1.8"
-            x="1133"
-            y="12"
-            z="5"/>
-        <actor
-            a="0.0"
             aid="5"
             c="false"
             group="3"
@@ -203,6 +177,32 @@
             sy="1.0"
             x="5"
             y="73"
+            z="5"/>
+        <actor
+            a="0.0"
+            aid="16"
+            c="false"
+            group="3"
+            id="224"
+            name="BELIY 16"
+            order="8"
+            sx="1.2815"
+            sy="1.0"
+            x="1134"
+            y="-2"
+            z="5"/>
+        <actor
+            a="0.0"
+            aid="17"
+            c="false"
+            group="3"
+            id="87"
+            name="coinstext 17"
+            order="9"
+            sx="1.8"
+            sy="1.8"
+            x="1133"
+            y="12"
             z="5"/>
     </actors>
     <snippets/>

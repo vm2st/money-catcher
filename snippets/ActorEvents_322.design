@@ -43,6 +43,9 @@
                                             <int id="0" val="0"/>
                                             <sound eid="326" id="1"/>
                                         </play-sound4>
+                                        <set-val-176-1 comment="false" x="0" y="0">
+                                            <false comment="false" id="0" x="0" y="0"/>
+                                        </set-val-176-1>
                                         <set-game-val-75 comment="false" x="0" y="0">
                                             <true comment="false" id="0" x="0" y="0"/>
                                         </set-game-val-75>
@@ -58,6 +61,27 @@
                                 <true comment="false" id="1" x="0" y="0"/>
                             </eq>
                         </if>
+                        <else comment="false" x="0" y="0">
+                            <group eventID="1" id="-1">
+                                <if comment="false" x="0" y="0">
+                                    <group eventID="1" id="-1">
+                                        <create-actor3 comment="false" x="0" y="0">
+                                            <actortype eid="327" id="0"/>
+                                            <int id="1" val="151"/>
+                                            <int id="2" val="405"/>
+                                            <int id="3" val="0"/>
+                                        </create-actor3>
+                                        <set-val-176-1 comment="false" x="0" y="0">
+                                            <true comment="false" id="0" x="0" y="0"/>
+                                        </set-val-176-1>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <get-val-176-1 comment="false" id="0" x="0" y="0"/>
+                                        <false comment="false" id="1" x="0" y="0"/>
+                                    </eq>
+                                </if>
+                            </group>
+                        </else>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <get-game-val-68 comment="false" id="0" x="0" y="0"/>
